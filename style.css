@@ -9,7 +9,7 @@ body {
     font-family: montserrat;
     background-color:;
     background-image:url(nice.jpg);
-    background-size: cover;
+    background-size: 100%;
     background-repeat: no-repeat;
   }
   
