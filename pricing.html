@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>pricing</title>
+</head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script>
+
+  $(function () {
+    $(".toggle").on("click", function () {
+      if ($(".item").hasClass("active")) {
+        $(".item").removeClass("active")
+      }
+      else {
+        $(".item").addClass("active")
+      }
+    })
+  });
+
+</script>
+<style>
+  * {
+    padding: 0;
+    margin: 0;
+    text
+    list-style: none;
+  }
+
+  body {
+    font-family: montserrat;
+    background-color: gray;
+  }
+
+  nav {
+    position: absolute;
+    height: 80px;
+    width: 100%;
+    background: #000000;
+  }
+
+  .logo {
+    font-size: 30PX;
+    font-weight: bold;
+    color: white;
+    padding: 0 100px;
+    line-height: 80px;
+    float: left;
+    margin-left: -20px;
+
+  }
+
+  nav ul {
+    float: right;
+    margin-right: 60px;
+
+  }
+
+  nav li {
+    display: inline-block;
+    margin: 0 2px;
+    line-height: 80px;
+
+  }
+
+  nav a {
+    color: white;
+    font-size: 18px;
+    text-transform: uppercase;
+    border: 1px solid transparent;
+    padding: 7px 10px;
+    border-radius: 3px;
+
+  }
+
+  a.active,
+  a:hover {
+    border: 1px solid white;
+    transition: .5s;
+  }
+
+  .bars {
+    position: relative;
+    color: #f5c311;
+    font-size: 30px;
+    line-height: 100px;
+    float: right;
+    top: -40px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: ;
+  }
+
+  p {
+    position: relative;
+    top: 200px;
+  }
+
+  h3 {
+    position: relative;
+    top: 209px;
+    margin-right: 80px;
+  }
+
+  @media (max-width:1048px) {
+    .logo {
+      font-size: 32px;
+      padding-left: 60px;
+    }
+
+    nav ul {
+      margin-right: 20px;
+    }
+
+    nav a {
+      font-size: 17px;
+    }
+
+    /* mobile menu*/
+    .menu {
+      display: block;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .toggle {
+      order: 1;
+    }
+
+    .item.button {
+      order: 2;
+    }
+
+    .item {
+      width: 60%;
+      text-align: center;
+      order: 3;
+      display: none;
+    }
+
+    .item.active {
+      display: block;
+    }
+
+    .toggle {
+      cursor: pointer;
+    }
+
+    .bars {
+      background: #f5c311;
+      display: inline-block;
+      height: 2px;
+      position: relative;
+      width: 20px;
+      line-height: 60px;
+    }
+
+    .bars::before,
+    .bars::after {
+      background: #999;
+      content: "";
+      display: inline-block;
+      height: 2px;
+      position: absolute;
+      width: 30px;
+
+    }
+
+    .bars::before {
+      top: 5px;
+    }
+
+    .bars::after {
+      top: -5px;
+    }
+
+
+    @midia (max: width 909px; ) .bars {
+      display: block;
+    }
+
+    nav ul {
+      position: fixed;
+      width: 100%;
+      background: #2f3640;
+      top: 83px;
+      left: -80px;
+      text-align: center;
+      transition: all .5s;
+    }
+
+    nav li {
+      display: block;
+      margin: 80px 0;
+      line-height: 30px;
+    }
+
+    nav a {
+      font-size: 17px;
+    }
+
+    a.active,
+    a:hover {
+      border: none;
+      color: #3498db;
+    }
+
+    nav ul.show {
+      left: 0;
+    }
+  }
+
+
+  @midia (max-midth:460px; ) {
+    menu {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      aligh-item: center;
+
+    }
+
+    .toggle {
+      order: 1;
+    }
+
+    .item.button {
+      order: 2;
+    }
+
+    .item {
+      width: 100%;
+      text-aligh: center;
+      order: 3;
+      display: none;
+    }
+
+    .item.active {
+      display: block;
+
+    }
+
+    .toggle {
+      order: 1;
+    }
+
+    .item.button {
+      order: 2;
+    }
+
+    .item {
+      width: 100%;
+      text-align: center;
+      order: 3;
+      display: none;
+    }
+
+    .item.active {
+      display: block;
+    }
+
+    .toggle {
+      cursor: pointer;
+    }
+
+    .bars {
+
+      background: #999;
+      display: inline-block;
+      height: 2px;
+      position: relative;
+      width: 20px;
+    }
+
+    .bars::before,
+    .bars::after {
+      background: #999;
+      content: "";
+      display: inline-block;
+      height: 2px;
+      position: abusilute;
+      width: 18px;
+    }
+
+    .bars::before {
+      top: 5px;
+    }
+
+    .bars::after {
+      top: -5px;
+    }
+
+  }
+
+  H1 {
+    position: absolute;
+    top: 150px;
+
+    margin-left: 11%;
+    font-weight: 200;
+    font-size: 1.1cm;
+    color: #f5c311;
+  }
+
+  h2 {
+    position: relative;
+    top: 260px;
+    margin-left: 13%;
+    font-size: 1.0cm;
+  }
+
+  h3 {
+    position: relative;
+    top: 160px;
+    margin-left: 30%;
+    font-size: 45px;
+    color: #38321b;
+
+  }
+
+  .item-1 {
+    position: relative;
+    top: 230px;
+    margin-left: 13%;
+    color: #f5c311;
+    font-family: sans-serif;
+
+
+
+  }
+
+  .item-2 {
+    position: relative;
+    top: 240px;
+    margin-left: 13%;
+    font-family: sans-serif;
+    color: #f5c311;
+
+
+  }
+
+  .item-3 {
+    position: relative;
+    margin-left: 13%;
+    top: 260px;
+    font-family: sans-serif;
+    color: black;
+    line-height: 25px;
+  
+    color: #f5c311;
+  }
+  h4{
+  position: relative;
+  font-family: ;
+  font-size: 1.0cm;
+  top: 280px;
+  margin-left:12% ;
+  }
+  .item-4{
+    position: relative;
+    top: 300px;
+    font-family: sans-serif;
+    color: #f5c311;
+    margin-left: 13%;
+
+  }
+  .item-5{
+    position: relative;
+    top: 320px;
+    font-family: sans-serif;
+    color: #f5c311;
+    margin-left: 13%;
+
+  }
+  .item-6{
+     position: relative;
+     top:340px;
+     font-family: sans-serif;
+      color:#f5c311 ;
+      margin-left: 13%;
+
+  }
+  .item-7{
+    position: relative;
+    top: 360px;
+    font-family: sans-serif;
+    color: #f5c311;
+    margin-left: 13%;
+  }
+  .item-8{
+    position: relative;
+    top: 380px;
+    font-family: sans-serif;
+    color: #f5c311;
+    margin-left: 13%;
+  }
+  .item-9{
+    position: relative;
+    top: 390px;
+    font-family: sans-serif;
+    color: #f5c311;
+    margin-left: 13%;
+    
+  }
+  h5 {
+    position: relative;
+    top: 470px;
+    margin-left: 11%;
+    font-size: 1.0cm;
+  }
+  .item-10{
+    position: relative;
+    top: 490px;
+    font-family: sans-serif;
+    color: #f5c311;
+    margin-left: 13%;
+  }
+  .item-11{
+    position: relative;
+    top: 510px;
+    font-family: sans-serif;
+    color: #f5c311;
+    margin-left: 13%;
+  }
+  .item-12{
+    position: relative;
+    top: 510px;
+    font-family: sans-serif;
+    color: #f5c311;
+    margin-left: 13%;
+  }
+  .item-13{
+    position: relative;
+    top: 540px;
+    font-family: sans-serif;
+    color: #f5c311;
+    margin-left: 13%;
+  }
+  h6{
+    position: relative;
+    top: 480px;
+    margin-left: 11%;
+    font-size: 0.9cm;
+    color: #2e1616;
+  }
+  header{
+    position: relative;
+    top: 440px;
+    margin-left: 13%;
+    font-size: 1.1cm;
+    color:#f5c311 ;
+    text-decoration-line: overline ;
+  }
+  i {
+    position: relative;
+    top: 450px;
+    margin-left: 30%;
+    font-size: 30pt;
+    color: #000000;
+    font-size: 45px;
+  }
+
+</style>
+
+<body>
+  <nav>
+    <label class="logo">D-M-D<a href="#"></a></label>
+    <ul class="menu">
+
+
+      <li class="item"><a href="index.html">home</a></li>
+
+      <li class="item"><a href="pricing.htm">Pricing</a></li>
+
+      <li class="item"><a href="service.html">service</a></li>
+
+      <li class="item"><a href="contact.html">contact</a></li>
+    </ul>
+    <li class="toggle"><span class="bars"></span></li>
+
+    <label id="icon">
+      <i class="fas fa-bars"></i>
+    </label>
+  </nav>
+ 
+  //infomation  of the cleaning job//
+  <h1>FULL PACKAGE</h1>
+
+  <h2>Interior Detailing</h2>
+  <h3>$150.00</h3>
+  <div class="list">
+   
+    <li class="item-1">whole car vacuum</li>
+    <li class="item-2">Shampoo, floor and seat if they are not leather</li>
+    <li class="item-3"> leather and vynil cleaned and conditioner treatment</li>
+    
+  </div>
+   <h4>Exterior Detailing</h4>
+   <div class="list-1">
+    <li class="item-4">whole car wash and dry </li>
+    <li class="item-5"> Clay bar treatment (removes bugs, tar, and other contaminants) </li>
+    <li class="item-6"> Machine polish (removes minor swirls and scratches) </li>
+    <li class="item-7">Trim pieces shined and conditioned  </li>
+    <li class="item-8"> Hand wax </li>
+      <li class="item-9">  Wheels and tires shined</li>
+    </div>
+   <div class="box">
+    
+   </div>
+     <header>FULL PACKAGE</header>
+     <i>$300.00</i>
+    <h5> 5 Star Full Cleaning</h5>
+    <h6>Interior</h6>
+     <li class="item-10"> Whole car vacuum</li>
+     <li class="item-11"> Shampoo,floor and seat if they are not leather</li>
+     <li class="item-12"> </li>
+     <li class="item-13"> </li>
+
+</body>
+
+</html>
