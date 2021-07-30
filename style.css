@@ -1,0 +1,286 @@
+    
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+}
+body {
+    font-family: montserrat;
+    background-color:;
+    background-image:url(nice.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+nav{
+  position: absolute;
+    height: 80px;
+    width: 100%;
+    background:  #000000;
+}
+   .logo{
+    font-size: 30PX;
+    font-weight: bold;
+    color:white;
+    padding: 0 100px;
+    line-height: 80px;
+    float: left;
+    margin-left: -20px;
+
+}
+nav ul{
+    float: right;
+    margin-right: 60px ;
+    
+}
+nav li{
+    display: inline-block;
+    margin: 0 2px;
+    line-height: 80px;
+    
+}
+
+nav a{
+    color: white;
+    font-size: 18px;
+    text-transform: uppercase;
+    border: 1px solid transparent;
+    padding: 7px 10px;
+    border-radius: 3px;
+    
+}
+a.active,a:hover{
+    border: 1px solid white;
+    transition: .5s ;
+}
+    .bars {   
+      position: relative;
+    color: white;
+    font-size: 20px;
+    line-height: 100px;
+    float: right;
+     top: -40px;
+    margin-right: 05%;
+    cursor:pointer;
+    display:;
+}
+p{
+  position: relative;
+  top: 420px;
+  font-size: 0.6cm;
+  line-height: 25px;
+  color:#f5c311 ;
+  margin-left: 5%;
+  text-justify: distribute;
+ -text-decoration-line: none;
+}
+h3{
+  position: relative;
+  top: 209px;
+  margin-right:80px ;
+}
+ .box1{
+    position: relative;
+    
+    top: 940px;
+    width: 100%;
+    height: 500px;
+    margin-left:% ;
+    background:gray;
+}
+ h1{
+     position: relative;
+     color:#f5c311 ;
+     margin-left: 33%;
+     top: 187px;
+ }
+.p2{
+    position: relative;
+    color: #f5c311;
+    text-justify: inter-word;
+    font-size: 16px;
+    top:-750px;
+    font-family: sans-serif;
+    line-height: 25px;
+    
+}
+.h4{
+  position: relative;
+  top: 600px;
+  margin-left: 25%;
+  font-size: 25px;
+}
+@media (max-width:1048px){
+.logo{
+    font-size:  32px;
+    padding-left: 60px;
+}
+nav ul{
+    margin-right: 20px;
+}
+nav a{
+    font-size: 17px;
+}
+
+/* mobile menu*/
+.menu{
+  display:block;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.toggle{
+ order: 1;
+}
+.item.button{
+ order: 2;
+}
+.item{
+ width: 80%;
+ text-align: center;
+ order: 3;
+display:none ;
+}
+.item.active{
+ display: block;
+}
+
+.toggle{
+cursor: pointer;
+}
+.bars{
+  background:#f5c311 ;
+  display: inline-block;
+  height:2px;
+  position: relative;
+  width:20px ;
+  line-height:60px;
+
+  
+}
+.bars::before,.bars::after{
+  background: #999;
+  content: "";
+  display: inline-block;
+  height:2px ;
+  position:absolute ;
+  width: 30px ;
+  
+}
+.bars::before{
+  top: 5px;
+}
+.bars::after{
+  top: -5px;
+}
+
+
+@midia (max: width 909px;)
+  .bars{
+    display:block;
+}
+nav ul{
+    position: fixed;
+    width:100%;
+    background: #2f3640;
+    top: 83px;
+    left: -100px;
+    text-align: center ;
+    transition: all .5s;
+}
+nav li{
+    display: block;
+    margin: 80px  0;
+    line-height: 30px;
+}
+nav a{
+    font-size: 20px;
+}
+a.active,a:hover{
+    border: none;
+    color: #3498db;
+}
+nav ul.show{
+    left: 0;
+}
+
+   
+@midia (max-midth:460px;){  
+ menu{
+     display:flex;
+     flex-wrap:wrap;
+     justify-content:space-between;
+     aligh-item:center;
+
+ }
+
+    .toggle{
+  order:1;
+}
+   .item.button{
+     order:2;
+  }    
+     .item{
+      width:80%;
+      text-aligh:center;
+      order:3;
+      display:none;
+  }
+     .item.active{
+      display:block;
+
+  }
+  .toggle{
+    order: 1;
+   }
+   .item.button{
+    order: 2;
+   }
+   .item{
+    width: 100%;
+    text-align: center;
+    order: 3;
+   display: none;
+   }
+   .item.active{
+    display: block;
+   }
+   
+   .toggle{
+   cursor: pointer;
+   }
+   .bars{
+     
+     background: #999;
+     display: inline-block;
+     height:2px ;
+     position: relative;
+     width:20px ;
+     
+   }
+   .bars::before,.bars::after{
+     background: #999;
+     content: "";
+     display: inline-block;
+     height:2px ;
+     position:abusilute ;
+     width:18px ;
+   }
+   .bars::before{
+     top: 5px;
+   }
+   .bars::after{
+     top: -5px;
+   }
+   
+   }
+   
+
+   
+   
+    .jump{
+       position: relative;
+       top: 400px;
+       margin-left: -200px;
+ 
