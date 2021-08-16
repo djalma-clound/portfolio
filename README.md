@@ -1,2 +1,3 @@
 # slide-project
-# my first project on phone and computer.
+# Is a project where I am using more of css then html.
+I am starting to understand the language.
