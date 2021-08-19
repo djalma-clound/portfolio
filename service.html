@@ -198,7 +198,45 @@ nav ul.show{
     </label>
 </nav>
 
+ <div class="slide">
+          <img src="deck.jpg" alt="">
+        </div>
+        <!--slide image end-->
+        <!--automatic navigation start-->
+        <div class="navigation-auto">
+          <div class="auto-btn1"></div>
+          <div class="auto-btn2"></div>
+          <div class="auto-btn3"></div>
+          <div class="auto-btn4"></div>
+        </div>
+        <!--automati navigation end-->
+      </div>
+      <!--manual navigation start-->
+      <div class="navigation-manual">
+        <label for="radio1" class="manual-btn"></label>
+        <label for="radio2" class="manual-btn"></label>
+        <label for="radio3" class="manual-btn"></label>
+        <label for="radio4" class="manual-btn"></label>
 
+
+      </div>
+
+
+      <!--manual navigation end-->
+    </div>
+    <!--slide image end-->
+    <script type="text/javascript">
+      var counter = 1;
+      setInterval(function () {
+        document.getElementById('radio' + counter).checked = true;
+        counter++;
+        if (counter > 4) {
+          counter = 1;
+        }
+      }, 5000);
+    </script>
+  </div>
+  </div>
 
 </body>
 
