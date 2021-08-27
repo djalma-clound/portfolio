@@ -10,7 +10,7 @@ body {
     font-family: montserrat;
     background-color:;
     background-image:url(red.jpg);
-    background-size: 100%;
+    background-size: Cover,hight:92vh;
     background-repeat: no-repeat;
   }
   
