@@ -457,10 +457,10 @@
          position: relative;
          top: 20px;
        }
-       .botton{
-         position: absolute;
-
-       }
+       .service{
+          Position:relative
+          Margin-right:3px;
+         }
         /*mobile sectio end here*/
 
        
@@ -526,10 +526,6 @@
        margin-left: 60px;
        color: steelblue;
 
-      
-     
-       
-       
      }
     h1{
       position: relative;
