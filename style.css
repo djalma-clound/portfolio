@@ -1,4 +1,4 @@
-          /*index.html*/
+        /*index.html*/
     *{
       box-sizing: border-box;
       padding: 0;
@@ -12,6 +12,7 @@
         background-repeat: no-repeat;
        }
        nav { 
+         
          background:#ffe896;
          padding: 20px;
          height: 8vh;
@@ -347,6 +348,10 @@
          height:70vh;
          background-color:;
        }
+       .top-text3{
+         position: relative;
+         line-height: 30px;
+       }
         .botton{
           display: none;
         }
@@ -380,7 +385,7 @@
          background-color:#ffe896 ;
          border:1px solid ;
          border-radius: px;
-         margin-top: -5px;
+         margin-top: -6px;
          margin-left: 163px;
         }
        
@@ -458,9 +463,9 @@
          top: 20px;
        }
        .service{
-          Position:relative
-          Margin-right:3px;
-         }
+         position: relative;
+         margin-left: 13px;
+       }
         /*mobile sectio end here*/
 
        
@@ -526,6 +531,10 @@
        margin-left: 60px;
        color: steelblue;
 
+      
+     
+       
+       
      }
     h1{
       position: relative;
