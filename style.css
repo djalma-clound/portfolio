@@ -1,4 +1,4 @@
-            /*index.html*/
+    /*index.html*/
     *{
       box-sizing: border-box;
       padding: 0;
@@ -817,36 +817,6 @@ margin-left: 0;
 #radio4:checked ~ .navigation-auto .auto-btn4{
     background: #40d3dc;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
