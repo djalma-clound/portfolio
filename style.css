@@ -333,7 +333,7 @@
   display:none;
   
   }
-    }
+    
      .i{ 
        position: relative;
        font-size: 20px;
@@ -417,6 +417,7 @@
       margin-left: 30%;
       background-color: transparent;
        display:flex;
+       display: none;
       }
          .item.active{
            display: block;
