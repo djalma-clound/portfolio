@@ -366,8 +366,8 @@
         height:2px ;
         position: relative;
         width:18px ;
-          margin-right:10px;
-          display: none;
+         float: right;
+          display: ;
       }
       .nav{
         height: 8vh;
