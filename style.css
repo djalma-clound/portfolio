@@ -367,6 +367,7 @@
         position: relative;
         width:18px ;
           margin-right:50px;
+          display: none;
       }
       .nav{
         height: 8vh;
