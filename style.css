@@ -294,6 +294,10 @@ display:none;
    }
 
    @media (max-width:999px) {
+     .body{
+     overflow: hidden;
+       
+     }
     .item{
       position: relative;
      width: 100%;
@@ -319,7 +323,7 @@ cursor: pointer;
       position: relative;
       width:18px ;
        float: right;
-       margin-right: 20%;
+       margin-right: 22%;
         display: ;
     }
     .nav{
