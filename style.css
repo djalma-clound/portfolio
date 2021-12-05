@@ -295,7 +295,7 @@ display:none;
        
      }
      nav{
-       width: 80%;
+       width: 100%;
        
      }
      
@@ -306,6 +306,7 @@ display:none;
     box-sizing: border-box;
        
      }
+     nav{
     .item{
       position: relative;
      width: 100%;
