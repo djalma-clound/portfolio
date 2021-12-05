@@ -287,7 +287,7 @@ display:none;
    @media (max-width:680px){ 
      .bars{ 
        position: relative;
-       margin-right: 20%;
+       margin-right: 22%;
        
      }
      
@@ -319,6 +319,7 @@ cursor: pointer;
       position: relative;
       width:18px ;
        float: right;
+       margin-right: 20%;
         display: ;
     }
     .nav{
