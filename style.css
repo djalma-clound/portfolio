@@ -285,7 +285,7 @@ display:none;
      align-content: center;
    }
    @media (max-width:680px){ 
-     bars{ 
+     .bars{ 
        position: relative;
        margin-right: 40px;
        
