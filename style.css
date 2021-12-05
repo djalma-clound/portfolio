@@ -285,6 +285,10 @@ display:none;
      align-content: center;
    }
    @media (max-width:680px){ 
+     .body{ 
+       box-sizing: border-box;
+       
+     }
      .bars{ 
        position: relative;
        margin-right: 22%;
