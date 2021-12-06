@@ -129,6 +129,7 @@
           height:2px ;
           position: relative;
           width:18px ;
+          float: right;
         }
         .bars::before,.bars::after{
           background: #999;
