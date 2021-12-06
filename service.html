@@ -1,242 +1,64 @@
-<html lang="en">
-
+<!DOCTYPE html>
+<html>
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>service</title>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+      <link rel="stylesheet" href="service/style.css" type="text/css" media="all" />
+ 
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-<script>
+  <title>me trying</title>
+
+    <script>
 
 $(function() {
-$(".toggle").on("click",function(){  
-    if($(".item").hasClass("active")){
-         $(".item").removeClass("active")
-    }
-    else{
-        $(".item").addClass("active")
-    }
-})
+    $(".toggle").on("click",function(){  
+        if($(".item").hasClass("active")){
+             $(".item").removeClass("active")
+        }
+        else{
+            $(".item").addClass("active")
+        }
+   })
 });
 
-</script>
-  <style>
-          
-
-*{
-  padding: 0;
-  margin: 0;
-  text-decoration: none;
-  list-style: none;
-}
-body {
-  font-family: montserrat;
-  background-color:gray ;
-
-}
-nav {
-  height:80 px;
-  width: 100%;
-  background:#000000;
-  top: -100%;
-}
-.logo{
-  font-size: 50px; 
-  font-weight: bold;
-  color: white;
-  padding: 0 100px;
-  line-height: 80px;
-  margin-left: -30px;
-
-}
-nav ul{
-  float: right;
-  margin-right: 40px ;
+    </script
   
-}
-nav li{
-  display: inline-block;
-  margin: 0 8px;
-  line-height: 80px;
-
-  
-}
-
-nav a{
-  color: #f5c311 ;
-  font-size: 18px;
-  text-transform: uppercase;
-  border: 1px solid transparent;
-  padding: 7px 10px;
-  border-radius: 3px;
-  
-}
-a.active,a:hover{
-  border: 1px solid white;
-  transition: .5s ;
-}
- i{ 
-  color: white
-  font-size: 50px;
-  line: height 80px;
-  
-  float: right;
-  margin-right:80px;
-  cursor:pointer;
-  display:none;
-}
-@media (max-width:1048px){
-.logo{
-  font-size:32px ;
-  padding-left: 60px;
-}
-.nav ul{
-  margin-right: 20px;
-}
-.nav a{
-  font-size: 17px;
-}
-mobile menu
-menu{
-display:flex;
-flex-wrap: wrap;
-justify-content: space-between;
-align-items: center;
-}
-.toggle{
-order: 1;
-}
-.item.button{
-order: 2;
-}
-.item{
-width: 100%;
-text-align: center;
-order: 3;
-display: none;
-}
-.item.active{
-display: block;
-}
-
-.toggle{
-cursor: pointer;
-}
-.bars{
-background:#f5c311 ;
-display: inline-block;
-height:2px ;
-position: relative;
-width:20px ;
-float: right;
-margin-left: 300px;
-top: -40px;
-
-}
-.bars::before,.bars::after{
-background: #999;
-content: "";
-display: inline-block;
-height:2px ;
-position:absolute;
-width:30px ;
-
-}
-.bars::before{
-top: 5px;
-}
-.bars::after{
-top: -5px;
-}
-
-
-@midia (max: width 909px;)
-nav #icon{
-  display:block;
-}
-nav ul{
-  position: fixed;
-  width:100%;
-  background: #2f3640;
-  top: 83px;
-  left: -100px;
-  text-align: center ;
-  transition: all .5s;
-}
-.nav li{
-  display: block;
-  margin: 80px 0;
-  line-height: 30px;
-}
-nav a{
-  font-size: 20px;
-}
-a.active,a:hover{
-  border: none;
-  color: #3498db;
-}
-nav ul.show{
-  left: 0;
-}
-}
-  
-  </style>
-
+</head>
 <body>
+  
   <nav>
-    <label class="logo">D-M-D<a href="#"></a></label>
     <ul class="menu">
-       <li class="item"><a href="index.html">home</a></li>
-         <li class="item"><a href="pricing.html">Pricing</a></li>
-         <li class="item"><a href="contact.html">contact</a>
-          </ul>
+   
+    
+       <li class="item button"><a class="home" href="index.html">HOME</a></li>
+   
+      <li class="item button3"><a class="service"href="about.html">ABOUT US</li>
+            <li class="item button"><a class=""href="contact.html">CONTACT</a></li>
+            <label class="toggle"><span class="bars"></span></label>
+    </ul>
+  </nav>
+  <a class="pro" href="#">K'S</a>
+<a class="cleaning" href="#">CLEANING</a>
 
-    <li class="toggle"><span class="bars"></span></li>
-    <label id="icon">
-        <i class="fas fa-bars"></i>
-    </label>
-</nav>
+<div class="container">
 
- <div class="slide">
-          <img src="deck.jpg" alt="">
-        </div>
-        <!--slide image end-->
-        <!--automatic navigation start-->
-        <div class="navigation-auto">
-          <div class="auto-btn1"></div>
-          <div class="auto-btn2"></div>
-          <div class="auto-btn3"></div>
-          <div class="auto-btn4"></div>
-        </div>
-        <!--automati navigation end-->
-      </div>
-      <!--manual navigation start-->
-      <div class="navigation-manual">
-        <label for="radio1" class="manual-btn"></label>
-        <label for="radio2" class="manual-btn"></label>
-        <label for="radio3" class="manual-btn"></label>
-        <label for="radio4" class="manual-btn"></label>
-
-
-      </div>
-
-
-      <!--manual navigation end-->
-    </div>
-    <!--slide image end-->
-    <script type="text/javascript">
-      var counter = 1;
-      setInterval(function () {
-        document.getElementById('radio' + counter).checked = true;
-        counter++;
-        if (counter > 4) {
-          counter = 1;
-        }
-      }, 5000);
-    </script>
+  <div class="inside">  
+  <h3>Types of work in house</h3>
+  
+  <li>Regular cleaning</li>
+  <h3 class="or">Or</h3>
+  <li>Deep cleaning  </li>
+  <h3 class="add">  Additional work with additional price</h3>
+  <li class="second">Inside Windows Cleaning</li>
+  <li>Refrigerator Cleaning</li>
+  <li>Carpet Cleaning</li>
+  
   </div>
-  </div>
+</div>
+
+ 
+ 
 
 </body>
 
