@@ -1,85 +1,65 @@
 <!DOCTYPE html>
 <html>
-
-<head>  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title> </title>
-  <link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
-</head>
-
-<body>
-  <!--I builded the First page inside the Form , first page is the cover-->          
-  <form>
-    <!--first page or top page-->
-    <div id="theCover"> <input class="input" type="button" value="Click to Start" onclick="moveRight();" />
-      <section>
-        <div class="portfolio">
-          <h1 id="entry" onload="entry();">Welcome to my Portfolio</h1>
-          <img class="" src="Eu.jpg" alt="" />
-
-        </div>
-      </section>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <title> </title>
+      <link rel="stylesheet" href="style/style.css" type="text/css" media="all" />
+   </head>
+   
+   <body>  
+        <form>
+        <!--first page or top age-->
+         <div id="theCover"> <input class="input" type = "button" value = "Click to Start" onclick = "moveRight();" /><section>
+     <div class="portfolio">
+       <h1 id="entry" onload="entry();">Welcome to my portfolio</h1>
+ <img class="" src="img/Eu.jpg" alt="" />
+ 
+     </div>
+   </section></div>
+   <!--top page end here-->
+         
+         <input id="input" type = "button" value = "Click to Start" onclick = "moveRight();" />
+         <input id="input1" type = "button" value = "Stop" onclick = "stop();" />
+      </form>      
+   <!--second page start here-->
+    <div id="container">
+            <header id="header" onclick="header();">
+          
+         <nav id="nav" onclick="moveRight">
+            <ul id="menu">
+              
+              <input id="input1" type = "button" value = "Home" onclick = "stop();" />
+             <li><a href="about.html">About</a></li>
+              <li id="logo"><a href="index.html">DJS</a></li>
+            </ul>
+         </nav>
+       </header>
+       
+       <div class="items" >
+         
+         <p>Hi my name is <b>Djalma Da silva</b>, I'm a Brazilian trying to become a web developer.</p><br />
+         <p>I love to do web development like many others i start fixing computers.</p> <br /> <p>With love and dedication I have been learning day by day.</p>
+         <h2>One of my work done.</h2>
+         <div class="my-job">
+           
+         <a href="http://hybriddetails.dj-techs.com/"><img src="img/mysite.jpg" alt="" /></a>
+         </div>
+             
+         <div class="The-tools">
+           <img src="img/html.jpg" alt="" />
+           <img src="img/css.jpg" alt="" />
+            <img src="img/js.jpg" alt="" />
+         </div>
+       </div>
     </div>
+
+    <!--second page end here-->
     
-
-    <input id="input" type="button" value="Click to Start" onclick="moveRight();" />
-    <input id="input1" type="button" value="Stop" onclick="stop();" />
-  </form>
-<!--top page end here-->
-
-  <!--second page start here-->
-  <div id="container">
-    <header id="header">
-
-      <nav id="nav">
-
-        <ul id="menu">
-
-          <input id="input1" type="button" value="Home" onclick="stop();" />
-          <li><a href="about.html">About</a></li>
-          <li id="logo"><a class="logo" href="index.html">Dalma da silva</a></li>
-        </ul>
-      </nav>
-    </header>
-
-    <div class="items">
-     <div class="text">
-      <p>Hi my name is <b>Djalma Da silva.I'm a Brazilian </b> and I'm learning web development. I created the portfolio just to show my ability 
-        and to check later here how i was when i started to code. I know that there are  a lot of professionals out there but everyone has a chance and I'm
-         here to take it, It's a lot of work but it's very pleasurable.
-      </p><br />
-      <p>I love to do web development like many others. I started fixing computers, and then I fell  fell in love with programming and code 
-         and started trying to learn something by <b>Youtube , Google, Solelearn </b>. I'm very busy at my work but you know
-         , who has a
-            cell phone has a computer. Most of the time i start something on my phone and then i sync it to my computer when i get home, i also have with 
-          me one laptop all the time in my backpack for the lunch time. If i have the chance and time i will </p> <br />
-      <p>With love and dedication I have been learning day by day.</p>
-    </div>
-      <h2>One of my work done.</h2>
-      <div class="my-job">
-
-        <a href="http://hybriddetails.dj-techs.com/"><img src="mysite.jpg" alt="" /></a>
-      </div>
-
-      <div class="The-tools">
-        <img src="html.jpg" alt="" />
-        <img src="css.jpg" alt="" />
-        <img src="github.jpg" alt="" />
-      </div>
-    </div>
-    <section class="down-side">
-
-    </section>
-  </div>
-
-  <!--second page end here-->
-
-
-
-  <script src="slide.js"></script>
-  <script src="js/menu.js"></script>
-
-
-</body>
-
+   
+    
+      <script src="js/slide.js"></script>
+      
+        
+      </script>
+   </body>
 </html>
