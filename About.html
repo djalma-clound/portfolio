@@ -1,66 +1,46 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <title>About me </title>
+      <link rel="stylesheet" href="style/about.css" type="text/css" media="all" />
+   </head>
+   
+   <body>  
+   <!--second page start here-->
+    <div id="container">
+            <header id="header" onclick="myImage1();">
+         <nav id="nav">
+           <label id="logo">Djs</label>
+           <ul id="menu">
+              <li><a href="index.html">Home</a></li>
+                 
+             <li><a href="about.html">About</a></li>
+            </ul>
+         </nav>
+       </header>
+       
+       <div class="items" >
+         
+         <p>Hi my name is <b>Djalma Da silva</b>, I'm trying to become a web developer.</p><br />
+         <p>I love to work with computers like many others i start fixing computers and </p>
+       </div>
+    </div>
 
-<head>
-  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-  <link rel="stylesheet" href="About/Style.css" type="text/css" media="all" />
-
-
-  <title>me trying</title>
-
-  <script>
-
-    $(function () {
-      $(".toggle").on("click", function () {
-        if ($(".item").hasClass("active")) {
-          $(".item").removeClass("active")
-        }
-        else {
-          $(".item").addClass("active")
-        }
-      })
-    });
-
-  </script>
-
-</head>
-
-<body>
-
-  <nav>
-    <ul class="menu">
-
-
-      <li class="item button"><a class="home" href="Index.html">HOME</a></li>
-
-      <li class="item button"><a class="service" href="Service.html">SERVICE</a></li>
-      <li class="item button"><a class="contact" href="contact.html">CONTACT</a></li>
-      <label class="toggle"><span class="bars"></span></label>
-    </ul>
-  </nav>
-  <a class="pro" href="#">K'S</a>
-  <a class="cleaning" href="#">CLEANING</a>
-  <div class="desk">
-    <img class="desk-img" src="Cozinha.jpg" alt="" />
-  </div>
-
-  <!--text line-->
-  <h1></h1>
-  <div class="container">
-
-    <h3>ABOUT US</h3>
-    <p class="About-text">We combine quality workmanship, superior knowledge and to provide you with service unmatched
-      by our competitors. our team has experience with home cleaning and commercial cleaning.
-      Our goal is to make shore that the client get the best job ever.
-  </div>
-
-  </div>
-
-
-
-
-</body>
-
+    <!--second page end here-->
+    
+      <form>
+        <!--first page or top age-->
+        
+   <!--top page end here-->
+         
+         <input id="input" type = "button" value = "Start" onclick = "moveRight();" />
+         <input id="input1" type = "button" value = "Stop1" onclick = "stop();" />
+            <input id="input1" type = "button" value = "Start1" onclick = "Start1();" />
+      </form>      
+    <script src="js/main.js">
+      
+    </script>
+      <script src="js/slide.js"></script>
+   </body>
 </html>
