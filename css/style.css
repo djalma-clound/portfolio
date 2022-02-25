@@ -12,6 +12,7 @@
   top: 1px;
   background:lightblue;
   z-index: 10;
+display: ;
 }
   #input{ 
     position: absolute;
@@ -27,7 +28,7 @@
     right:13px;
     top: 30px;
     z-index: 1;
-    position: ;
+    position: fixed;
     background: salmon;
   }
   .input:hover{   
@@ -41,7 +42,6 @@
   margin-left: 10px;
 z-index:1;
 display: none;
-cursor: pointer;
 }
 h1{
   position: relative;
@@ -56,29 +56,28 @@ h1{
   border:1px solid transparent ;
   top: 100px;
   left: 10%;
-
 }
 .portfolio img{   
   position: relative;
-  width: 30%;
+  width: 100%;
   top: 10px;
-   left: 34%;
+
 }
 /*second page start here, page under myImage*/
 #container{  
   position: absolute;
   top: 10px;
   width: 100%;
-  
+  height:;
   background:lightgray ;
   z-index: 1;
-  overflow-y: hidden;
+  overflow-x: hidden;
   
 }
 #container #header{   
-  position: absolute;
-  width:100%;
-  top: -2px;
+  position: fixed;
+width:25%;
+top: -2px;
   height: 9vh;
   background: lightblue;
  z-index: 10;
@@ -88,18 +87,16 @@ h1{
   #logo{ 
     position:relative;
     line-height:50px ;
-    font-size:40px;
+    font-size: 1.2rem;
    float: left;
-  right:47%;
+  right:60%;
   }
-  
-  
   #menu li a{ 
     display: flex;
     position: relative;
   float: right;
-  font-size: 1.2rem;
-  right:60px;
+
+  right:30px;
   color: black;
 text-decoration: none;
 }
@@ -108,7 +105,6 @@ text-decoration: none;
   display: flex;
   margin-left: 20px;
   line-height: 50px;
-  font-size: 1.2rem;
  }
 #container #input1{ 
   position: absolute;
@@ -116,249 +112,58 @@ text-decoration: none;
   background: transparent;
   font-size: 1.1rem;
   top:15px;
-  right: 150px;
+  right: 100px;
   z-index: 100;
   display: block;
-  cursor: pointer;
-}
-#container #input1:hover{
-  background: salmon;
 }
 .items{ 
-  display:;
   position: relative;
-  width: 90%;
-  height:155vh;
+  width: 100%;
+  height: ;
   background: transparent;
   top: 60px;
-  left: 3%;
-  padding: 10px;
 border: 1px solid blue;
 border-bottom-color: red;
 padding: 10px ;
 }
-
 .items p{  
-  width: 80%;
-  position: relative;
-  left: 7%;
+  border: 1px solid brown;
+  width: 90%;
+  padding: 10px;
 }
-
 .my-job{ 
   position: relative;
-  margin-top: 80px;
-  width:30%;
-  height: 40VH;
-  border: 2px solid;
+  top: 30px;
+  left: 20%;
+  width:200px;
   background: lightblue;
-  left:35%;
+  
   
 }
 .my-job img{ 
   position: relative;
-  width: 60px;
+  width:100%;
   height:40vh;
-
 }
 h2{  
  position: relative;
-  top: 50px;
-
+  top: 30px;
   text-align: center;
 }
 .The-tools{  
-  display:flex;
-  flex-wrap: wrap;
-  gap: 60px;
+  display:grid;
+  
   position: relative;
   top: 70px;
-  width: 40%;
-  height:60vh;
+  width: 100%;
+  height:160vh;
   border: 2px solid ;
-  left:30%;
-  
+
 }
 .The-tools img{  
-  display: flex;
-  flex-wrap: wrap;
   position: relative;
-  width:0%;
-  height:20vh;
+  width: 100px;
+  height: 100px;
   margin-top: 20px;
-  left: 10%;
-  
+  left: 33%;
 }
-.down-side{ 
-position: relative;
-width: 100%;
-height: 20vh;
-top: 65px;
-background-color: black;
-
-}
-
-@media (max-width:700){ }
-  
- #theCover{ 
-  position: relative;
-  width:100%;
-  height:100vh;
-  top: 1px;
-  background:lightblue;
-  z-index: 10;
-  overflow-y: hidden;
-  overflow-y: hidden;
-}
-  #input{ 
-    position: absolute;
-    top: 3;
-    left: 20%;
-    margin-left: 10px;
-    z-index: 10;
-    display:none ;
-  }
-  .input{
-    position: absolute;
-    width: 100px;
-    right:13px;
-    top: 30px;
-    z-index: 1;
-    position: ;
-    background: salmon;
-  }
-  .input:hover{   
-    background:lightblue ;
-    
-  }
-  #input1{ 
-  position:absolute;
-  top:27;
-  right: 100px;
-  margin-left: 10px;
-z-index:1;
-display: none;
-cursor: pointer;
-}
-h1{
-  position: relative;
-  top: 5px;
-  text-align: center;
-  
-}
-  .portfolio{  
-    position: relative;
-    width: 80%;
-    height:auto;
-    border:1px solid transparent;
-    top: 100px;
-    left: 10%;
-  
-  }
-  .portfolio img{   
-    display: block;
-    position: relative;
-    width: 60%;
-    height: 60vh;
-    top: 10px;
-  left: 20%;
-  
-}
-       #container{  
-        position: absolute;
-        top: 10px;
-        width: 100%;
-    
-        background:lightgray ;
-        z-index: 1;
-        overflow-y: hidden;
-        
-      }
-      #container #header{   
-        position: absolute;
-        width:100%;
-        top: -2px;
-        height: 9vh;
-        background: lightblue;
-       z-index: 10;
-      
-      }
-      
-        #logo{ 
-          position:relative;
-          line-height:50px ;
-          font-size: 1.2rem;
-         float: left;
-         right: 40%;
-        }
-        #menu li a{ 
-          display: flex;
-          position: relative;
-        float: right;
-         font-size: 1.2rem;
-        right:30px;
-        color: black;
-      text-decoration: none;
-      }
-       #menu li { 
-         float: right;
-        display: flex;
-        margin-left: 20px;
-        line-height: 50px;
-       }
-      #container #input1{ 
-        position: absolute;
-        border: transparent;
-        background: transparent;
-        font-size: 1.1rem;
-        top:15px;
-        right: 100px;
-        z-index: 100;
-        display: block;
-        cursor: pointer;
-      }
-      .items{ 
-        position: relative;
-        width: 90%;
-        height:150vh;
-        background: transparent;
-        top: 60px;
-        left: 3%;
-      border: 1px solid blue;
-      border-bottom-color: red;
-      padding: 10px ;
-      }
-      
-      .my-job{ 
-        display: grid;
-        position: relative;
-        top: 10px;
-        left: 20%;
-        max-width:50%;
-        min-width: 80%;
-        background: lightblue;
-        left: 7%;
-        
-      }
-      .my-job img{ 
-        position: relative;
-        width:200px;
-       height:200px;
-      
-      }
-      .The-tools{
-        display: grid;
-        grid-auto-flow:column;
-       gap: 10px;
-        width: 90%;
-      left: 7%;
-      }
-      .The-tools img{  
-        display: flex;
-        flex-wrap: wrap;
-        position: relative;
-       width:50%;
-        height:20vh;
-        
-      }
-
-    }
