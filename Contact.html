@@ -1,21 +1,75 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-    <meta name="Contact us" content="">
-    <title>contact me</title>
-  </head>
-  <body>
-    <form action="mail.php" method="post">
-      <input type="text" name="name" placeholder="your name">
-        <input type="email" name="emailaddress" placeholder="your email address">
+<head>
+	<title>Djalma da silva contact</title>
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet" href="style/formcontact.css">
+</head>
 
-    <form action="" method="post">
-      <inp type="text" name="mobile" placeholder="mobile number">
-       <input type="text" name="message" placeholder="your message">
-       <button type="submit">submit</button>
-        
-      
-    </form>
-  </body>
+<body>
+	<nav id="nav">
+		<label for="logo">djalma da silva</label>
+		<button aria-label="Abri Menu" id="btn-mobile" aria-haspopup="true" aria-controls="menu" aria-expanded="false">Menu
+		  <span id="hamburger"></span>
+		</button>
+		<ul id="menu">
+		  <li><a href="index.html">Home</a></li>
+		  <li><a href="about.html">About</a></li>
+		  <li><a href="service.html">Service</a></li>
+		  <li><a href="formcontact.html">contact</a></li>
+		</ul>
+	  </nav>
+            
+    </header>
+
+<div class="container">
+	<h1 class="brand">
+	<span>Your </span> feedback  is very important
+	</h1>
+	<div class="wrapper">
+<div class="company-info">
+	<h3> Only take one minute</h3>
+	<ul>
+		<li>Any simple words is a big message</li>
+		<li>I will be happy to email you back with a thanks messge</li>
+		<li>Thank you very much.</li>
+	</ul>
+</div><!-- compnay-info close-->
+<div class="contact">
+	 <h2> Let's touch base?</h2>
+	<form  id="my-form" action="https://formspree.io/f/xwkyvwly" method="post">
+		<p>
+		
+<input type="text" name="name"  placeholder="name">
+		</p>
+		<p>
+	
+<input type="text" name="lastname" placeholder="last name">
+		</p>
+	<p>
+
+	<input type="text" name="subject" placeholder="subject">
+					</p>
+					<p>
+			
+<input type="email" name="email" placeholder="email">
+		</p>
+	
+
+		<p class="full">
+			
+<textarea name="message" rows="5" placeholder="your message"></textarea>
+		</p>
+		<p class="full">
+			<button>Submit</button>
+		</p>
+	</form>
+</div><!-- contact-- >
+	</div><!-- wrapper close-->
+	</div><!-- container close-->
+</div>
+<script src="js/main.js"></script>
+</body> 
 </html>
