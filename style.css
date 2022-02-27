@@ -541,7 +541,7 @@ h1{
     }*/
     .container img{
       position: relative;
-      width: 70%;
+      width: 80%;
       top: 15px;
       left: 50%;
       transform: translate(-50%, -20%);
