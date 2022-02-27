@@ -603,7 +603,7 @@ h1{
     
   }
   .gallery div{
-    
+    top: 20px;
     position: relative;
     left: 50%;
     transform: translate(-50%, -20%);
