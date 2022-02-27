@@ -688,3 +688,11 @@ i{
   padding: 3px;
   top: 5px;
 }
+.portfolio img{   
+
+  position: relative;
+
+  width: 60%;
+  top: 10px;
+   left: 14%;
+}
