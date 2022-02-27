@@ -78,12 +78,7 @@ label{
      }
 #container img{
   position: relative;
-  max-width:50%;
-  min-width: 50%;
-  height: 39vh;
-  float: right;
-  top: 20px;
-  right: 10%;
+  max-width:100%;
 }
 /*.container img{
   position: relative;
