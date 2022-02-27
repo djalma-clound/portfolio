@@ -602,6 +602,12 @@ h1{
     transform: translate(-40% -10%);
     
   }
+  .gallery div{
+    
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, -20%);
+  }
   .slider{
     display: block;
     position: relative;
