@@ -64,18 +64,15 @@ label{
 
    }
      #container #div{  
-
-    position: relative;
-
-    width: 80%;
+     position: relative;
+     width: 80%;
     height:200px;
     left: 30%;
     transform: translate(-50%, -20%);
     top: 30px;
-  
-    border: transparent;
-
-     }
+   border: transparent;
+   }
+    
 #container img{
   position: relative;
   max-width:100%;
