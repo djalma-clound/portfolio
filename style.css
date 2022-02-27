@@ -546,6 +546,11 @@ h1{
       left: 50%;
       transform: translate(-50%, -20%);
     } 
+    .container div{  
+      position: relative;
+      width: 60%;
+      
+    }
     .container h1{
       position: relative;
       text-align: center;
