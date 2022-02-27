@@ -543,13 +543,14 @@ h1{
       position: relative;
       width: 80%;
       top: 15px;
-      left: 50%;
+      lm
       transform: translate(-50%, -20%);
     } 
     .container div{  
       position: relative;
       width: 60%;
-      
+      left: 10%;
+      top: 30px;
     }
     .container h1{
       position: relative;
