@@ -599,7 +599,7 @@ h1{
     width: 20%;
     gap: 30px;
     left: 50%;
-    transform: translate(-50% -20%);
+    transform: translate(-40% -10%);
     
   }
   .slider{
