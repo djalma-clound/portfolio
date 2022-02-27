@@ -598,7 +598,7 @@ h1{
     position: relative;
     width: 20%;
     gap: 30px;
-    left: 50%;
+    left: 30%;
     transform: translate(-40% -10%);
     
   }
