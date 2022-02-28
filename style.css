@@ -51,7 +51,7 @@ label{
   width:97%;
   height:250vh;
   border: transparent;
-  top: 100px;
+  top: 80px;
   left: 1%;
   place-content: center;
 }
@@ -63,20 +63,21 @@ label{
   top:150px;
 
    }
-   #container img{
-    position: relative;
-    width:100%;
-  } 
-  #container #div{  
-    position: relative;
-    width: 60%;
-    height:60px;
-    left: 70%;
+     #container #div{  
+       position: relative;
+     width: 80%;
+    height:200px;
+    left: 30%;
     transform: translate(-50%, -20%);
     top: 30px;
-   border: transparent;
+  
+    border: transparent;
 
-  }
+     }
+#container img{
+  position: relative;
+  width:100%;
+}
 /*.container img{
   position: relative;
   width: 40%;
@@ -160,9 +161,9 @@ left: 20%;
 
  .slider{
   position: relative;
-width:30%;
+width:50%;
 height:60vh;
-margin-top:20%;
+margin-top:40%;
 border-radius:5px;
 overflow: hidden;
 margin-left: 7%;
@@ -197,7 +198,7 @@ top: 70%;
 display: flex;
 justify-content: center;
 left: 10%;
-display: none;
+
 }
 .manual-btn{
   border: 2px solid ;
@@ -234,7 +235,6 @@ margin-left: 0;
   width: 300px;
   justify-content: center;
   left: 33%;
-  display: none;
 } 
 
 .navigation-auto div{
@@ -326,7 +326,7 @@ flex-wrap: wrap;
 position: relative;
 max-width:100%;
 min-width:300px;
-height: 100vh;
+height: 150vh;
 top: 1px;
 background:lightblue;
 z-index: 10;
@@ -548,28 +548,31 @@ background-color: turquoise;
   #container img{
     position: relative;
     width:100%;
+    top: 15px;
+  
+   
   } 
   #container #div{  
     position: relative;
-    width: 60%;
+    width: 80%;
     height:200px;
-    left: 50%;
+    left: 30%;
     transform: translate(-50%, -20%);
-    top: 60px;
-   border:transparent;
-   border-bottom-color:blue;
+    top: 30px;
+  
+    border: transparent;
 
   }
   #container h1{
     position: relative;
     text-align: center;
-    top: -1px;
+    
   }
   #container p{
     position: relative;
     width: 80%;
     float:left ;
-   top: 110px;
+   top: 30px;
     left: 10%;
     background-color: transparent;
     line-height: 25px;
@@ -578,7 +581,7 @@ background-color: turquoise;
  #container li{
    position: relative;
    width: 80%;
-   top: 140px;
+   top: 50px;
    left:10%;
    border: 1px solid ;
    background-color: cornflowerblue;
@@ -602,7 +605,7 @@ background-color: turquoise;
   height:auto;
    border: transparent;
   background-color: cadetblue;
-  top: 190px;
+  top: 70px;
   left: 2%;
   gap:2em;
   
@@ -618,7 +621,7 @@ background-color: turquoise;
   
 }
 .gallery div{
-  top: 40px;
+  top: 20px;
   position: relative;
   left: 10%;
   transform: translate(-50%, -20%);
@@ -628,10 +631,10 @@ background-color: turquoise;
   position: relative;
 width:80%;
 height: 60vh;
-top:190px;
+top:140px;
 border-radius:5px;
 overflow: hidden;
-margin-left: 18%;
+margin-left: 27%;
 display:block;
 
 }
@@ -654,7 +657,7 @@ height: 10vh;
 border: 1px solid red;
 align-content: center;
 background-color: black;
-left: 2%;
+
 }
 
 i{
@@ -718,4 +721,6 @@ width: 80%;
 top: 10px;
  left: 14%;
 }
+
+
         
