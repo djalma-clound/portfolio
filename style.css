@@ -74,7 +74,7 @@ label{
     border: transparent;
 
      }
-#container img{
+#container #div img{
   position: relative;
   width:100%;
 }
