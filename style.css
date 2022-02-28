@@ -105,14 +105,14 @@ label{
  list-style-type:none;
  }
  
- #container li::before{
+/* #container li::before{
 position: relative;
 content: "\2022";
 font-size: 1.6em;
 color: red;
 top: 3px;
 left: -3px;
-}
+} */
 #container ::first-letter{ /*save for exemple*/
 color: #12383a;
 
