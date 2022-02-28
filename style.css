@@ -51,7 +51,7 @@ label{
   width:97%;
   height:250vh;
   border: transparent;
-  top: 80px;
+  top: 100px;
   left: 1%;
   place-content: center;
 }
@@ -63,20 +63,20 @@ label{
   top:150px;
 
    }
-     #container #div{  
-     position: relative;
-     width: 80%;
-    height:200px;
-    left: 30%;
+   #container img{
+    position: relative;
+    width:100%;
+  } 
+  #container #div{  
+    position: relative;
+    width: 60%;
+    height:60px;
+    left: 70%;
     transform: translate(-50%, -20%);
     top: 30px;
    border: transparent;
-   }
-    
-#container img{
-  position: relative;
-  max-width:100%;
-}
+
+  }
 /*.container img{
   position: relative;
   width: 40%;
@@ -160,9 +160,9 @@ left: 20%;
 
  .slider{
   position: relative;
-width:50%;
+width:30%;
 height:60vh;
-margin-top:40%;
+margin-top:20%;
 border-radius:5px;
 overflow: hidden;
 margin-left: 7%;
@@ -197,7 +197,7 @@ top: 70%;
 display: flex;
 justify-content: center;
 left: 10%;
-
+display: none;
 }
 .manual-btn{
   border: 2px solid ;
@@ -234,6 +234,7 @@ margin-left: 0;
   width: 300px;
   justify-content: center;
   left: 33%;
+  display: none;
 } 
 
 .navigation-auto div{
@@ -325,7 +326,7 @@ flex-wrap: wrap;
 position: relative;
 max-width:100%;
 min-width:300px;
-height: 150vh;
+height: 100vh;
 top: 1px;
 background:lightblue;
 z-index: 10;
@@ -547,31 +548,28 @@ background-color: turquoise;
   #container img{
     position: relative;
     width:100%;
-    top: 15px;
-  
-   
   } 
   #container #div{  
     position: relative;
-    width: 80%;
+    width: 60%;
     height:200px;
-    left: 30%;
+    left: 50%;
     transform: translate(-50%, -20%);
-    top: 30px;
-  
-    border: transparent;
+    top: 60px;
+   border:transparent;
+   border-bottom-color:blue;
 
   }
   #container h1{
     position: relative;
     text-align: center;
-    
+    top: -1px;
   }
   #container p{
     position: relative;
     width: 80%;
     float:left ;
-   top: 30px;
+   top: 110px;
     left: 10%;
     background-color: transparent;
     line-height: 25px;
@@ -580,7 +578,7 @@ background-color: turquoise;
  #container li{
    position: relative;
    width: 80%;
-   top: 50px;
+   top: 140px;
    left:10%;
    border: 1px solid ;
    background-color: cornflowerblue;
@@ -604,7 +602,7 @@ background-color: turquoise;
   height:auto;
    border: transparent;
   background-color: cadetblue;
-  top: 70px;
+  top: 190px;
   left: 2%;
   gap:2em;
   
@@ -620,7 +618,7 @@ background-color: turquoise;
   
 }
 .gallery div{
-  top: 20px;
+  top: 40px;
   position: relative;
   left: 10%;
   transform: translate(-50%, -20%);
@@ -630,10 +628,10 @@ background-color: turquoise;
   position: relative;
 width:80%;
 height: 60vh;
-top:140px;
+top:190px;
 border-radius:5px;
 overflow: hidden;
-margin-left: 27%;
+margin-left: 18%;
 display:block;
 
 }
@@ -656,7 +654,7 @@ height: 10vh;
 border: 1px solid red;
 align-content: center;
 background-color: black;
-
+left: 2%;
 }
 
 i{
@@ -720,6 +718,4 @@ width: 80%;
 top: 10px;
  left: 14%;
 }
-
-
         
