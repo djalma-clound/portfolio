@@ -447,7 +447,7 @@ background: salmon;
 
 @media (max-width:900px){
   body{
-    position: fixed;
+    position: ;
     overflow-x: hidden;
     
   }
