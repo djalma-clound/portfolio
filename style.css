@@ -446,6 +446,11 @@ background: salmon;
   /*mobile menu start here*/
 
 @media (max-width:900px){
+  body{
+    position: fixed;
+    overflow-x: hidden;
+    
+  }
 #nav{
   position: fixed;
   width: 25%;
