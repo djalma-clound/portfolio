@@ -656,8 +656,8 @@ background-color: turquoise;
   .gallery div{
   display: flex;
    position: relative;
-  height: 15vh;
-  width: 22%;
+  height: 20vh;
+  width: 42%;
   min-width: 0%;
   gap: 50px;
   border: 2px solid;
