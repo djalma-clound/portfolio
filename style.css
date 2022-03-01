@@ -150,8 +150,7 @@ border-radius: 100px;
 }
 .first-box p{
   position: absolute;
-  margin-top:  30px;
-  margin-left: 40%;
+  left: 50%;
   transform: translate(-50%, -20%);
   font-size:2em;
 }
@@ -161,8 +160,7 @@ border-radius: 100px;
 }
 .second-box p{
   position: absolute;
-  margin-top:  30px;
-  margin-left: 39%;
+ left:50%;
   transform: translate(-50%, -20%);
   font-size:3em;
 }
@@ -172,8 +170,7 @@ border-radius: 100px;
 }
 .third-box p{
   position: absolute;
-  margin-top:  30px;
-  margin-left: 22%;
+  left:50%;
   transform: translate(-50%, -20%);
   font-size:2.2em;
 }
@@ -183,8 +180,7 @@ border-radius: 100px;
 }
 .fought-box p{
   position: absolute;
-  margin-top:  30px;
-  margin-left: 36%;
+  left:50%;
   transform: translate(-50%, -20%);
   font-size:3em;
 }
