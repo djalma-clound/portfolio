@@ -669,7 +669,7 @@ background-color: turquoise;
   }
   .first-box p{
     position: absolute;
-    margin-top:-48px;
+    margin-top:48px;
     margin-left: 40%;
     transform: translate(-50%, -20%);
     font-size:1.2em;
@@ -680,7 +680,7 @@ background-color: turquoise;
   }
   .second-box p{
     position: absolute;
-    margin-top:  -48px;
+    margin-top:  48px;
     margin-left: 45%;
     transform: translate(-50%, -20%);
     font-size:1.7em;
@@ -691,7 +691,7 @@ background-color: turquoise;
   }
   .third-box p{
     position: absolute;
-    margin-top:  -48px;
+    margin-top:  48px;
     margin-left: 33%;
     transform: translate(-50%, -20%);
     font-size:1.3em;
@@ -702,7 +702,7 @@ background-color: turquoise;
   }
   .fought-box p{
     position: absolute;
-    margin-top:  -48px;
+    margin-top:  48px;
     margin-left: 40%;
     transform: translate(-50%, -20%);
     font-size:2em;
