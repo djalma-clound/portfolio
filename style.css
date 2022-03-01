@@ -449,7 +449,9 @@ background: salmon;
   body{
     position: ;
     overflow-x: hidden;
-    
+    overflow-y: hidden;
+    overflow: hidden;
+    box-sizing: border-box;
   }
 #nav{
   position: fixed;
