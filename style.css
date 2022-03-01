@@ -103,6 +103,7 @@ label{
  left:2%;
  line-height: 20px;
  list-style-type:none;
+ padding: 10px;
  }
  
 /* #container li::before{
@@ -587,6 +588,7 @@ background-color: turquoise;
    background-color: lightblue;
    line-height: 20px;
    list-style-type:none;
+   padding: 10px;
    }
    
   /* #container li::before{
