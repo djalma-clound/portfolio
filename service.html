@@ -1,65 +1,29 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-      <link rel="stylesheet" href="Service/style.css" type="text/css" media="all" />
- 
-
-  <title>me trying</title>
-
-    <script>
-
-$(function() {
-    $(".toggle").on("click",function(){  
-        if($(".item").hasClass("active")){
-             $(".item").removeClass("active")
-        }
-        else{
-            $(".item").addClass("active")
-        }
-   })
-});
-
-    </script
-  
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/style/service.css">
+  <title>Document</title>
 </head>
+
 <body>
-  
-  <nav>
-    <ul class="menu">
-   
-    
-       <li class="item button"><a class="home" href="index.html">HOME</a></li>
-   
-      <li class="item button3"><a class="service"href="About.html">ABOUT US</li>
-            <li class="item button"><a class=""href="contact.html">CONTACT</a></li>
-            <label class="toggle"><span class="bars"></span></label>
+  <nav id="nav">
+    <label for="logo">hybrid details</label>
+    <button aria-label="Abri Menu" id="btn-mobile" aria-haspopup="true" aria-controls="menu" aria-expanded="false">Menu
+      <span id="hamburger"></span>
+    </button>
+    <ul id="menu">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="service.html">Service</a></li>
+      <li><a href="formcontact.html">contact</a></li>
     </ul>
   </nav>
-  <a class="pro" href="#">K'S</a>
-<a class="cleaning" href="#">CLEANING</a>
 
-<div class="container">
-
-  <div class="inside">  
-  <h3>Types of work in house</h3>
-  
-  <li>Regular cleaning</li>
-  <h3 class="or">Or</h3>
-  <li>Deep cleaning  </li>
-  <h3 class="add">  Additional work with additional price</h3>
-  <li class="second">Inside Windows Cleaning</li>
-  <li>Refrigerator Cleaning</li>
-  <li>Carpet Cleaning</li>
-  
-  </div>
-</div>
-
- 
- 
-
+  <script src="js/main.js"></script>
 </body>
 
 </html>
