@@ -100,7 +100,7 @@ label{
 #container li{
  position: relative;
  width: 30%;
- top: -20px;
+ top: 20px;
  left:2%;
  line-height: 20px;
  list-style-type:none;
