@@ -672,6 +672,7 @@ background-color: turquoise;
   }
   .first-box p{
     position: absolute;
+    top:-30px;
     margin-left:50%;
     transform: translate(-50%, -20%);
     font-size:1.2em;
