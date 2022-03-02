@@ -806,5 +806,18 @@ width: 80%;
 top: 10px;
 left: 14%;
 }
+#theCover{ 
 
+flex-wrap: wrap;
+
+position: relative;
+max-width:100%;
+min-width:300px;
+height: 100vh;
+top: 1px;
+background:lightblue;
+z-index: 10;
+box-sizing: border-box;
+display: none;
+}
         
