@@ -450,8 +450,8 @@ background: salmon;
     position:absolute ;
     overflow-x: hidden;
     box-sizing: border-box;
-    viewport-fit: 100%;
-    overscroll-behavior-x: hidden;
+  position: fixed;
+  height: 200vh;
   }
 #nav{
   position: fixed;
@@ -818,6 +818,6 @@ top: 1px;
 background:lightblue;
 z-index: 10;
 box-sizing: border-box;
-display: none;
+
 }
         
