@@ -450,8 +450,6 @@ background: salmon;
     position:absolute ;
     overflow-x: hidden;
     box-sizing: border-box;
-  position: fixed;
-  height: 200vh;
   }
 #nav{
   position: fixed;
