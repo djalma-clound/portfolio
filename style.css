@@ -148,8 +148,8 @@ gap: 20px;
 }
 .first-box p{
   position: absolute;
-  left: 70%;
-  transform: translate(-50%, -20%);
+  left: 10%;
+
   font-size:2em;
 }
 .second-box{
