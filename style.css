@@ -5,6 +5,7 @@
 body{
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   box-sizing: border-box;
+ overflow-x: hidden;
 }
 #nav{
   position: fixed;
@@ -445,10 +446,9 @@ background: salmon;
 
 @media (max-width:900px){
   body{
-    position:absolute ;
-    overflow-x: hidden;
-    box-sizing: border-box;
-  }
+      overflow-x: hidden;
+      box-sizing: border-box;
+    }
 #nav{
   position: fixed;
   width: 25%;
