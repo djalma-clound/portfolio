@@ -594,7 +594,7 @@ background-color: turquoise;
   }*/
   #container img{
     position: relative;
-    width:100%;
+    width:350px;
   } 
   #container #div{  
     position: relative;
