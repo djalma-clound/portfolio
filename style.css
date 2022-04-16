@@ -130,7 +130,7 @@ position: relative;
  width: 95%;
 border: 2px solid brown;
 background-color: lightblue;
-top: 60px;
+top; 160px;
 left: 2%;
 gap:10em;
 overflow: hidden;
