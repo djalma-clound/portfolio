@@ -70,11 +70,11 @@ label{
   } 
   #container #div{  
     position: relative;
-    width: 40%;
-    height:255px;
+    width: 60%;
+    height:260px;
     left: 70%;
     transform: translate(-50%, -20%);
-    top: 110px;
+    top: 90px;
    border: 1px solid transparent;
     background-image: url(/img/eu.jpg);
     background-size:100% 100%;
@@ -88,6 +88,7 @@ label{
 #container h1{
   position: relative;
   text-align: center;
+  display: none;
 }
 #container p{
   position: absolute;
