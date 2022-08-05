@@ -578,11 +578,12 @@ background-color: turquoise;
     display: grid;
     position: relative;
     width: 97%;
-    border: transparent;
+    border:1px solid blue;
     float: top;
     top: 70px;
     overflow: hidden;
     height: max-content;
+    
   }
   /*.container{
     position: relative;
