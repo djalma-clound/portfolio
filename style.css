@@ -567,9 +567,9 @@ background-color: turquoise;
     flex-wrap:wrap ;
     width:97%;
     height: max-content;
-   border: transparent;
+   border:1px solid red;
     top: 50px;
-    left: 1%;
+    left:-5%;
    place-content: top;
   }
   
