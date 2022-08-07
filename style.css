@@ -165,14 +165,14 @@
       background-image: none;
       background-color: #222;
       background-repeat: no-repeat;
-      background: url(/img/html.jpg);
+      background: url(img/html.jpg);
       background-size: 100% 100%;
       transform-style: preserve-3d;
       perspective: 10em;
       perspective-origin: 50% calc(50% - 5em);
       }
       .section div:nth-child(2){
-        background:url(/img/css.jpg);
+        background:url(img/css.jpg);
         background-size:100% 100% ;
         background-repeat: no-repeat;
         transform-style: preserve-3d;
@@ -362,7 +362,7 @@ left: 30px;
     body{
       height: 530vh;
       border: transparent;
-      background-color: red;
+      background-color: transparent;
     }
  .logo{
       flex: 1;
@@ -508,7 +508,7 @@ left: 30px;
     
       body{
      height: 550vh;
-     background-color: #999;
+     background-color:transparent;
       }
    .logo{
         flex: 1;
