@@ -1,198 +1,104 @@
-<!DOCTYPE html>
-<html lang="en">
-<!--Djalma da silva portfolio-->
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="style.css">
-  <title>My portfolio</title>
-</head>
+<!<!DOCTYPE HTMl>
 
-<body>
-  <!---top bar with the menu section-->
-  <nav id="nav">
-    <label for="logo">D S</label>
-    <button aria-label="Abri Menu" id="btn-mobile" aria-haspopup="true" aria-controls="menu" aria-expanded="false">Menu
-      <span id="hamburger"></span>
-    </button>
-    <ul id="menu">
-      <li><a href="index.html">Home</a></li>
-      <li><a href="about.html">About</a></li>
-      <li><a href="service.html">Service</a></li>
-      <li><a href="Contact.html">contact</a></li>
-    </ul>
-  </nav>
-    <!--top bar with menu section end here-->
-  <form>
-    <!--first page or top page-->
-    <div id="theCover"><input class="input" type="button" value="Click here to open" onclick="moveRight();" />
-      <section>
-        <div class="portfolio">
-          <h1 id="entry" onload="entry();">Welcome to my Portfolio</h1>
-          
-           <img class="" src="img/eu-wall.jpg" alt="" />
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css" type="text/css" media="all" />
+    <title>Dj-techs </title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  </head>
 
+  <body onload="checkCookies()">
+
+    <nav>
+      <label for="LOGO">Dj-Techs</label>
+      <ul class="menu">
+
+        <li class="logo"><a class="log" href="#">DO-OUTRO LADO</a></li>
+
+        <li class="item"><a  class="item2" href="index.html">home</a></li>
+        <li class="item"><a class="item2" href="about.html">about</a></li>
+
+        <li class="item"><a class="item2" href="Artigos.html">artigos</a></li>
+
+        <li class="item"><a href="Ford.html"></a></li>
+
+        <li class="item button"><a class="item button" href="Information.html">Info</li>
+        <li class="item button secondary"><a class="item button" href="contact.html">contact</a></li>
+        <li class="toggle"><span class="bars"></span>
+    </nav>
+
+     <!--pictures section-->
+    <div id="div-sect" class="section">
+      <div id="di" class="box1"></div>
+      <div></div>
+      <div></div>
+      <div ><P class="Drogas"></P></div>
+    </div>
+    <!--picture section end here-->
+    <div class="section-1">
+      <h1>Bem vindos a meu  humilde website </h1>
+      <div class="Img"></div>
+      <br /><br />
+      <h3> POR<em class="em"> Dj-Techs</em></h3>
+      <br />
+      <div>
+      <p id="p1">
+
+        Oi meu nome é <b>Djalma da silva</b> </br> sou desenvolvedor de website. Eu estou estudando 
+         iss
+        por alguns tempo e é algo que eu amo fazer. <br></br>Cada pessoa em nesse mundo tem algo que ama fazer ,
+        algo que a leva a loucura de perder até noites de sono e isso é o que passa comigo e muitas outras
+        pessoas como eu
+        que ama trabalha com tecnologia, sei que há um caminho grande ainda pra ser traçado e aqui vamos nós
+        sem tempo a perder renovando e se enterrando das coisas novas.
+        <br>
+        A vida de um programador ou alguém que trabalha com tecnologia ou desenvolvimento de websites e a
+        vida de um aluno e professor. <br><br>
+        
+        E um aprendizado contínuo todo dia algo nova surgi
+        e todo dia tem alguém buscando por algo diferente ou mais complexo, se você chegou até meu website,
+        da uma passeada por essa humilde criação feita por mim mesmo
+        mas observe tudo e passa o mouse em tudo pra ver o que se movimenta ou se algo que te chama a atenção  <br>
+        <br>
+
+       Hi my name is <b> Djalma da silva and I’m Brazilian</b> I’m trying to become a web
+        developer, I already know a little bit, and it’s time to do
+         something that i love
+        and will enjoy it every day. <br> <br> I know it's not easy to learn but with dedication and hard work
+        anyone can achieve, with the right tools
+        and time everything falls in the right place. </br> <br> Till this moment I was trying to learn everything by tutorial on <a id="TUTORIAL" href="#">youtube</a>
+        and googling some, but the best way is to
+        Learn how to ask the right question on google and everything gets just a little easy.
+        <br> <br> 
+        In all of the lenguage of programming I like  <em>JAVASCRIPT</em> it's very intresting
+        how the lenguage work in the client side and in the serve side
+
+        
+      </p>
+    </div>
+    <div></div>
+    <br><br>
+    <div class="box2">
+      <h1>Dj-Techs</h1>
+      <div id="links">
+        <a class="facebook" href="#"><i class="fa fa-facebook-f"></i></a>
+        <a class="insta" href="#"> <i class="fa fa-instagram"></i></a>
+         <a class="youtube" href="https://www.youtube.com/watch?v=NlUef1tqABw"><i class="fa fa-youtube"></i></a>
+         <a class="twitter" href="#"> <i class="fa fa-twitter"></i></a>
         </div>
-      </section>
+      <p>© Dj-techs 2022. Todos os direitos reservados.</p>
     </div>
-    <!--Controls button for the cover page-->
-    <input id="input" type="button"  value="Click to Start" onclick="moveRight();" /> <!--The button on the cover -->
-    <input id="input1" type="button" value="Stop" onclick="stop();" /><!--button to prevent the slide to go to the end-->
-  </form>
-  <!--first page or cover page end here-->
-  <section class="main">
-
-    <div id="container">
-      <h1>A dreamer!</h1>
-     <div id="div">
-      <img src="img/eu.jpg" alt="my picture">
-     </div>
-     <p> Hi my name is <b> Djalma da silva and I’m Brazilian</b> I’m trying to become a web developer, I already know a little bit.
-      I have been working as auto detailing  guy for a quite long time and just had that click,it’s time to do something that i love
-       and will enjoy it every day. </br> Till now i have learned everything on the Youtube and googling some, but the best way is to
-       Learn how to ask the right question on google and everything gets just a little easy. 
-       
-     </p>
-        <li class="first-li"><b> The path i'm fowling</b></li>
-       <li>HTML is what all begginers learn.</li>
-        <li>CSS that put some flavor.</li>
-        <li>JAVASCRIPT </li>
-        <li>PHP is something that i want to learn when I be better or javascript.</li>
-      <p>
-
-   
-      <div class="gallery">
-        <div class="first-box">
-         <p>HTML</p>
-      </div>
-      <div class="second-box">
-        <p>css</p>
-      </div>
-      <div class="third-box">
-        <p>javascript</p>
-      </div>
-      <div class="fought-box">
-        <p>PHP</p>
-      </div>
-      </div>
-
-
-      <!--slide image -->
-      <div class="box1">
-        <!--image slider start-->
-        <div class="slider">
-          <div class="slides">
-            <!--radio button start-->
-            <input type="radio" name="radio-btn" id="radio1">
-            <input type="radio" name="radio-btn" id="radio2">
-            <input type="radio" name="radio-btn" id="radio3">
-            <input type="radio" name="radio-btn" id="radio4">
-            <!--radio button end-->
-
-           
-            <!--slide image start-->
-            <div class="slide first">
-              <img src="Img/css.jpg" alt="">
-            </div>
-            <div class="slide">
-              <img src="Img/github.jpg" alt="">
-            </div>
-            <div class="slide">
-              <img src="Img/html.jpg" alt="">
-            </div>
-            <div class="slide">
-              <img src="Img/Eu-chapeu.jpg" alt="">
-            </div>
-           
-            <!--slide image end-->
-
-            <!--automatic navigation start-->
-            <div class="navigation-auto">
-              <div class="auto-btn1"></div>
-              <div class="auto-btn2"></div>
-              <div class="auto-btn3"></div>
-              <div class="auto-btn4"></div>
-            <!--automati navigation end-->
-            </div>
-
-              
-            
-            <!--manual navigation start-->
-            <div class="navigation-manual">
-              <label for="radio1" class="manual-btn"></label>
-              <label for="radio2" class="manual-btn"></label>
-              <label for="radio3" class="manual-btn"></label>
-              <label for="radio4" class="manual-btn"></label>
-             <!--manual navigation end-->
-            </div>
-            </div>
-            
-          
-          <!--slide image end-->
-          <script type="text/javascript">
-            var counter = 1;
-            setInterval(function () {
-              document.getElementById('radio' + counter).checked = true;
-              counter++;
-              if (counter > 4) {
-                counter = 1;
-              }
-            }, 5000);
-          </script>
-        </div>
-      </div>
-    </div>
-
-     <!--The big box text -->
-    <div id="text1">
-    <div class="under-slide">
-      <p><b>Why Should You Get Your Vehicle Detailed </b><br> <br>
-      Proper maintenance is essential to keeping your car in its best condition. By cleaning both the interior and exterior of your car.
-      SUV or mini van,you are prolonging its life. Dirt,rain,snow,bird poop and prolonged exposure to the sun can be damaging to your 
-      vehicle without regular cleaning, which can lower the resale or traide-in value later on. </p><br><p> Automated car washes arean't enough.
-        Have you ever inspected your vehicle after going through one of these car washes? Oftentimes,you'll find water spots and other marks remaning
-        on your windows and bumper (like dead insects still clinging for their life).
-        Having your car, SUV or mini van detailed by hand will help ensure that your vehicle is completely clean.
-      </p> <br> <p> Getting your vehicle detailed by professional could also help prevent long-term issus by catching small problems before  they 
-        become bigger problems such as worn-out tires, dirty enginges, and chipped paint. </p> <br> <p> Check out our car, suv and mini van detailing
-          services to find the one that best suits your needs.
-        </p>
-     </div>
-</div>
-     <!--The big box text end here-->
-</div>
-
-    
-
-  
-    <!--back section on the end of the page-->
-    <div class="text-down">
-      <di class="links">
-        <a href="#"><i class="fa fa-facebook-f"></i></a>
-
-
-        <a href="#"><i class="fa fa-instagram"></i></a>
-        <a href="#"><i class="fa fa-twitter"></i></a>
-
-        <a href="https://youtu.be/NlUef1tqABw"><i class="fa fa-youtube-play"></i></a>
-
-
-    </div>
-    </div>
-
-
-  </section>
+  </div>
 
 
 
 
+    <script src="Js/Main.js"></script>
+    <script src="Js/changing.js"></script>
+    <script src="Js/nav.js"></script>
+    <script src="Js/onload.js"></script>
+  </body>
 
-
-
-  <script src="js/main.js"></script>
-  <script src="js/cover.js"></script>
-</body>
-
-</html>
+  </html>
