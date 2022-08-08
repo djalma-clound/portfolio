@@ -172,7 +172,7 @@
       perspective-origin: 50% calc(50% - 5em);
       }
       .section div:nth-child(2){
-        background:url(img/css.jpg);
+        background:url(css.jpg);
         background-size:100% 100% ;
         background-repeat: no-repeat;
         transform-style: preserve-3d;
@@ -184,7 +184,7 @@
       .section div:nth-child(3){
         position: relative;
         top: -240%;
-        background:url(img/js.jpg);
+        background:url(js.jpg);
         background-size:100% 100% ;
         background-repeat: no-repeat;
         transform-style: preserve-3d;
