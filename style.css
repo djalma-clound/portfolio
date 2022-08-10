@@ -1,8 +1,5 @@
 
  /* this top section is for small screen*/
- :root{
- 
- }
     *{
       box-sizing: border-box;
       padding: 0;
@@ -12,17 +9,15 @@
         font-family: sans-serif;
         background-image: url('');
         background-size: cover;
-        box-sizing: border-box;
-        border: 2px solid red;
-        height:
-       
+       border: 2px solid darkred;
+       height: auto;
        }
        nav { 
          background: #222;;
          position: fixed;
          z-index: 10;
          width: 100%;
-        top: 0px;
+      
        }
       
        ul{
@@ -34,29 +29,35 @@
          text-decoration: none;
          font-size: 1.3rem;
         } 
-       
+      
+        li.active{
+        
+          text-decoration: underline;
+         text-decoration-color:#005959;
+         color: #005959;
+      
+        }
        
         a:hover{
           text-decoration:underline;
-          
-        
-        }
-        a:hover{
           text-decoration-color: #005959;
-        
-        }
-       
     
+        }
+      
+      
         .menu li{
           font-size: 16px;
           padding: 15px 5px;
-          
         }
+     
         .menu li a{
           display: block;
-          color: rgb(255, 255, 255);
+          color: white;
           position: relative;
-        
+          margin-left: 20%;
+        }
+        .menu li a:hover{
+          color: #005959;
         }
         .logo a{
           font-size:1.3rem;
@@ -75,7 +76,7 @@
           border:1px solid #006d6d;
           border-radius: 50em;
           display:block;
-          top:20px;
+          margin-top:-17px;
         }
       
         .button.secondary{
@@ -87,17 +88,17 @@
         .menu{
           display:flex;
           flex-wrap: wrap;
-          justify-content: space-between;
+          justify-content:;
           align-items: center;
+           
         }
        .toggle{
          order: 1;
        }
        .item.button{
          order: 2;
-         
        }
-      
+       
     
        .item{
          width: 100%;
@@ -118,6 +119,7 @@
           height:2px ;
           position: relative;
           width:18px ;
+          right: 10px;
         }
         .bars::before,.bars::after{
           background: #999;
@@ -137,13 +139,12 @@
        position: relative;
        max-width:90%;
        height:auto;
-       background:transparent;
-       top: 120px;
+       background: teal;
+       top: 130px;
       padding: 10px;
       gap: 30px;
       display: grid;
      margin: 0 auto;
-     border: 1pc solid ;
      
      }
      .section div{  
@@ -153,81 +154,33 @@
       border: 2px solid;
        left:5%;
       padding: 10px;
-      background-image: url();
-      background-size: cover;
+      background-image: url(/Img/css.jpg);
+      background-size:100% 100%;
       background-repeat: no-repeat;
-      perspective: 10em;
-      transform-style: preserve-3d;
      }
      .section div:nth-child(1){
-      position: relative;
-      margin-left:-100% ;
-      background-image: none;
-      background-color: #222;
-      background-repeat: no-repeat;
-      background: url(img/html.jpg);
+      background-image: url(/Img/html.jpg);
       background-size: 100% 100%;
-      transform-style: preserve-3d;
-      perspective: 10em;
-      perspective-origin: 50% calc(50% - 5em);
+      background-repeat: no-repeat;
       }
       .section div:nth-child(2){
-       background: url(img/css.jpg);
-        background-size:100% 100% ;
+        background-image: url(/Img/css.jpg);
+        background-size: 100% 100%;
         background-repeat: no-repeat;
-        transform-style: preserve-3d;
-        top: 400px;
-        opacity: 0;
-        perspective: 10em;
-        perspective-origin: 50% calc(50% - 5em);
         }
-      .section div:nth-child(3){
-        position: relative;
-        top: -240%;
-         background: url(img/js.jpg);
-        background-size:100% 100% ;
-        background-repeat: no-repeat;
-        transform-style: preserve-3d;
-        perspective: 10em;
-        perspective-origin: 50% calc(50% - 5em);
-        }
-        .section div:nth-child(4){
-          background-image: url(github.jpg);
-          background-size: 100% 100%;
-          background-repeat: no-repeat;
-          position:relative;
-          margin-right:-130%;
-       
-          }
-          .change div:nth-child(1){
-            position: relative;
-           left:145%;
-            transition: .6s;
-            }
-          .change div:nth-child(2){
-            position: relative;
-           top: 10px;
-           opacity: 1;
-            transition: .6s;
-            }
-            .change div:nth-child(3){
-              position: relative;
-             top:0px;
-              transition: .6s;
-              }
-          .change div:nth-child(4){
-          position: relative;
-          margin-right: 25%;
-          transition: .6s;
-          }
-  
-         
+    .section div:nth-child(3){
+    background-image: url(/Img/js.jpg);
+    background-size:100% 100%;
+    background-repeat: no-repeat;
     
-    /*inside the box1*/
-
-
-
-     
+    }
+    .section div:nth-child(4){
+      background-image: url(/Img/github.jpg);
+      background-size:100% 100%;
+      background-repeat: no-repeat;
+      
+      }
+    
       .section-1{ 
         display:grid;
      max-width: 90%;
@@ -243,10 +196,9 @@
      width:100%;
      height: 200px;
      left: 3%;
-     background: url(img/eu.jpg);
-     background-size: cover;
+     background-image: url('/Img/eu.jpg');
+     background-size:100% 100%;
      background-repeat: no-repeat;
-     padding: 20px;
    }
    h3{ 
      color: lightgray;
@@ -260,32 +212,30 @@
    .section-1 p{  
      padding:10px ;
      line-height: 25px;
-     max-width: 1100px;
+     max-width: 1200px;
      margin: 0 auto;
-     left: 1%;
-  
-   }
-   #p1{
-    width: 80%;
+
    }
    em{ 
      color:teal;
      font-size:1rem;
      
    }
-  
-
-   #TUTORIAL{
-    color:red;
-    text-decoration: underline;
+   .second-img{ 
+     position: relative;
+     left: 1%;
+     width:90%;
+     height:200px;
+     background-image: url('/Img/Drugs.jpg');
+     background-size: cover;
+     background-repeat: no-repeat;
    }
-
    .box2{ 
     width: 100%; 
-    height: 40vh;
+    height: 20vh;
      background: black;
      position: relative;
-     top: 190px;
+     top: 140px;
      display: grid;
    }
    h1{
@@ -353,163 +303,55 @@ left: 30px;
      width: 100%;
      text-align: center;
    }
-   /*the tablet section start here*/
-   @media screen and (max-width:900px) {  
+   @media screen and (max-width:900px){
+    
     .menu{
-      justify-content:center;
-    }
-  
-    body{
-      height: 530vh;
+      display:flex;
+      flex-wrap: wrap;
+      justify-content:space-between;
+      align-items: center;
+     }
+     body{
       border: transparent;
-      background-color: transparent;
-    }
- .logo{
-      flex: 1;
-      
-    }
+     }
+   
     label{
       position: fixed;
-      font-size: 1.3rem;
-      color: white;
-      text-decoration: none;
-      padding: 7px 15px;
-      background:teal;
-      border:1px solid #006d6d;
-      border-radius: 50em;
-    
+      top: 30px;
     }
-  
-    .item.button{
-      width: auto;
-      order:1 ;
-      display: block;
-    }
-
-    .toggle{
-      order: 2;
-    }
-    .button.secondary{
-      border: 0;
-
-    }
-    .button a{
-      text-decoration: none;
-      padding: 7px 15px;
-      background:teal;
-      border:1px solid #006d6d;
-      border-radius: 50em;
-     }
-     .button.secondary a{
-       background: transparent;
-     }
-     .button a:hover{
-       transition: all .25s;
-     }
-     .button::not(.secondary) a:hover{
-       background: #006d6d;
-       border-color: #005959;
-     }
-     .button.secondary a:hover{
-       color:#ddd ;
-     }
-     .section-1 .img{ 
-      width:100%;
-      height: 200px;
-      left: 3%;
-      background-image: url(img/eu.jpg);
+    .second-img{ 
+      position: relative;
+      left: -1%;
+      width:80%;
+      height:200px;
+      background-image: url('/Img/download.jpg');
       background-size:100% 100%;
       background-repeat: no-repeat;
-      padding: 20px;
+      margin: 0 auto;
+      display: ;
     }
-      .section div{
-      width: 80%;
-      height: 200px;
-      }
-      .section div:nth-child(1){
-        position: relative;
-        margin-left:-100% ;
-        background-image: none;
-        background-color: #222;
-        background-repeat: no-repeat;
-        background: url(img/html.jpg);
-        background-size: 100% 100%;
-        transform-style: preserve-3d;
-        perspective: 10em;
-        perspective-origin: 50% calc(50% - 5em);
-        }
-        .section div:nth-child(2){
-          background:url(img/css.jpg);
-          background-size:100% 100% ;
-          background-repeat: no-repeat;
-          transform-style: preserve-3d;
-          top: 400px;
-          opacity: 0;
-          perspective: 10em;
-          perspective-origin: 50% calc(50% - 5em);
-          }
-        .section div:nth-child(3){
-          position: relative;
-          top: -240%;
-          background:url(js.jpg);
-          background-size:100% 100% ;
-          background-repeat: no-repeat;
-          transform-style: preserve-3d;
-          perspective: 10em;
-          perspective-origin: 50% calc(50% - 5em);
-          }
-          .section div:nth-child(4){
-            background-image: url(github.jpg);
-            background-size: 100% 100%;
-            background-repeat: no-repeat;
-            position:relative;
-            margin-right:-130%;
-         
-            }
-            .change div:nth-child(1){
-              position: relative;
-             left:115%;
-              transition: .6s;
-  
-              }
-            .change div:nth-child(2){
-              position: relative;
-             top: 10px;
-             opacity: 1;
-              transition: .6s;
-              left: 15%;
-              }
-              .change div:nth-child(3){
-                position: relative;
-               top:0px;
-                transition: .6s;
-                left: 15%;
-                }
-            .change div:nth-child(4){
-            position: relative;
-            margin-right: 25%;
-            transition: .6s;
-            left: 15%;
-            }
-           
-    }
-    .box2{
-      background:black;
-      position: relative;
-      top: 300px;
-      min-width:100%;
-      max-width: 100%;
-    }
-      /*small screen mobile Menu */
-      @media screen and (max-width:400px) {  
+   }
+
+      /*Tablet Menu */
+      @media screen and (max-width:468px) {  
+   
       .menu{
-        justify-content:center;
+        display:flex;
+        flex-wrap: wrap;
+        justify-content:space-between;
+        align-items: center;
+      
+       
       }
-    
       body{
-     height: 550vh;
-     background-color:transparent;
-       background:transparent;
+        border:transparent;
+    
+      }
+      .contact{
+        position: relative;
+        font-size: 14px;
+        left: -10px;
+        padding:8px;
       }
    .logo{
         flex: 1;
@@ -524,12 +366,12 @@ left: 30px;
         background:teal;
         border:1px solid #006d6d;
         border-radius: 50em;
-        
+        top: 30px;
       }
     
       .item.button{
         width: auto;
-        order:1 ;
+        order:1;
         display: block;
       }
 
@@ -542,10 +384,11 @@ left: 30px;
       }
       .button a{
         text-decoration: none;
-        padding: 7px 15px;
+        padding: 5px 17px;
         background:teal;
         border:1px solid #006d6d;
         border-radius: 50em;
+   
        }
        .button.secondary a{
          background: transparent;
@@ -556,6 +399,7 @@ left: 30px;
        .button::not(.secondary) a:hover{
          background: #006d6d;
          border-color: #005959;
+        
        }
        .button.secondary a:hover{
          color:#ddd ;
@@ -564,94 +408,116 @@ left: 30px;
         width: 80%;
         height: 200px;
         }
-        .section div:nth-child(1){
+        .section div{  
           position: relative;
-          margin-left:-100% ;
-          background-image: none;
-          background-color: #222;
+          width: 80%;
+          height: 20vh;
+         border: 2px solid;
+          left:5%;
+         padding: 10px;
+         background-image: url(/Img/css.jpg);
+         background-size:100% 100%;
+         background-repeat: no-repeat;
+        }
+        .section div:nth-child(1){
+         background-image: url(/Img/html.jpg);
+         background-size: 100% 100%;
+         background-repeat: no-repeat;
+         position: relative;
+         left: -100%;
+         transition: .4s ease;
+         }
+         .section div:nth-child(2){
+           background-image: url(/Img/css.jpg);
+           background-size: 100% 100%;
+           background-repeat: no-repeat;
+           position:relative;
+           top: -117%;
+           z-index: -1;
+           }
+       .section div:nth-child(3){
+       background-image: url(/Img/js.jpg);
+       background-size:100% 100%;
+       background-repeat: no-repeat;
+     
+       }
+       .section div:nth-child(4){
+         background-image: url(/Img/github.jpg);
+         background-size:100% 100%;
+         background-repeat: no-repeat;
+         
+         }
+         /*animation start here*/
+        .change div:nth-child(1){
+          position: relative;
+          left:20px;
+          transition: .4s ease;
+        }
+        .change #second{
+          position: relative;  
+          top: 7px;        
+          transition: .4s ease;
+          z-index: 1;
+        }
+        #third{
+          position: relative;
+         top: 150%;
+        }
+
+        .change #third{
+          position: relative;
+          top: 10px;
+          transition: .4s ease;
+        }
+        #quarta{
+          position: relative;
+          top: -110%;
+          z-index:-1;
+        }
+        .change #quarta{
+          position: relative;
+          top: 10px;
+          transition: .4s ease;
+          z-index: 1;
+      
+        }
+        .second-img{ 
+          position: relative;
+          left: 1%;
+          width:80%;
+          height:200px;
+          background-image: url('/Img/download.jpg');
+          background-size:100% 100%;
           background-repeat: no-repeat;
-          background: url(img/html.jpg);
-          background-size: 100% 100%;
-          transform-style: preserve-3d;
-          perspective: 10em;
-          perspective-origin: 50% calc(50% - 5em);
-          }
-          .section div:nth-child(2){
-            background:url(/img/css.jpg);
-            background-size:100% 100% ;
-            background-repeat: no-repeat;
-            transform-style: preserve-3d;
-            top: 400px;
-            opacity: 0;
-            perspective: 10em;
-            perspective-origin: 50% calc(50% - 5em);
-            }
-          .section div:nth-child(3){
-            position: relative;
-            top: -240%;
-            background:url(/img/js.jpg);
-            background-size:100% 100% ;
-            background-repeat: no-repeat;
-            transform-style: preserve-3d;
-            perspective: 10em;
-            perspective-origin: 50% calc(50% - 5em);
-            }
-            .section div:nth-child(4){
-              background-image: url(/img/github.jpg);
-              background-size: 100% 100%;
-              background-repeat: no-repeat;
-              position:relative;
-              margin-right:-130%;
-           
-              }
-              .change div:nth-child(1){
-                position: relative;
-               left:115%;
-                transition: .6s;
-    
-                }
-              .change div:nth-child(2){
-                position: relative;
-               top: 10px;
-               opacity: 1;
-                transition: .6s;
-                left: 15%;
-                }
-                .change div:nth-child(3){
-                  position: relative;
-                 top:0px;
-                  transition: .6s;
-                  left: 15%;
-                  }
-              .change div:nth-child(4){
-              position: relative;
-              margin-right: 25%;
-              transition: .6s;
-              left: 15%;
-              }
-             
+          margin: 0 auto;
+          display: ;
+        }
+        /*animation end here*/
       }
-      .box2{
-        background-color:black;
-        position: relative;
-        top: 300px;
-        min-width:115%;
-        max-width:800px;
-        left:-30px;
-      }
-        /*tablet and other big screen start here*/
+        /*laptop and other big screen start here*/
        @media screen and (min-width:768px) {
+         .menu{
+          display:flex;
+          flex-wrap: wrap;
+          justify-content:;
+          align-items: center;
+          position: relative;
+          left: 70%;
+          transition: .4s ease-in-out;
+        }
+        .menu li{
+          position: relative;
+         
+        }
+       
          .item{
            display:block ;
            width: auto;
            
          }
-         body{
-          height:430vh;
-          border: 1px transparent;
-      
-         }
-        
+        body{
+          border: transparent;
+        }
          nav { 
           background: #222;;
           position: fixed;
@@ -661,17 +527,17 @@ left: 30px;
          #item{
         display: none;
          }
-    
          .toggle{
            display: none;
          }
          .logo{
-           order: 0
+           order: 0;
+           
          }
          label{
           position: fixed;
           font-size: 1.3rem;
-          color: rgb(255, 255, 255);
+          color: white;
           text-decoration: none;
           padding: 7px 15px;
           background:teal;
@@ -680,19 +546,17 @@ left: 30px;
           display: block;
           left: 5%;
           line-height: 30px;
-         margin-top:-13px;
+         top: 25px;
         }
          .item {
            order: 1;
          }
-        
          .button{
            order:2;
          }  
          .menu li{
            padding: 15px 10px;
-           margin-left: 100px;
-
+           
          }
          .menu li .button{
            padding-right:0;
@@ -701,8 +565,8 @@ left: 30px;
           position: relative;
           max-width: 1500px;
           height:auto;
-          background:transparent;
-          top: 105px;
+          background: teal;
+          top: 130px;
          padding: 10px;
          gap: 30px;
          display: grid;
@@ -721,34 +585,114 @@ left: 30px;
          
         }
         .section div:nth-child(1){
-          background-image: url(/img/html.jpg);
+          background-image: url(/Img/html.jpg);
           background-size: 100% 100%;
           background-repeat: no-repeat;
-          --rotateSpeed: 30s;
-          --bounceSpeed:2s;
           }
         .section div:nth-child(4){
-        background-image: url(/img/github.jpg);
+        background-image: url(/Img/html.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        
+        }
+       .section{  
+       position: relative;
+       max-width:90%;
+       height:auto;
+       background: teal;
+       top: 130px;
+      padding: 10px;
+      gap: 30px;
+      display: grid;
+     margin: 0 auto;
+     
+     }
+     .section div{  
+       position: relative;
+       width: 50%;
+       height: 20vh;
+      border: 2px solid;
+       left:5%;
+      padding: 10px;
+      background-image: url(/Img/html.jpg);
+      background-size:100% 100%
+      ;
+      background-repeat: no-repeat;
+     }
+     .section div:nth-child(1){
+      background-image: url(/Img/html.jpg);
+      background-size:100% 100%;
+      background-repeat: no-repeat;
+      position: relative;
+      left: -100%;
+      opacity: 0;
+      }
+    
+      #second{
+      position: relative;
+       margin-right: -100%;
+      }
+      .section div:nth-child(2){
+        background-image: url(/Img/css.jpg);
         background-size:100% 100%;
         background-repeat: no-repeat;
-     
         }
-        .change div:nth-child(1){
-          position: relative;
-         left:131%;
-          transition: .6s;
-
+        .section div:nth-child(3){
+          background-image: url(/Img/js.jpg);
+          background-size:100% 100%;
+          background-repeat: no-repeat;
+          
           }
-       .Drogas{
-          font-size: 1.4rem;
-          position: absolute;
-          bottom: 3PX;
-          color: rgb(171, 12, 25);
+    .section div:nth-child(4){
+    background-image: url(/Img/github.jpg);
+    background-size:100% 100%;
+    background-repeat: no-repeat;
+    
+    }
+    #third{
+      position: relative;
+      top: -120%;
+      opacity: 0;
+    }
+      /*slide and for first child*/
+      .change div:nth-child(1){
+        left: 40px;
+        opacity: 1;
+        transition: .4s ease-in-out;
+        z-index: 1;
+      }
+       /*slide and for second child*/
+       .change #second{
+        position: relative;
+        margin-right: 180px;
+        transition: .5s ease-in-out;
+       
+      }
+       /*slide and for third child*/
+       .change #third{
+        position: relative;
+        top: 2px;
+        opacity: 1;
+        transition: .4s ease-in-out;
+       
+      }
+        #quarta{
+          position: relative;
+          margin-top: -100%;
         }
+       /*slide and for quarta child*/
+       .change #quarta{
+        position: relative;
+        margin-top:10;
+        opacity: 1;
+        transition: .4s ease-in-out;
+       
+      }
+       
        
       .section-1{ 
         display:grid;
-     max-width:1200px;
+     max-width:1500px;
      height: auto;
      background: ;
      position: relative;
@@ -762,7 +706,7 @@ left: 30px;
      width:80%;
      height: 500px;
      left: 3%;
-     background-image: url(/img/eu.jpg);
+     background-image: url('/Img/eu.jpg');
      background-size:100% 100%;
      background-repeat: no-repeat;
      margin: 0  auto;
@@ -779,7 +723,6 @@ left: 30px;
      padding:10px ;
      line-height: 30px;
      font-size: 1.3rem;
-     max-width: 910px;
    }
    em{ 
      color:teal;
@@ -790,21 +733,20 @@ left: 30px;
      position: relative;
      left: 1%;
      width:80%;
-     height:500px;
-     background-image: url(/img/eu.jpg);
+     height:200px;
+     background-image: url('/Img/download.jpg');
      background-size:100% 100%;
      background-repeat: no-repeat;
      margin: 0 auto;
+     display: ;
    }
- 
-   .box2{  
-    min-width:120%;
+   .box2{ 
+    width: 100%; 
     height: 40vh;
-     background:black;
+     background: black;
      position: relative;
-     top: 280px;
+     top: 140px;
      display: grid;
-     left:-100px;
    }
    .box2 h1{  
      position: relative;
@@ -840,27 +782,51 @@ left: 30px;
      width: 100%;
      text-align: center;
    }
-   /* some tablet and big screen pc screen*/
-   @media screen and (min-width:1024px) { 
+   /* tablet screen*/
+   @media screen and (max-width:1024px) { 
     
      nav { 
-         background: transparent;
+         background: #222;;
          position: fixed;
          width: 100%;
          z-index: 10;
         
        }
         body{
-          
+          border: 2px solid darkmagenta;
+          background-color: #005959;
         }
         label{
           position:absolute;
           left:30px;
-          top: 10px;
+          top: 20px;
         }
         .logo .log{
           display: none;
         }
-
+        .section div{  
+          position: relative;
+          width: 80%;
+          height: 35vh;
+         border: 2px solid;
+          left:5%;
+         padding: 10px;
+         background-image: url(/Img/Girl.jpg);
+         background-size: cover;
+         background-repeat: no-repeat;
+        }
+        .section div:nth-child(1){
+         background-image: url(/Img/Guy.jpg);
+         background-size: cover;
+         background-repeat: no-repeat;
          }
+       .section div:nth-child(4){
+       background-image: url(/Img/Drugs.jpg);
+       background-size: cover;
+       background-repeat: no-repeat;
+       
+       }
+       
+         }
+
         
