@@ -159,23 +159,23 @@
       background-repeat: no-repeat;
      }
      .section div:nth-child(1){
-      background-image: url(/Img/html.jpg);
+      background-image: url(/html.jpg);
       background-size: 100% 100%;
       background-repeat: no-repeat;
       }
       .section div:nth-child(2){
-        background-image: url(/Img/css.jpg);
+        background-image: url(/css.jpg);
         background-size: 100% 100%;
         background-repeat: no-repeat;
         }
     .section div:nth-child(3){
-    background-image: url(/Img/js.jpg);
+    background-image: url(/js.jpg);
     background-size:100% 100%;
     background-repeat: no-repeat;
     
     }
     .section div:nth-child(4){
-      background-image: url(/Img/github.jpg);
+      background-image: url(/github.jpg);
       background-size:100% 100%;
       background-repeat: no-repeat;
       
@@ -196,7 +196,7 @@
      width:100%;
      height: 200px;
      left: 3%;
-     background-image: url('/Img/eu.jpg');
+     background-image: url('/eu.jpg');
      background-size:100% 100%;
      background-repeat: no-repeat;
    }
@@ -226,7 +226,7 @@
      left: 1%;
      width:90%;
      height:200px;
-     background-image: url('/Img/Drugs.jpg');
+     background-image: url('/.jpg');
      background-size: cover;
      background-repeat: no-repeat;
    }
@@ -324,7 +324,7 @@ left: 30px;
       left: -1%;
       width:80%;
       height:200px;
-      background-image: url('/Img/download.jpg');
+      background-image: url('/download.jpg');
       background-size:100% 100%;
       background-repeat: no-repeat;
       margin: 0 auto;
@@ -415,12 +415,12 @@ left: 30px;
          border: 2px solid;
           left:5%;
          padding: 10px;
-         background-image: url(/Img/css.jpg);
+         background-image: url(/css.jpg);
          background-size:100% 100%;
          background-repeat: no-repeat;
         }
         .section div:nth-child(1){
-         background-image: url(/Img/html.jpg);
+         background-image: url(/html.jpg);
          background-size: 100% 100%;
          background-repeat: no-repeat;
          position: relative;
@@ -428,7 +428,7 @@ left: 30px;
          transition: .4s ease;
          }
          .section div:nth-child(2){
-           background-image: url(/Img/css.jpg);
+           background-image: url(/css.jpg);
            background-size: 100% 100%;
            background-repeat: no-repeat;
            position:relative;
@@ -436,13 +436,13 @@ left: 30px;
            z-index: -1;
            }
        .section div:nth-child(3){
-       background-image: url(/Img/js.jpg);
+       background-image: url(/js.jpg);
        background-size:100% 100%;
        background-repeat: no-repeat;
      
        }
        .section div:nth-child(4){
-         background-image: url(/Img/github.jpg);
+         background-image: url(/github.jpg);
          background-size:100% 100%;
          background-repeat: no-repeat;
          
@@ -486,7 +486,7 @@ left: 30px;
           left: 1%;
           width:80%;
           height:200px;
-          background-image: url('/Img/download.jpg');
+          background-image: url('/download.jpg');
           background-size:100% 100%;
           background-repeat: no-repeat;
           margin: 0 auto;
@@ -614,13 +614,13 @@ left: 30px;
       border: 2px solid;
        left:5%;
       padding: 10px;
-      background-image: url(/Img/html.jpg);
+      background-image: url(/html.jpg);
       background-size:100% 100%
       ;
       background-repeat: no-repeat;
      }
      .section div:nth-child(1){
-      background-image: url(/Img/html.jpg);
+      background-image: url(/html.jpg);
       background-size:100% 100%;
       background-repeat: no-repeat;
       position: relative;
@@ -633,18 +633,18 @@ left: 30px;
        margin-right: -100%;
       }
       .section div:nth-child(2){
-        background-image: url(/Img/css.jpg);
+        background-image: url(/css.jpg);
         background-size:100% 100%;
         background-repeat: no-repeat;
         }
         .section div:nth-child(3){
-          background-image: url(/Img/js.jpg);
+          background-image: url(/js.jpg);
           background-size:100% 100%;
           background-repeat: no-repeat;
           
           }
     .section div:nth-child(4){
-    background-image: url(/Img/github.jpg);
+    background-image: url(/github.jpg);
     background-size:100% 100%;
     background-repeat: no-repeat;
     
@@ -706,7 +706,7 @@ left: 30px;
      width:80%;
      height: 500px;
      left: 3%;
-     background-image: url('/Img/eu.jpg');
+     background-image: url('/eu.jpg');
      background-size:100% 100%;
      background-repeat: no-repeat;
      margin: 0  auto;
@@ -734,7 +734,7 @@ left: 30px;
      left: 1%;
      width:80%;
      height:200px;
-     background-image: url('/Img/download.jpg');
+     background-image: url('/download.jpg');
      background-size:100% 100%;
      background-repeat: no-repeat;
      margin: 0 auto;
@@ -811,12 +811,12 @@ left: 30px;
          border: 2px solid;
           left:5%;
          padding: 10px;
-         background-image: url(/Img/Girl.jpg);
+         background-image: url(/Girl.jpg);
          background-size: cover;
          background-repeat: no-repeat;
         }
         .section div:nth-child(1){
-         background-image: url(/Img/Guy.jpg);
+         background-image: url(/Guy.jpg);
          background-size: cover;
          background-repeat: no-repeat;
          }
