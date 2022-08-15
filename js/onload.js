@@ -1,11 +1,11 @@
 
 function checkCookies() {
-  var text = "";
-
-  if (navigator.cookieEnabled == true) {
-    text = "voce chegou.";
-  } else {
-     text = "qualse la DJALMA.";
+    var text = "";
+  
+    if (navigator.cookieEnabled == true) {
+      text = "welcome.";
+    } else {
+       text = "come back soon";
+    }
+    document.getElementsByClassName("second").classList.add('move');
   }
-  document.getElementById("div-sect").classList.add('change');
-}
