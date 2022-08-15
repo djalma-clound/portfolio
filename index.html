@@ -1,95 +1,100 @@
-<!<!DOCTYPE HTMl>
+<!DOCTYPE html>
+<html lang="en">
 
-  <head>
-    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css" type="text/css" media="all" />
-    <title></title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-  </head>
+    <link rel="stylesheet" href="style/style.css">
+    <title>portfolio</title>
+</head>
 
-  <body id="div-sect" onload="checkCookies()">
-
-    <nav>
-      <label for="LOGO">Dj-Techs</label>
-      <ul class="menu">
-
-        <li class="logo"><a class="log" href="#">DO-OUTRO LADO</a></li>
-
-        <li class="active"><a class="item2" href="index.html">home</a></li>
-        <li class="item"><a class="item2" href="about.html">about</a></li>
-
-        <li class="item"><a class="item2" href="Artigos.html">artigos</a></li>
-
-        <li class="item"><a href="Ford.html"></a></li>
-        </li>
-
-        <li class="item button"><a href="Information.html">Info</li>
-        <li class="item button secondary"><a class="contact" href="contact.html">contact</a></li>
-        <li class="toggle"><span class="bars"></span>
-    </nav>
-
-    <!--pictures section-->
-    <div id="div-sect" class="section">
-      <div class="box1"></div>
-      <div id="second"></div>
-      <div id="third"></div>
-      <div id="quarta"></div>
-    </div>
-    <!--picture section end here-->
-
-    <div class="section-1">
-      <h1>Pedintes nos Estados Unidos</h1>
-      <div class="Img"></div>
-      <br /><br />
-      <h3> POR<em class="em"> Dj-Techs</em></h3>
-      <br />
-      <p>Oi meu nome é Djalma da silva
-        sou desenvolvedor de website. Eu estou estudando iss por alguns tempo e é algo que eu amo fazer.
-        <br />
-        Cada pessoa em nesse mundo tem algo que ama fazer , algo que a leva a loucura de perder até noites de sono e
-        isso é o que passa comigo e muitas outras pessoas como eu que ama trabalha com tecnologia, sei que há um caminho
-        grande ainda pra ser traçado e aqui vamos nós sem tempo a perder renovando e se enterrando das coisas novas.
-        A vida de um programador ou alguém que trabalha com tecnologia ou desenvolvimento de websites e a vida de um
-        aluno e professor.</em>.
-        <br /> <br>
-        E um aprendizado contínuo todo dia algo nova surgi e todo dia tem alguém buscando por algo diferente ou mais
-        complexo, se você chegou até meu website, da uma passeada por essa humilde criação feita por mim mesmo mas
-        observe tudo e passa o mouse em tudo pra ver o que se movimenta ou se algo que te chama a atenção
-      </p>
-      <div id="segunda" class="second-img"></div>
-      <p>Hi my name is Djalma da silva and I’m Brazilian I’m trying to become a web developer, I already know a little
-        bit,
-        and it’s time to do something that i love and will enjoy it every day. <em> </em>.
-        <br />I know it's not easy to learn but with dedication and hard work anyone can achieve, with the right tools
-        and time everything falls in the right place.
-        <br />
-        Till this moment I was trying to learn everything by tutorial on <em>youtube </em>  and googling some, but the best way
-        is
-        to Learn how to ask the right question on google and everything gets just a little easy. <br />
-
-
-      </p>
-    </div>
-    <div class="box2">
-      <h1>Dj-Techs</h1>
-      <div id="links">
-        <a class="facebook" href="#"><i class="fa fa-facebook-f"></i></a>
-        <a class="insta" href="#"> <i class="fa fa-instagram"></i></a>
-        <a class="youtube" href="https://www.youtube.com/watch?v=NlUef1tqABw"><i class="fa fa-youtube"></i></a>
-        <a class="twitter" href="#"> <i class="fa fa-twitter"></i></a>
-      </div>
-      <p>Copyright 2022 Por Dj-techs. Todos os direitos reservados.</p>
-    </div>
+<body onload="checkCookies()">
+    <section class="header">
+        <a class="logo" href="#">DJ-TECHS</a>
+        <div id="navbar">
+            <button aria-label="Abri Menu" id="btn-mobile" aria-haspopup="true" aria-controls="menu"
+                aria-expanded="false">Menu <span id="hamburger"></span>
+            </button>
+            <ul id="menu">
+                <li><a class="active" href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="index.html">Shop</a></li>
+            </ul>
+        </div>
+    </section>
+    <h1></h1>
+    <section class="second">
+        <div id="inSecond" class="down-part"><img src="/img/eu2.jpg" alt=""></div>
+        <h4>Hi my name is Djalma silva I'm a web developer</h4>
+        <p> I aways love to build computers or fix it, every time when I'm very tired or with stress I wait everyone go
+            to sleap and
+            I take my computer apart. <br> I cleaning and change something and put it back
+            together, it's a type of remedy for me. <br>
+            <br> But what I most like to do is to have some project to work on it, web project or something else.
+            The problem solving is a good way to have your brain working good.
+        </p>
+        <div id="ferramentas">
+            <h5> This is what I have been using till now.</h5>
+            <em>HTML, CSS, JAVASCRIPT AND PHP</em>
+        </div>
 
 
 
+    </section>
+    <section class="first">
 
-    <script src="Js/Main.js"></script>
-    <script src="Js/changing.js"></script>
-    <script src="Js/nav.js"></script>
-    <script src="Js/onload.js"></script>
-  </body>
+        <div id="the-box" onmouseover="rotate()">
 
-  </html>
+
+            <div id="div"></div>
+            <div id="div"></div>
+            <div id="div"></div>
+            <div id="div"></div>
+            <div class="text">
+
+
+                <p> <strong class="strong"> Here are the technologies that I use to work on my project. </strong>
+                    <br> <br>
+                    With this four technologies I can get the job done making a good and responsive website, with
+                    animation, popup, image slide,
+                    hover effect, contact form and much more!
+
+                </p>
+            </div>
+
+            <div id="containerForm">
+                <form id="form" action="check.php"  onclick="validate()" method="post">
+                    <input type="text" name="name" id="fname" placeholder="your name">
+                    <span class="error">* <?php echo $nameErr;?></span>
+                    <input type="email" name="email" id="email" placeholder=" email">
+                    <span class="error">* <?php echo $nameErr;?></span>
+                    <input type="text" name="subject" id="subject" placeholder="subject">
+                    <span class="error">* <?php echo $nameErr;?></span>
+                    <input type="text" name="message" id="message" placeholder="your message">
+                    <span class="error">* <?php echo $nameErr;?></span>
+                    <input id="button" type="button" value="submit">
+
+
+                </form>
+
+            </div>
+        </div>
+        </div>
+        <div class="img">
+            </p>
+        </div>
+
+    </section>
+    
+
+    <script src="js/main.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/rotate.js"></script>
+    <script src="js/onload.js"></script>
+    <script src="js/time.js"></script>
+    <script src="js/validation.js"></script>
+</body>
+
+</html>
