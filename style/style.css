@@ -178,21 +178,21 @@ h1{
    
 }
 #the-box div:first-child{
-    background: url(/img/html.jpg);
+    background: url(html.jpg);
     background-size: 100% 100%;
 }
 #the-box div:nth-child(2){
-    background: url(/img/css.jpg);
+    background: url(css.jpg);
     background-size: 100% 100%;
     position: relative;
     left: 80%;
 }
 #the-box div:nth-child(3){
-    background: url(/img/js.jpg);
+    background: url(js.jpg);
     background-size: 100% 100%;
 }
 #the-box div:nth-child(4){
-    background: url(/img/php.png);
+    background: url(php.png);
     background-size: 100% 100%;
     position: relative;
     left: 80%;
@@ -540,12 +540,12 @@ background-color: #E3E6F3;
     
     
           #the-box div:first-child{
-              background: url(/img/html.jpg);
+              background: url(html.jpg);
               background-size: 100% 100%;
             position: ;
           }
           #the-box div:nth-child(2){
-              background: url(/img/css.jpg);
+              background: url(css.jpg);
               background-size: 100% 100%;
               position: ;
               left: -1%;
@@ -553,14 +553,14 @@ background-color: #E3E6F3;
             
           }
           #the-box div:nth-child(3){
-              background: url(/img/js.jpg);
+              background: url(js.jpg);
               background-size: 100% 100%;
               position:;
               margin-top: ;
               
           }
           #the-box div:nth-child(4){
-              background: url(/img/php.png);
+              background: url(php.png);
               background-size: 100% 100%;
               position: ;
              left: -1%;
@@ -937,25 +937,25 @@ background-color: #E3E6F3;
 
 
       #the-box div:first-child{
-          background: url(/img/html.jpg);
+          background: url(html.jpg);
           background-size: 100% 100%;
         
       }
       #the-box div:nth-child(2){
-          background: url(/img/css.jpg);
+          background: url(css.jpg);
           background-size: 100% 100%;
           position: relative;
           left: -1%;
           top:5px;
       }
       #the-box div:nth-child(3){
-          background: url(/img/js.jpg);
+          background: url(js.jpg);
           background-size: 100% 100%;
           position: relative;
           top:-170px;
       }
       #the-box div:nth-child(4){
-          background: url(/img/php.png);
+          background: url(php.png);
           background-size: 100% 100%;
           position: relative;
          left: -1%;
