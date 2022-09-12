@@ -1,0 +1,509 @@
+*{
+    padding: 0px;
+    margin: 0px;
+
+  }
+  body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-sizing: border-box;
+    overflow-x: hidden;
+   background-color: black;
+    }
+ 
+    nav{
+      width: 100%;
+      height: 8vh;
+      position: fixed;
+      background-color:black;
+      justify-content: space-between;
+      display: flex;
+      z-index: 1;
+      top: 0px;
+      transition: .6s;
+  
+  }
+  .logo{
+    position: absolute;
+    width: 70px;
+    height: 6vh;
+    top: 5px;
+}
+
+  .active-nav{
+      background-color:white;
+      transition: .6s ease-in-out;
+  }
+  
+  #menu{
+      position: absolute;
+    display: flex;
+    line-height: 30px;
+    right: 10px;
+     
+  }
+  #menu li{
+      list-style-type: none;
+      margin: 10px;
+  }
+  #menu li a{
+      text-decoration: none;
+      font-size: 20px;
+      color:black;
+  
+  }
+  #menu a:hover{
+      color: teal;
+      text-decoration: underline;
+  }
+  #menu li.active a{
+      text-decoration: underline;
+      text-decoration-color: teal;
+      text-underline-offset: 3px;
+      color:teal;
+  }
+  .active-nav #menu li.active a{
+      text-decoration: underline;
+      text-decoration-color: teal;
+      text-underline-offset: 3px;
+      color:teal;
+  
+  }
+  .active-nav #menu li a{
+      color:white;
+  }
+  label{
+      position: relative;
+      left: 35px;
+      line-height: 43px;
+      font-size:30px;
+      color: white;
+      cursor: pointer;
+      
+  }
+  .active-nav label{
+      color:white;
+  }
+  /*under-nav slide start here */
+  #under-nav{
+    width: 10px;
+    height: 2vh;
+    border: transparent;
+    position:fixed;
+    top: 50px;
+    left: 1px;
+    z-index: 100;
+    transition: 5s ease-in-out;
+    transition: 0s ease-out;
+    border: transparent;
+    background-color: rgb(100, 146, 230);
+    
+  }
+  #under-nav p{
+    width: 10px;
+    font-size: 10px;
+    height:2vh;
+    color:black;
+    border: transparent;
+    z-index: 100;
+    text-align: center;
+    display: none;
+  }
+  .active-nav #under-nav p{
+    width: 100%;
+    display: block;
+    text-align: center;
+    border: transparent;
+  }
+  .active-nav2 #under-nav p{
+    width: 100%;
+  }
+  .almentar-tamanho #under-nac p{
+    z-index: 100;
+  }
+  .active-container #under-nav{
+    width:20%;
+    border: 1px solid rgb(103, 133, 194);
+    position:fixed;
+    top: 50px;
+    left: 1px;
+    z-index: 10;
+    transition: 3s ease-in-out;
+  }
+  .change-color #under-nav{
+    width: 80%;
+    border: transparent;
+    position:fixed;
+    top: 50px;
+    left: 1px;
+    z-index: 10;
+    transition: 3s ease-in-out;
+  } 
+  .active-nav #under-nav{
+    width:10%;
+    border: transparent;
+    position:fixed;
+    top: 50px;
+    left: 1px;
+    z-index: 10;
+    transition: 5s ease-in-out;
+  }
+  .active-nav2 #under-nav{
+    width: 100%;
+    z-index: 10;
+    transition: 3s ease-in-out;
+  }
+  .change-tamanho #under-nav{
+    width:30%;
+    border: 1px solid red;
+    position:fixed;
+    top: 50px;
+    left: 1px;
+    z-index: 10;
+    transition: 3s ease-in-out;
+  }
+  .almentar-tamanho #under-nav{
+    width:60%;
+    border: 1px solid red;
+    position:fixed;
+    top: 50px;
+     left: 1px;
+    z-index: 10;
+    transition: 5s ease-in-out;
+  }
+  .almentar-size #under-nav{
+    width:70%;
+    border: 1px solid red;
+    position:fixed;
+    top: 50px;
+     left: 1px;
+    z-index: 100;
+    transition: 5s ease-in-out;
+  }
+  .spand #under-nav{
+    width:100%;
+    border: 1px solid red;
+    position:fixed;
+    top: 50px;
+     left: 1px;
+    z-index: 100;
+    transition: 6s ease-in-out;
+  }
+  /*under-nav slide end here*/
+  #menu{
+    display: flex;
+    float: right;
+    line-height: 40px;
+    gap: 20px;
+    margin-right: 20px;
+    list-style: none;
+  }
+  #menu li a{
+    text-decoration: none;
+    color:white;
+  }
+
+  #menu li a:hover{
+    transition:background-color 3s ease-out;
+    color: rgb(165, 100, 92);
+    font-size: 20px;
+    right: 2%;
+    transition: 2s ease-in-out;
+  
+  }
+  #btn-mobile{ 
+     display: none;
+  }
+  #hamburger{
+      display: none;
+  }
+  h1{
+    position: relative;
+    top: 70px;
+    text-align: center;
+    color: white;
+}
+
+#containerForm{
+  position: relative;
+  top: 100px;
+  width: 80%;
+  height:80vh;
+  margin: 0 auto;
+  display: grid;
+  background-color:lightgray;
+}
+#containerForm form{
+  display: grid;
+  width: 80%;
+  height: 50vh;
+  margin:0 auto;
+  margin-top: 10px;
+  gap: 2px;
+  background-color: white;
+}
+#containerForm form input{
+  height: 6vh;
+  margin: 10px;
+  padding: 10px;
+}
+#containerForm form #message{
+  height: 15vh;
+  padding: 10px;
+}
+#button{
+  position: relative;
+  width: 100px;
+  left: 50%;
+  top: -10px;
+  transform: translate(-50%, -20%);
+}
+
+/*Mobile section start here */
+@media (max-width:700px){
+    
+    body{
+      overflow-x: hidden;
+      
+      
+    }
+   
+    nav{
+      width: 100%;
+      height: 8vh;
+      position: fixed;
+      background-color:white;
+      justify-content: space-between;
+      display: flex;
+      z-index: 1;
+      top: 0px;
+  
+  }
+  label{
+    color: black;
+  }
+  #menu{
+      position: absolute;
+      right: 0;
+      top:45px;
+      display: flex;
+      flex-direction: column;
+      width: 50%;
+      height: 100vh;
+      background-color: black;
+      text-align: center;
+      visibility:hidden;
+  }
+  #menu.active{
+      position: absolute;
+      right: -15px;
+      top:35px;
+      display: flex;
+      flex-direction: column;
+      width: 50%;
+      height: 100vh;
+      background-color: black;
+      text-align: center;
+      visibility:visible;
+      z-index: 100000;
+  }
+  #menu.active li{
+      position:sticky;
+  }
+  #menu li a{
+      text-decoration: none;
+      font-size: 20px;
+      color:white;
+  
+  }
+  #menu li a:hover{
+     color:teal; 
+     text-decoration: underline;
+  }
+  #menu.active #bars::before{
+      transform: rotate(190deg);
+  }
+  #menu.active  #bars{
+      position:fixed;
+      top:20px;
+      float: right;
+      right: 40px;
+      width: 30px;
+      height: 2px;
+      background-color: rgb(224, 201, 201);
+      cursor: pointer;
+      visibility: visible;
+  }
+ #bars{
+  position:fixed;
+  top:20px;
+  float: right;
+  right: 20px;
+  width: 30px;
+  height: 2px;
+  background-color: rgb(204, 66, 66);
+  cursor: pointer;
+ }
+ #bars::before{
+  position: absolute;
+  content:"";
+  top:5px;
+  width: 30px;
+  height: 2px;
+  background-color: rgb(204, 66, 66);
+ }
+ #bars::after{
+  position: absolute;
+  content:"";
+  top:-5px;
+  width: 30px;
+  height: 2px;
+  background-color: rgb(156, 56, 56);
+ }
+ 
+    .main{
+      position: absolute;
+      display: flex;
+      flex-wrap:wrap ;
+      width:97%;
+      height: max-content;
+     border: transparent;
+      top: 50px;
+      left: 1%;
+     place-content: top;
+    }
+    .active-container {
+      background-color:lightblue;
+     
+  }
+  .contact{
+    position: relative;
+    width: 100%;
+  }
+  .contact form{
+    min-width: 80%;
+  }
+ @media screen and (max-width:420px) {
+     
+  body{
+    overflow-x: hidden;
+    
+    
+  }
+ 
+  nav{
+    width: 100%;
+    height: 8vh;
+    position: fixed;
+    background-color:white;
+    justify-content: space-between;
+    display: flex;
+    z-index: 1;
+    top: 0px;
+
+}
+label{
+  color: black;
+}
+#menu{
+    position: absolute;
+    right: 0;
+    top:45px;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 100vh;
+    background-color: black;
+    text-align: center;
+    visibility:hidden;
+}
+#menu.active{
+    position: absolute;
+    right: -15px;
+    top:35px;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 100vh;
+    background-color: black;
+    text-align: center;
+    visibility:visible;
+    z-index: 100000;
+}
+#menu.active li{
+    position:sticky;
+}
+#menu li a{
+    text-decoration: none;
+    font-size: 20px;
+    color:white;
+
+}
+#menu li a:hover{
+   color:teal; 
+   text-decoration: underline;
+}
+#menu.active #bars::before{
+    transform: rotate(190deg);
+}
+#menu.active  #bars{
+    position:fixed;
+    top:20px;
+    float: right;
+    right: 40px;
+    width: 30px;
+    height: 2px;
+    background-color: rgb(224, 201, 201);
+    cursor: pointer;
+    visibility: visible;
+}
+#bars{
+position:fixed;
+top:20px;
+float: right;
+right: 20px;
+width: 30px;
+height: 2px;
+background-color: rgb(204, 66, 66);
+cursor: pointer;
+}
+#bars::before{
+position: absolute;
+content:"";
+top:5px;
+width: 30px;
+height: 2px;
+background-color: rgb(204, 66, 66);
+}
+#bars::after{
+position: absolute;
+content:"";
+top:-5px;
+width: 30px;
+height: 2px;
+background-color: rgb(156, 56, 56);
+}
+
+  .main{
+    position: absolute;
+    display: flex;
+    flex-wrap:wrap ;
+    width:97%;
+    height: max-content;
+   border: transparent;
+    top: 50px;
+    left: 1%;
+   place-content: top;
+  }
+  .active-container {
+    background-color:lightblue;
+   
+}
+.contact{
+  position: relative;
+  width: 100%;
+}
+.contact form{
+  min-width: 80%;
+}
+
+ }
