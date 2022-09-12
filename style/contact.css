@@ -22,11 +22,16 @@
       transition: .6s;
   
   }
-  .logo{
+label{
+    color: white;
     position: absolute;
-    width: 70px;
-    height: 6vh;
-    top: 5px;
+    top: 10px;
+    font-size: 30px;
+    left: 5%;
+}
+.logo{
+    position: relative;
+    width: 150px;
 }
 
   .active-nav{
