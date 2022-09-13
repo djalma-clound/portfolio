@@ -22,14 +22,7 @@
       transition: .6s;
   
   }
-label{
-    color: white;
-    position: absolute;
-    top: 10px;
-    font-size: 30px;
-    left: 5%;
-}
-.logo{
+  .logo{
     position: relative;
     width: 150px;
 }
@@ -228,116 +221,40 @@ label{
     color: white;
 }
 
-.contact{
+#containerForm{
   position: relative;
-  width: 90%;
-  min-height:20vh;
-  border:transparent;
-  left: 50%;
-  transform: translate(-50%, -20%);
-  top: 170px;
-  margin-left: 20px;
-  
- }
- .contact .p1{
-  color: rgb(200, 13, 38);
-  font-size: 20px;
-
- }
-
- #error{
-  color: red;
-  text-transform: uppercase;
- }
- .contact form{
-  display: grid;
-  padding: 20px;
-  top: 50px;
-  gap: 10px;
-  max-width: 40%;
-  margin: 0 auto;
-  border: 1px solid ;
-  background-color: white;
- }
- h2{
-  position: relative;
-  text-align: center;
-  padding: 20px;
-  top: 20px;
- }
- .contact form input{
-  height: 5vh;
-  padding: 5px;
- }
-
- #fname{
-  height: 5vh;
-  border-top: transparent;
-  border-left: transparent;
-  border-right: transparent;
- }
- #email{
-  position: relative;
-  top: 10px;
-  height: 5vh;
-  border-top: transparent;
-  border-left: transparent;
-  border-right: transparent;
- }
- #subject{
-  border-top: transparent;
-  border-left: transparent;
-  border-right: transparent;
- }
- .contact form textarea{
-  padding: 5px;
-  height:13vh;
-  border-top: transparent;
-  border-left: transparent;
-  border-right: transparent;
- }
- .contact form button{
-  position: relative;
-  font-size: 24pt;
-  width: 50%;
-  left: 50%;
-  background-color: teal;
-  color: white;
-  transform: translate(-50%, -20%);
-  padding: 4px;
-  margin: 9px;
-  cursor: pointer;
-  border: transparent;
- }
- 
- .contact form button:hover{
-  background-color: black;
-  color: teal;
-  transition: .3s ease-in-out;
-  border: transparent;
- }
- .contact p{
-  position: absolute;
-  left: 3px;
   top: 100px;
-  width: 23%;
-  border:transparent;
-  padding: 15px;
-  line-height: 25px;
-  color: teal;
- }
- .contact .p1{
+  width: 80%;
+  height:80vh;
+  margin: 0 auto;
+  display: grid;
+  background-color:lightgray;
+}
+#containerForm form{
+  display: grid;
+  width: 80%;
+  height: 50vh;
+  margin:0 auto;
+  margin-top: 10px;
+  gap: 2px;
+  background-color: white;
+}
+#containerForm form input{
+  height: 6vh;
+  margin: 10px;
+  padding: 10px;
+}
+#containerForm form #message{
+  height: 15vh;
+  padding: 10px;
+}
+#button{
   position: relative;
-  float: right;
- margin-right:15px ;
-  top:-490px;
-  width: 23%;
-  height: 40vh;
-  background-image: url(/img/pc-desk.jpg);
-  background-size: 100%;
-  background-repeat: no-repeat;
-  border: 1px solid;
- }
+  width: 100px;
+  left: 50%;
+  top: -10px;
+  transform: translate(-50%, -20%);
+}
 
 /*Mobile section start here */
 @media (max-width:700px){
@@ -359,9 +276,10 @@ label{
       top: 0px;
   
   }
-  label{
-    color: black;
-  }
+  .logo{
+    position: relative;
+    width: 150px;
+}
   #menu{
       position: absolute;
       right: 0;
@@ -400,46 +318,14 @@ label{
      color:teal; 
      text-decoration: underline;
   }
-  #menu.active #bars::before{
-      transform: rotate(190deg);
-  }
-  #menu.active  #bars{
-      position:fixed;
-      top:20px;
-      float: right;
-      right: 40px;
-      width: 30px;
-      height: 2px;
-      background-color: rgb(224, 201, 201);
-      cursor: pointer;
-      visibility: visible;
-  }
- #bars{
-  position:fixed;
-  top:20px;
-  float: right;
-  right: 20px;
-  width: 30px;
-  height: 2px;
-  background-color: rgb(204, 66, 66);
-  cursor: pointer;
- }
- #bars::before{
-  position: absolute;
-  content:"";
-  top:5px;
-  width: 30px;
-  height: 2px;
-  background-color: rgb(204, 66, 66);
- }
- #bars::after{
-  position: absolute;
-  content:"";
-  top:-5px;
-  width: 30px;
-  height: 2px;
-  background-color: rgb(156, 56, 56);
- }
+   #bars{
+    position:relative;
+    width: 30px;
+    height: 20px;
+    background-color:red;
+    top: 20px;
+    right: 10%;
+   }
  
     .main{
       position: absolute;
@@ -476,7 +362,6 @@ label{
     height: 8vh;
     position: fixed;
     background-color:white;
-    justify-content: space-between;
     display: flex;
     z-index: 1;
     top: 0px;
@@ -487,7 +372,7 @@ label{
 }
 #menu{
     position: absolute;
-    right: 0;
+    left: -100%;
     top:45px;
     display: flex;
     flex-direction: column;
@@ -497,10 +382,10 @@ label{
     text-align: center;
     visibility:hidden;
 }
-#menu.active{
+ nav.active #menu{
     position: absolute;
-    right: -15px;
-    top:35px;
+    left:0;
+    top:65px;
     display: flex;
     flex-direction: column;
     width: 50%;
@@ -509,6 +394,7 @@ label{
     text-align: center;
     visibility:visible;
     z-index: 100000;
+    transition: .4s ease;
 }
 #menu.active li{
     position:sticky;
@@ -523,45 +409,47 @@ label{
    color:teal; 
    text-decoration: underline;
 }
-#menu.active #bars::before{
-    transform: rotate(190deg);
-}
-#menu.active  #bars{
-    position:fixed;
-    top:20px;
-    float: right;
-    right: 40px;
-    width: 30px;
-    height: 2px;
-    background-color: rgb(224, 201, 201);
-    cursor: pointer;
-    visibility: visible;
-}
 #bars{
-position:fixed;
-top:20px;
-float: right;
-right: 20px;
-width: 30px;
-height: 2px;
-background-color: rgb(204, 66, 66);
-cursor: pointer;
+  width: 30px;
+  height: 2px;
+  background-color: rgb(12, 9, 9);
+  position: absolute;
+  right: 10%;
+  top: 25px;
+  cursor: pointer;
+ }
+ #bars::before{
+  content: "";
+  width: 30px;
+  height: 2px;
+  background-color: rgb(11, 9, 9);
+  position:absolute;
+  top: 5px;
+ }
+ #bars::after{
+  content: "";
+  width: 30px;
+  height: 2px;
+  background-color: rgb(15, 13, 13);
+  position:absolute;
+  top: -5px;
+ }
+ nav.active #bars{
+  z-index: 1;
+  width: 30px;
+  transform: rotate(50deg);
+  transition: .4s ease-in-out;
+   background-color: red;
 }
-#bars::before{
-position: absolute;
-content:"";
-top:5px;
-width: 30px;
-height: 2px;
-background-color: rgb(204, 66, 66);
+ nav.active #bars::before{
+background-color: transparent;
 }
-#bars::after{
-position: absolute;
-content:"";
-top:-5px;
-width: 30px;
-height: 2px;
-background-color: rgb(156, 56, 56);
+nav.active #bars::after{
+  transform: rotate(250deg);
+  top: 1px;
+  transition: .4s ease-in-out;
+  width: 30px;
+  background-color: #003cff;
 }
 
   .main{
