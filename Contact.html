@@ -1,75 +1,53 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<title>Djalma da silva contact</title>
-	
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<link rel="stylesheet" href="css/formcontact.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/contact.css">
+    <title>contact3</title>
 </head>
-
 <body>
-	<nav id="nav">
-		<label for="logo">djalma da silva</label>
-		<button aria-label="Abri Menu" id="btn-mobile" aria-haspopup="true" aria-controls="menu" aria-expanded="false">Menu
-		  <span id="hamburger"></span>
-		</button>
-		<ul id="menu">
-		  <li><a href="index.html">Home</a></li>
-		  <li><a href="about.html">About</a></li>
-		  <li><a href="service.html">Service</a></li>
-		  <li><a href="formcontact.html">contact</a></li>
-		</ul>
-	  </nav>
-            
+
+    <header id="nav">
+        <nav>
+            <label for="logo"><img class="logo" src="img/logo_small.png" alt=""></label>
+            <span id="bars"></span>
+            <ul id="menu">
+                <li ><a href="index.html">home</a></li>
+                <li><a href="about.html">about</a></li>
+                <li><a href="https://djalmad.blogspot.com/">blog</a></li>
+                <li class="active"><a href="contact.html">contact</a></li>
+                <li><a href="portugues.html">Em portugues</a></li>
+            </ul>
+        </nav>
     </header>
+    
+            
+         
+             <h1>lets touch base!</h1>
+    <div id="containerForm" >
+        <form id="form" action="check.php"  onclick="validate()" method="post">
+            <input type="text" name="name" id="fname" onblur="checkUsername()" placeholder="your name">
+            <span class="error">* <?php echo $nameErr;?></span>
+            <div id="feedback"></div>
+  
+            <input type="email" name="email" id="email" onblur="checkEmail()" placeholder=" email">
+            <span class="error">* <?php echo $nameErr;?></span>
+            <div id="feedback"></div>
+         
+            <input type="text" name="subject" id="subject" placeholder="subject">
+            <span class="error">* <?php echo $nameErr;?></span>
+            <textarea name="message" id="message" cols="30" rows="10" placeholder="your message"></textarea>
+            <span class="error">* <?php echo $nameErr;?></span>
+            <input id="button" type="button" onclick="validate()" value="submit">
 
-<div class="container">
-	<h1 class="brand">
-	<span>Your </span> feedback  is very important
-	</h1>
-	<div class="wrapper">
-<div class="company-info">
-	<h3> Only take one minute</h3>
-	<ul>
-		<li>Any simple words is a big message</li>
-		<li>I will be happy to email you back with a thanks messge</li>
-		<li>Thank you very much.</li>
-	</ul>
-</div><!-- compnay-info close-->
-<div class="contact">
-	 <h2> Let's touch base?</h2>
-	<form  id="my-form" action="https://formspree.io/f/xwkyvwly" method="post">
-		<p>
-		
-<input type="text" name="name"  placeholder="name">
-		</p>
-		<p>
-	
-<input type="text" name="lastname" placeholder="last name">
-		</p>
-	<p>
 
-	<input type="text" name="subject" placeholder="subject">
-					</p>
-					<p>
-			
-<input type="email" name="email" placeholder="email">
-		</p>
-	
+        </form>
 
-		<p class="full">
-			
-<textarea name="message" rows="5" placeholder="your message"></textarea>
-		</p>
-		<p class="full">
-			<button>Submit</button>
-		</p>
-	</form>
-</div><!-- contact-- >
-	</div><!-- wrapper close-->
-	</div><!-- container close-->
-</div>
-<script src="js/main.js"></script>
-</body> 
+    </div>
+    <script src="js/validation.js"></script>
+    <script src="js/menu.js"></script>
+    
+</body>
 </html>
