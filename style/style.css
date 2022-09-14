@@ -1174,4 +1174,34 @@ top: -10px;
          left:20px;
          top: -30px;
         }
+           #footer{
+
+            position:relative;
+
+            text-align: center;
+            font-size: 20px;
+            width: 110%;
+            height: 20vh;
+            top: 300px;
+            border:transparent;
+            left: 0%;
+            background-color: antiquewhite;
+            z-index: 1;
+        }
+        #footer p{
+            position: relative;
+            top: 10px;
+            left: -70px;
+        
+        }
+        #footer a{
+        position: absolute;
+        left: 12%;
+        top: 50px;
+        }
+        .email{
+       position: absolute;
+       margin-left: -16%;
+       
+        }
         }
