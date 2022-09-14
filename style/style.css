@@ -963,7 +963,7 @@ top: -10px;
             width:97%;
             height:30vh;
             box-shadow: 10px 10px 10px  rgba(0,0, 0,45);
-            background-image:url(/img/pc-desk.jpg);
+            background-image:url(/img/html.jpg);
             background-size:90% 100%;
             background-repeat: no-repeat;
             z-index: 1;
@@ -1096,7 +1096,7 @@ top: -10px;
             .contact-section.active-form1{
                 position:absolute;
                 margin: 20px;
-                top: -40px;
+                top: 100px;
                 width:100%;
                 height:auto;
                 left: 0%;
@@ -1133,7 +1133,7 @@ top: -10px;
         #img-section div:nth-child(2){ 
             position: relative;
             left: 50px;
-            background-image: url(/img/html.jog.jpeg);
+            background-image: url(/img/html.jpg);
             background-size:100% 100%;
             background-repeat: no-repeat;
             cursor: pointer;
@@ -1196,12 +1196,12 @@ top: -10px;
         }
         #footer a{
         position: absolute;
-        left: 12%;
+        margin-left: 12%;
         top: 50px;
         }
         .email{
        position: absolute;
-       margin-left: -16%;
+       margin-left: 16%;
        
         }
-        }
+        
