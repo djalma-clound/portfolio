@@ -1116,6 +1116,14 @@ top: -10px;
             top: -500px;
 
            }
+           h3{
+             position: relative;
+             left: 5px;
+           }
+           .p-underh3{  
+             position: relative;
+             left: 5px;
+           }
            #img-section{
             position: relative;
             display:grid;
