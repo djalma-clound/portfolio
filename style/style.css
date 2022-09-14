@@ -1199,17 +1199,17 @@ top: -10px;
         #footer p{
             position: relative;
             top: 10px;
-            left: 10px;
+            left:5px;
         
         }
         #footer a{
         position: absolute;
-        left:10;
+        left:5;
         top: 50px;
         }
         .email{
        position: absolute;
-       left: 10px;
+       left: 5px;
        
         }
         
