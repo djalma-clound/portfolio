@@ -1182,6 +1182,11 @@ top: -10px;
          left:20px;
          top: -30px;
         }
+         .tools{  
+           position: relative;
+           width: 80%;
+           left:-5px;
+         }
            #footer{
 
             position:relative;
