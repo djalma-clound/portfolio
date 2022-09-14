@@ -258,7 +258,7 @@ h3{
 #img-section div:nth-child(2){ 
 position: relative;
 left: 5px;
-background-image: url(/img/html.jpg);
+background-image: url(img/html.jpg);
 background-size:100% 100%;
 background-repeat: no-repeat;
 cursor: pointer;
@@ -267,14 +267,14 @@ cursor: pointer;
 #img-section div:nth-child(4){
     position: relative;
     left:20%;
-    background-image: url(/img/css.jpg);
+    background-image: url(img/css.jpg);
     background-size:100% 100%;
     background-repeat: no-repeat;
     }
 #img-section div:nth-child(6){
     position:relative;
     left: 42%;
-    background-image: url(/img/js.jpg);
+    background-image: url(img/js.jpg);
 background-size:100% 100%;
 background-repeat: no-repeat;
     }
@@ -1112,7 +1112,7 @@ top: -10px;
            .names{
             position: relative;
             width: 80%;
-            height: 50vh;
+            height: 55vh;
             top: -500px;
 
            }
@@ -1191,7 +1191,7 @@ top: -10px;
         #footer p{
             position: relative;
             top: 10px;
-            left: -70px;
+            left: 70px;
         
         }
         #footer a{
