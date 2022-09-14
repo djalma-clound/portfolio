@@ -1191,17 +1191,17 @@ top: -10px;
         #footer p{
             position: relative;
             top: 10px;
-            left: 20px;
+            left: 10px;
         
         }
         #footer a{
         position: absolute;
-        margin-left: 2%;
+        left:10;
         top: 50px;
         }
         .email{
        position: absolute;
-       margin-left: 6%;
+       left: 10px;
        
         }
         
