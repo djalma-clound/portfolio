@@ -1133,7 +1133,7 @@ top: -10px;
         #img-section div:nth-child(2){ 
             position: relative;
             left: 50px;
-            background-image: url(/img/myweb.jpeg);
+            background-image: url(/img/html.jog.jpeg);
             background-size:100% 100%;
             background-repeat: no-repeat;
             cursor: pointer;
@@ -1142,7 +1142,7 @@ top: -10px;
             #img-section div:nth-child(4){
                 position: relative;
                left: 50px;
-                background-image: url(/img/invoice.png);
+                background-image: url(/img/css.jpg);
                 background-size:100% 100%;
                 background-repeat: no-repeat;
                 }
@@ -1150,7 +1150,7 @@ top: -10px;
             position:relative;
             left:20px;
             top: 20px;
-            background-image: url(/img/cartao.jpg);
+            background-image: url(/img/js.jpg);
         background-size:100% 100%;
         background-repeat: no-repeat;
         
