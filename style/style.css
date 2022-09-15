@@ -559,8 +559,8 @@ top: -10px;
 }
 .email{
     position: absolute;
-    margin-top: 50px;
-    left: -33%;
+    top: 30px;
+    left: -30%;
 }
 @media screen and (max-width:1024px) {
     #wrapper{
