@@ -1016,10 +1016,10 @@ top: -10px;
         /* small screen start here */
         @media  screen and (max-width:420px) {
           
-            body{
-                box-sizing: border-box;
-              
-            }
+  
+This works for me
+
+html, body {width: auto!important; overflow-x: hidden!important} 
             #menu li a:hover,
          li.active
            {
