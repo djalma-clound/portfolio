@@ -858,7 +858,7 @@ top: -10px;
         }
     #img-section div:nth-child(6){
         position:relative;
-        left: -10%;
+        left:-15px;
         background-image: url(/img/cartao.jpg);
     background-size:100% 100%;
     background-repeat: no-repeat;
