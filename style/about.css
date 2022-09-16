@@ -137,11 +137,9 @@ header{
  
 @media screen and (max-width:900px) {
   
-    body{
-        overflow-x: hidden;
-        scroll-behavior: auto;
-        
-      }
+      html, body {width: auto!important; 
+          overflow-x: hidden!important;
+         } 
      
       nav{
         width: 100%;
