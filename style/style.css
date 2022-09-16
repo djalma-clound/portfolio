@@ -1017,7 +1017,7 @@ top: -10px;
         @media  screen and (max-width:420px) {
           html, body {width: auto!important; 
           overflow-x: hidden!important;
-} 
+         } 
             #menu li a:hover,
          li.active
            {
@@ -1048,7 +1048,7 @@ top: -10px;
             }
             #bars{
                 position: absolute;
-                right: 20%;
+                right: 14%;
             }
             .hero img{
                 left: -14%;
