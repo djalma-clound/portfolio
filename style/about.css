@@ -240,6 +240,7 @@ header{
     }
     .hero{
         position: relative;
+        display: grid;
         top: 50px;
         margin: 50px;
     }
@@ -268,7 +269,7 @@ header{
     }
     .email{
    position: absolute;
-   margin-left: -16%;
+   left: 6%;
    
     }
 }
