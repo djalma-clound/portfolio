@@ -766,6 +766,25 @@ top: -10px;
     left: -8%;
     top: -20px;
 
+}.hero{
+    position: relative;
+    max-width: 500px;
+    min-width: 300px;
+    height: auto;
+    border: transparent;
+    display: flex;
+    left: 10%;
+   /* border-top: transparent;
+    border-right: transparent;
+    border-left: transparent;*/
+    opacity: 0;
+}
+.active-body .hero{
+    position: relative;
+    top: -50px;
+    transition: .3s ease-in-out;
+opacity: 1;
+left: 5%;
 }
 .hero img{
     position: relative;
