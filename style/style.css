@@ -766,7 +766,8 @@ top: -10px;
     left: -8%;
     top: -20px;
 
-}.hero{
+}
+.hero{
     position: relative;
     max-width: 500px;
     min-width: 300px;
@@ -1055,6 +1056,14 @@ left: 5%;
                 overflow-x: hidden;
                 z-index: 1;
             }
+            #wrapper h1{
+
+    position: relative;
+
+    left: -8%;
+   
+
+}
             header{
                 position:fixed;
                 top: 0px;
