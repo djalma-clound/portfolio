@@ -1057,13 +1057,9 @@ left: 5%;
                 z-index: 1;
             }
             #wrapper h1{
-
-    position: relative;
-
-    left: -8%;
-   
-
-}
+              position: relative;
+              left: -10%;
+          }
             header{
                 position:fixed;
                 top: 0px;
@@ -1237,7 +1233,7 @@ left: 5%;
             border:transparent;
             left: 0%;
             background-color: antiquewhite;
-            z-index: 1;
+          
         }
         #footer p{
             position: relative;
