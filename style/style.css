@@ -1166,7 +1166,7 @@ left: 5%;
             top: 120px;
             width:90%;
             height:auto;
-            background-color: #003cff;
+            background-color: white;
             animation-name: rodadndo;
             transition: .4s ease;
             visibility:visible;
