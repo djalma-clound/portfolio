@@ -112,7 +112,7 @@ left: 5%;
     min-height: 300px;
     max-height:80vh;
     margin: 20px;
-    background-image: url(/img/Dj-techs.png);
+    /* background-image: url(/img/Dj-techs.png); */
     background-size: 100% 100%;
     left: -5%;
     box-shadow:10px 10px 10px  hwb(30 92% 6%);
@@ -141,6 +141,7 @@ left: 5%;
     height: auto;
     line-height: 25px;
    left: 49%;
+   margin: 20px;
     top: 150px;
     text-overflow:clip;
     color: black;
@@ -660,7 +661,6 @@ top: -10px;
       }
      #wrapper{
         overflow-x: hidden;
-        scrollbar-width: ;
      }
       nav{
         width: 100%;
@@ -767,33 +767,28 @@ top: -10px;
     top: -20px;
 
 }
-.hero{
-    position: relative;
-    max-width: 500px;
-    min-width: 300px;
-    height: auto;
-    border: transparent;
-    display: flex;
-    left: 10%;
-   /* border-top: transparent;
-    border-right: transparent;
-    border-left: transparent;*/
-    opacity: 0;
-}
+
 .active-body .hero{
     position: relative;
     top: -50px;
     transition: .3s ease-in-out;
 opacity: 1;
-left: 5%;
+left: -4%;
+}
+.hero{
+    position: relative;
+    left: -50%;
+    max-width: 80%;
+  background-color: transparent;
 }
 .hero img{
     position: relative;
-    left: 0%;
+    width: 60%;
+    left: 15%;
 }
 #button2{
     position: absolute;
-    top: 370px;
+    top: 390px;
 }
 
 .under-h1{
@@ -1032,7 +1027,7 @@ left: 5%;
        margin-left: -16%;
        
         }
-
+    }
         /* small screen start here */
         @media  screen and (max-width:420px) {
           html, body {width: auto!important; 
@@ -1074,8 +1069,19 @@ left: 5%;
                 position: absolute;
                 right: 14%;
             }
+            #button2{
+                position:absolute;
+                top: 250px;
+            }
+            .hero{
+                position: relative;
+              background-color:transparent;
+                margin-left: -10%;
+            }
             .hero img{
-                left: -14%;
+                position: relative;
+                min-width:350px;
+                left: 10%;
             }
             #jobs{
                 position: relative;
@@ -1166,6 +1172,7 @@ left: 5%;
             top: 120px;
             width:90%;
             height:auto;
+            
             background-color: white;
             animation-name: rodadndo;
             transition: .4s ease;
@@ -1174,7 +1181,7 @@ left: 5%;
         }
         #img-section div:nth-child(2){ 
             position: relative;
-            left: 50px;
+            left:2%;
             background-image: url(/img/html.jpg);
             background-size:100% 100%;
             background-repeat: no-repeat;
@@ -1183,14 +1190,14 @@ left: 5%;
             
             #img-section div:nth-child(4){
                 position: relative;
-               left: 50px;
+                left:2%;
                 background-image: url(/img/css.jpg);
                 background-size:100% 100%;
                 background-repeat: no-repeat;
                 }
         #img-section div:nth-child(6){
             position:relative;
-            left:20px;
+          left:2%;
             top: 20px;
             background-image: url(/img/js.jpg);
         background-size:100% 100%;
@@ -1252,3 +1259,4 @@ left: 5%;
        top:-15px;
         }
         
+    }
