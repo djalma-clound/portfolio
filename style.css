@@ -1,1263 +1,792 @@
-*{
-    margin: 0%;
-    padding: 0%;
+/* Styles for header */
+header {
+	background-color:#fff;
+	padding: 10px;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+	position: fixed;
+	width: 100%;
+	left: 0;
+	z-index:1000;
+	top: 0;
+}
+.estimate{
+	border: 1px solid;
+	padding: 2px;
+	font-size:20px;
+	color: red;
+	cursor: pointer;
+}
+.estimate:hover{
+	background-color: #29eb29;
+	color:white;
+}
+html{
+	overflow-x: hidden;
 }
 body{
-    overflow-x: hidden;
+  background-color: transparent;
+ max-width: 1200px;
+ margin: 0 auto;
+ 
 }
-label{
-    color: white;
-    position: absolute;
-    top: 10px;
-    font-size: 30px;
-    left: 5%;
+h1 {
+	position: relative;
+	font-size: 36px;
+	margin: 0;
+	left: 3%;
+	color: #f00;
 }
-.logo{
-    position: relative;
-    width: 150px;
+
+nav ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
 }
-header{
-    position: fixed;
-    left: 0%;
-    width: 100%;
-    height: 10vh;
-    background-origin: border-box;
-    background-color: black;
-    justify-content: space-between;
-    z-index: 1000;
+
+nav li {
+	display: inline-block;
+	margin-right: 20px;
 }
-.active-nav header {
-    background-color: white;
+
+nav a {
+	color: #f00;
+	text-decoration: none;
+	font-size: 25px;
+}
+
+nav a:hover {
+	color:black;
+	text-decoration: underline;
 }
 #menu{
-    position: absolute;
-    right: 40px;
-    display: flex;
-    line-height:50px;
-    gap: 40px;
+	position: absolute;
+	right: 10%;
+	top: 10px;
 }
-#menu li{
-    list-style-type: none;
-    color: white;
+#video-background {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1;
 }
-.active-nav #menu li a{
-    color: black;
+
+/* Styles for hero section */
+#hero {
+	background-position: center;
+	height: 500px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	color: #fff;
+	text-align: center;
 }
-#menu li a {
-    text-decoration: none;
-    font-size: 20px;
-    color: white;
+
+#hero h2 {
+	font-size: 36px;
+/*	margin: 0 0 20px;*/
+text-align: center;
+color: black;
 }
-#menu li a:hover,
- li.active
-{
-    text-decoration: underline;
-    color: teal;
-    
+#hero a{
+	position: relative;
+	margin-top: 5px;
+	background-color: #145814;
+    /* left: -80px; */
+	padding: 3px;
+	border: none;
 }
-#menu li.active a{
-    text-decoration-color: teal;
-    color: teal;
+#hero a:hover{
+	background-color: #fff;
+	color:#f00 ;
+	border: none;
+	border-radius: 5px;
 }
-#wrapper{
-    position: relative;
-    max-width: 1300px;
-    min-width: 300px;
-    height:auto;
-    border: transparent;
-    top: 70px;
-    margin: 0 auto;
-    padding: 20px;
+.p-hero{
+	font-size: 20px;
+	color:black;
+}
+.insta{
+	width:30px;
+}
+.face{
+	width:30px;
+	border-radius: 45px;
+}
+.div{
+    position:relative;
+    margin-top:3px;
+	background-color: transparent;
+}
+
+button {
+	background-color:  #29eb29;
+	color: #fff;
+	border: none;
+	padding: 10px 20px;
+	border-radius: 5px;
+	font-size: 18px;
+	cursor: pointer;
+}
+
+button:hover {
+	background-color: #fff;
+	color: #f00;
+}
+.button1 {
+	background-color:  #29eb29;
+	color: #fff;
+	border: none;
+	padding: 10px 20px;
+	margin-top: 3px;
+	border-radius: 5px;
+	font-size: 18px;
+	cursor: pointer;
+}
+ .phone #number{
+	color: #f00;
+	background-color: #29eb29;
+}
+.phone #number:hover{
+	background-color: #fff;
+}
+#button1:hover {
+	background-color: #fff;
+	color: #f00;
+}
+.phone{
+	color:white;
+	background-color:  #29eb29;
+	font-size: 20px;
+	margin-top: 3px;
+}
+/* Styles for about section */
+#about {
+	background-color: #f5f5f5;
+	padding: 50px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+	left:0;
+}
+#about p{
+	font-family: serif;
+  width:100%;
+ position: relative;
+ line-height: 25px;
+ left:0;
+ 
+}
+.image-container{
+display: grid;
+grid-template-columns: 1fr 1fr ;
+gap: 10px;
+}
+.image-container div{
+ max-width:500px;
+	height:200px;
+	margin: 20px 0;
+	box-shadow: 4px 1px 1px 1px #646262;
+}
+#div1{
+	background-image: url('/img/conzinha.jpg');
+	background-size:50% 100%;
+	background-repeat: no-repeat;
 
 }
-#wrapper h1{
-    position: relative;
-    text-align: center;
-    margin: 20px;
+
+#div2{
+	background-image: url('/img/Gbanheiro.jpg');
+	background-size:50% 100%;
+	background-repeat: no-repeat;
+}
+#div3{
+	background-image: url('/img/banhiro.jpg');
+	background-size:50% 100%;
+	background-repeat: no-repeat;
+}
+#div4{
+	background-image: url('/img/kitchenbrown.jpg');
+	background-size:50% 100%;
+	background-repeat: no-repeat;
+}
+.image-container div:nth-child(5){
+	position: relative;
+	left: 50%;
+}
+.image-container p{
+	position:relative;
+    left: 53%;
+	height: auto;
+	padding: 10px;
+	font-size: 20px;
+	width: 40%;
+}
+#video-div{
+	max-width:100%;
+	height: 40vh;
+	box-shadow: none;
+}
+.image-container video{
+   min-width:100%;
+  height: 100%;
+}
+.image-container video p{
+	color: red;
+}
+/* Styles for features section */
+#features {
+	background-color: #fff;
+	padding: 50px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+#features ul{
+	min-width: 60%;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	padding: 5px;
+}
+#features ul li{
+list-style-type: circle;
+font-size: 25px;
+}
+
+nav li {
+
+	margin-right: 20px;
+}
+
+ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+li {
+	font-family: serif;
+	font-size: 16px;
+	margin: 10px 0;
+	margin-top: 10px;
+}/* prices section star here */
+#prices h2{
+	color: #f00;
+	text-align: center;
+}
+#prices h4{
+	text-align: center;
+	color: white;
+}
+#prices ul{
+	position: relative;
+	left: 15%;
+	display: flex;
+	flex-wrap: wrap;
+	color:white;
+	gap: 40px;
+}
+#prices ul li{
+	font-size: 20px;
+}
+#prices strong{
+	position: relative;
+	left: 10px;
+}
+.prices-container{
+	display: grid;
+	grid-template-columns: 1fr 1fr ;
+	background-color: #fff;
+	gap: 10px;
+	}
+	.prices-container div{
+		position: relative;
+	 max-width:400px;
+		height:auto;
+		margin: 20px 0;
+		left:15%;
+		/* box-shadow: 1px 1px 1px 1px #000; */
+	}
+	.prices-container p{
+		padding: 5px;
+		margin-bottom: 60px;
+		line-height: 23px;
+	}
+	#number {
+	position:relative;
+	color:rgb(12, 9, 9);
+	background:transparent;
+	font-size:20px;
+	}
+	.prices-container #prices-button{
+		position: absolute;
+		left: 50%;
+		transform: translate(-50%, -20%);
+		bottom: -20px;
+	
+	}
+	
+	.prices-container h3{
+		text-align: center;
+		color:rgb(12, 9, 9);
+	background:transparent;
+	}
+	.change{
+		color: red;
+	}
+	.img{
+		position: relative;
+		width: 250px;
+	
+	
+	}
+	.casa{
+		width: 100%;
+		
+	}
+	
+		.img1{
+		position: relative;
+		width: 250px;
+	
+	
+	}
+	.office{
+		width: 100%;
+		
+	
+	}
+
+			.img2{
+		position: relative;
+		width: 250px;
+	
+	
+	}
+	.app{
+		width: 100%;
+	}
+	.img3{
+		position: relative;
+		width: 80%;
+		
+	
+	
+	}
+	.warehouse{
+		width:100%;
+	}
+/* Styles for contact section */
+#contact {
+	position: relative;
+	background-color: #f5f5f5;
+	padding: 50px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+#contact i{
+	position: absolute;
+	right: 30px;
+	top: 30px;
+	content: "";
+	width: 30px;
+	height: 5px;
+	background-color: #29eb29;
+}
+#contact i::after{
+	position: absolute;
+	top: 0px;
+	content: "";
+	width: 30px;
+	height: 5px;
+	background-color: #29eb29;
+	rotate: 90deg;
+	cursor: pointer;
+}
+#contact i:hover{
+background-color:red;
+}
+ i::after:hover{
+	background-color: red;
+}
+.move#contact{
+	position: fixed;
+	top: 60px;
+	min-width: 85%;
+	background-color: #f5f5f5;
+	padding: 50px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.close#contact{
+	position:relative;
+	background-color: #f5f5f5;
+	padding: 50px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+#form h1{
+    text-align:center;
+}
+.number{
+    position:relative;
+	margin:0 auto;
+	color:rgb(12, 9, 9);
+	background:transparent;
+	cursor:pointer;
+}
+#contact #number{
+	background-color: transparent;
+}
+form {
+	display: grid;
+	grid-template-columns: 1fr;
+	justify-content: center;
+	align-items: center;
     width: 100%;
-    padding: 10px;
-    left:20%;
-    top: 50px;
-    z-index: 1;
-    color:black;
+    gap: 10px;
+	
 }
 
-
-.hero{
-    position: relative;
-    max-width: 500px;
-    min-width: 300px;
-    height: auto;
-    border: transparent;
-    display: flex;
-    left: -50%;
-    top: -50px;
-   /* border-top: transparent;
-    border-right: transparent;
-    border-left: transparent;*/
-    opacity: 0;
-}
-.active-body .hero{
-    position: relative;
-    top: -50px;
-    transition: .3s ease-in-out;
-opacity: 1;
-left: 5%;
-}
-.hero img{
-    position: relative;
-    width: 100%;
-   min-width: 100%;
-    min-height: 300px;
-    max-height:80vh;
-    margin: 20px;
-    background-image: url(/img/Dj-techs.png);
-    background-size: 100% 100%;
-    left: -5%;
-    box-shadow:10px 10px 10px  hwb(30 92% 6%);
-}
-.hero button{
-    position: absolute;
-    left: 40%;
-    top: 400px;
-    z-index: 1;
-    font-size: 20px;
-    cursor: pointer;
-    border: transparent;
-    color: white;
-    background-color: rgb(16, 12, 12);
-    box-shadow: 10px 10px 10px rgb(16, 12, 12);
-}
-.hero button:hover{
-    background-color:black;
-    color:teal;
-    box-shadow: 10px 10px 10px rgb(72, 64, 64);
-
-}
-.under-h1{
-    position:absolute;
-    width: 90%;
-    height: auto;
-    line-height: 25px;
-   left: 49%;
-    top: 150px;
-    text-overflow:clip;
-    color: black;
-    z-index: 1;
-    box-shadow:10px 10px 10px hwb(30 92% 6%);
-}
-.hero #p3{
-    color: white;
-    position: absolute;
-    left: 8%;
-    left: 10%;
-    top: 360px;
-}
-.hero em{
+.invalid{
+    display: block;
     color: red;
 }
-.section1{
-    position: relative;
-    width: 100%;
-    height: 100vh;
-    top: 10px;
-    box-shadow:10px 10px 10px 3px rgb(16, 12, 12);
-    background-color: hsl(200, 10%, 94%);
-}
- h2, .button{
-    position: relative;
-    box-shadow: 10px 10px 10px gray;
-    left: 20%;
-    top: 100px;
-    margin: 10px;
-}
-h2{
-    position: relative;
-    max-width: 30%;
-    left:19%;
-    top: 120px;
-    text-align: center;
-    background-color: transparent;
-}
-.slide-in h2{
-    position: relative;
-    top:80px;
-    transition: .4s ease;
-}
-.button{
-    width: 100px;
-    height: 30px;
-    top: 150px;
-    background-color:white;
-    border: transparent;
-    box-shadow: 10px 10px 10px gray;
-    cursor: pointer;
-}
-.slide-in1 .button{
-    position: relative;
-    top: 80px;
-    transition: .4s ease;
-}
-.button:hover{
-    background-color: #003cff;
-    color: white;
-    box-shadow: 20px 20px 20px gray;
-}
-#img-section{
-    position: relative;
-    display:flex;
-    flex-wrap: wrap;
-    padding: 20px;
-    top: 120px;
-    width:97%;
-    height: 30vh;
-    background-color: #003cff;
-    animation-name: rodadndo;
-    transition: .4s ease;
-    visibility:visible;
-    z-index: 1;
-}
-#img-section .p1{
-    position: relative;
-    left:13%;
-    font-size: 25px;
-    top: -15px;
-}
-#img-section .p2{
-    position: relative;
-    left:22%;
-    font-size: 25px;
-    top: -15px;
-}
-#img-section .p3{
-    position: relative;
-    left: 27%;
-    font-size: 25px;
-    top: -15px;
+
+label {
+	font-size: 24px;
+	margin: 20px 0 10px;
 }
 
-h3{
-    position: absolute;
-    bottom: 100px;
-    left: 40%;
-}
-.p-underh3{
+input[type="text"], input[type="email"], textarea {
+	font-size: 18px;
+	padding: 10px;
+	border: 1px solid #ccc;
+	border-right: transparent;
+	border-top: transparent;
+	border-left: transparent;
+	border-bottom:1 px solid rgb(214, 19, 19);
+	border-radius: 5px;
+	width: 70%;
+	left: 50%;
+	transform: translate(-50%,-20%);
     position: relative;
-    left: 35%;
-}
-#img-section div{
-    position: relative;
-    left: 0%;
-    width: 200px;
-    height: 160px;
-    margin: 20px;
-    background-color: hsl(0, 27%, 69%);
-    box-shadow: 10px 10px 10px rgb(74, 62, 62);
-
-}
-#img-section div:nth-child(2){ 
-position: relative;
-left: 5px;
-background-image: url(/img/myweb.jpeg);
-background-size:100% 100%;
-background-repeat: no-repeat;
-cursor: pointer;
+    
+	/* max-width: 500px; */
 }
 
-#img-section div:nth-child(4){
-    position: relative;
-    left:10%;
-    background-image: url(/img/invoice.png);
-    background-size:100% 100%;
-    background-repeat: no-repeat;
-    }
-#img-section div:nth-child(6){
-    position:relative;
-    left: 12%;
-    background-image: url(/img/cartao.jpg);
-background-size:100% 100%;
-background-repeat: no-repeat;
-    }
+button[type="submit"] {
+  position: relative;
+	background-color: #f00;
+	color: #fff;
+	border: none;
+	padding: 10px 20px;
+	border-radius: 5px;
+	font-size: 18px;
+	margin-top: 10px;
+	cursor: pointer;
 
+}
+#btn{
+	position: relative;
+	margin: 0 auto;
+	width: 200px;
+}
 
-    @keyframes rodando{
-      
-    }
-    .names{
-        position: relative;
-        display:flex;
-        flex-wrap: wrap;
-        padding: 20px;
-        width:97%;
-        height: 30vh;
-        top: -110px;
-        line-height: 25px;
-        background-color: #003cff;
-        visibility: visible;
+button[type="submit"]:hover {
+	background-color: #fff;
+	color: #f00;
+	
+}
+#fnameError{
+	position: relative;
+	color: red;
+	margin: 0 auto;
+}
+#emailError{
+	position: relative;
+	color: red;
+	top:-10px;
+	margin: 0 auto;
+}
+#subjectError{
+	position: relative;
+	color: red;
+	margin: 0 auto;
+	top: -10px;
+}
+#messageError{
+	position: relative;
+	color: red;
+	margin: 0 auto;
+	top: -10px;
+}
 
-    }
-    .names.poping{
-        position: relative;
-        top: 200px;
-        visibility: hidden;
-        background-color: red;
-    }
-    .names strong{
-        position: relative;
-        left: 15%;
-      
-       
-    }
-    .p{
-        position: absolute;
-        bottom: 20px;
-        left: 20%;
-       height: 20px;
-      font-size:20px;
-    }
-    .names em{
+/* for gallery call button */
+#gallery{
+	position: relative;
+	margin-top: 35px;
+	width: auto;
+	height: 40px;
+}
+#gallery:hover{
+	background-color:#333;
+	color: white;
+}
+
+/* Styles for footer */
+footer {
+	background-color: #333;
+	padding: 20px;
+	color: #fff;
+	text-align: center;
+}
+.link{
     color:white;
-    font-size: 20px;
-    }
-    #img-section.active-block {
-visibility:visible;
-transition: .4s ease;
-transform: rotatex(95deg);
-top: -10px;
-
+    font-size:20px;
+    text-decoration:none;
+    
 }
-#jobs{
+#map {
+  height: 300px; /* Set the desired height of the map */
+  width: 100%;   /* Set the width to 100% to fill the container */
+  background-color: transparent;
+}
+@media screen and (max-width:900px){
+	header {
+		background-color:#fff;
+		padding: 10px;
+		box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+		position: fixed;
+		width: 100%;
+		left: 0;
+		z-index:1000;
+		top: 0;
+	}
+	html{
+		overflow-x: hidden;
+	}
+	body{
+		overflow-x: hidden;
+	}
+  main{
     position: relative;
-    display:flex;
-    flex-wrap: wrap;
-    padding: 20px;
-    top: 20px;
-    margin: 20px;
-    left: -1.3%;
-    width:97%;
-    height: 30vh;
-    box-shadow: 10px 10px 10px  rgba(0,0, 0,45);
-    background-image:url(/img/pc-desk.jpg);
-    background-size:50% 100%;
-    background-repeat: no-repeat;
-    z-index: 1;
-}
-#jobs p{
-    position: absolute;
-    left: 55%;
-    top: 10px;
-    width: 40%;
-    height: 30vh;
-    padding: 10px;
-    line-height: 23px;
-    box-shadow: 10px 10px 10px  rgba(0,0, 0,0.5);
-}
-#button{
-    position: relative;
-    top: 10px;
-    left: 45%;
-    font-size: 20px;
-    cursor: pointer;
-    border: transparent;
-    background-color: blueviolet;
-    z-index: 1;
-}
-.contact-section{
+   margin-top:30px;
+  }
+  #bars{
     position:absolute;
-    margin: 20px;
-    top: 10px;
-    width: 97%;
-    height:auto;
-    background-color: hsl(200,100%, -50% , .8);
-    visibility: hidden;
-}
-.contact-section.active-form1{
+    background: red;
+    right:10%;
+    top: 20px;
+    width: 30px;
+    height: 2px;
+	cursor: pointer;
+  }
+  #bars:before{
+    content:"";
     position:absolute;
-    margin: 20px;
-    top: 100px;
-    width: 97%;
-    height:auto;
-    background-color: hsl(200,100%, -50% , .0);
-    visibility: visible;
-    color: white;
-}
-#form-container{
-    position: relative;
-    top: 20%;
-    margin: 0 auto;
-    width: 50%;
-    height: 50vh;
-    border: 2px solid;
-    background-color:hsl(200,100%, -50% , .5);
-    border: hsl(200,100%, -50% , .5);
-    padding: 20px;
-}
-#form-container form{
-    border:transparent;
-    width:100%;
-    height: 100%;
-    display: grid;
-    gap: 20px;
-
-}
-#form-container form input, textarea{
-    width: 90%;
-    margin: 0 auto;
-    background-color:hsl(200,100%, -50% , .9);
-    border: hsl(200,100%, -50% , .5);
-    z-index: 1;
-    color: white;
-}
-#form-container form button{
-    position: relative;
-    width: 100px;
-    left: 50%;
-    transform: translate(-50%, -20%);
-
-}
-#form-container form button:hover{
-    color: teal;
-    font-size: 17px;
-    cursor: pointer;
-}
-.contact-section.slide{
-    background-color: #003cff;
-}
-.tools{
+    background: red;
+    top:-5px;
+    width: 30px;
+    height: 2px;
+	cursor: pointer;
+  }
+  #bars:after{
+    content:"";
+    position:absolute;
+    background: red;
+    top:5px;
+    width: 30px;
+    height: 2px;
+	cursor: pointer;
+  }
+ 
+  #menu{
+    display:none;
+  }
+  .active#menu{
+	position: relative;
     display:flex;
-    gap: 50px;
-    flex-direction:column;
-    position: relative;
-    margin: 0 auto;
-    width: 90%;
-    height: auto;
-    top: 20px;
-    border: transparent;
-}
-.tools  h2{
-    position: relative;
-    top: 10px;
-    max-width: 90%;
-    left: 5%;
-}
-.html{
-    position: relative;
-    left: -100%;
-}
-.slide-in2 .html{
-    position: relative;
-    left: 10px;
-    transition: .6s ease;
-}
-.under-html{
-    position: absolute;
-    left: 40%;
-    top: 230px;
-}
-.secndo-img{
- position: absolute;
- left: 60%;
- visibility: hidden;
- transition: .4s ease;
- top: 150px;
- 
-}
-.slide-in3 #css{
-    position: relative;
-    visibility: visible;
-    transition: .4s ease;
-    top: -50px;
-}
-.under-css{
-    position: relative;
-    left: 20%;
-    top: -190px;
-
-}
-.javascript{
-    position: relative;
-    height: 60vh;
-    width: 10%;
+    font-size:16px;
     left: 10%;
-    transform: translate(-50%, -20%);
-    border-radius: 150px;
-    opacity: 0;
-}
-.slide-in4  .javascript{
-    opacity: 1;
-    transition: .6s ease;
-}
-.under-js{
-    position: relative;
-    left: 30%;
-    margin: 20px;
-    top: -230px;
-}
-.tools div{
-    width: 30%;
-    height: 50vh;
-    margin: 50px;
-    background-color: red;
-}
-.tools img{
-    position: relative;
-    top: 30px;
-    width: 30%;
-    height: 40vh;
-}
-
-#footer{
-    position: relative;
-    text-align: center;
-    font-size: 20px;
-    width: 100%;
-    height: 20vh;
-    border:transparent;
-    top: 90px;
-    left: 0%;
-    background-color: antiquewhite;
-}
-#footer p{
-    position: relative;
-    top: 20px;
-}
- #footer h4{
-    position: absolute;
-    left: 10%;
-    top: 30px;
-    z-index: 1;
-    color: black;
-}
-#footer a{ 
-    position: absolute;
-    top: 60px;
-    left:10%;
-    text-decoration: none;
-    background-color: blueviolet;
-    color: white;
-}
-#footer a:hover{
-    background-color:blueviolet;
-    color: rgb(147, 20, 20);
-}
-.email{
-    position: absolute;
-    margin-top: 50px;
-    left: -33%;
-}
- 
-/* tablet and small screens */
-@media screen and (max-width:900px) {
+  }
+  #menu li{
+	position: relative;
+	margin: 0 auto;
+	left: -13%;
+  }
+  #menu a{
+	font-size:18px;
+  }
   
- 
-    header{
-        position: fixed;
-        left: 0%;
-        width: 100%;
-        height: 10vh;
-        background-origin: border-box;
-        background-color: black;
-        justify-content: space-between;
-        z-index: 1000;
-    }
-    #menu{
-    position: absolute;
-    display:grid;
-    width: 40%;
-    height: 100vh;
-    right: 100%;
-    text-align: center;
-    background-color: black;
-    visibility: visible;
-
-    }
-   nav.active #menu{
-        display:grid;
-        max-width: 40%;
-        min-width: 40%;
-        height: 100vh;
-        text-align: center;
-        background:black;
-        left: 0%;
-        visibility: visible;
-        transition: .4s ease-in-out;
-    }
-    
-    nav.active #menu li a{
-        color: white;
-        position: fixed;
-        left:10%;
-    
-    }
-    nav.active #bars{
-        z-index: 1;
-        width: 21px;
-        transform: rotate(50deg);
-        transition: .4s ease-in-out;
-         background-color: red;
-    }
-    nav.active #bars::after{
-        transform: rotate(250deg);
-        top: 1px;
-        transition: .4s ease-in-out;
-        width: 20px;
-        background-color: #003cff;
-    }
-    nav.active #bars::before{
-    background-color: transparent;
-    transition: .4s ease-in-out;
-    
-    }
-   .active-nav #bars::after{
-       background-color:rgb(7, 13, 7);
-    
-   }
-   .active-nav #bars ,  #bars::before
-   {
-    background-color: black;
-   }
-   .active-nav #bars::before{
-    background-color: black;
-   }
-   #bars{
-    width: 30px;
-    height: 2px;
-    background-color: rgb(249, 249, 235);
-    position: absolute;
-    right: 30%;
-    top: 35px;
-    cursor: pointer;
-   }
-   #bars::before{
-    position: absolute;
-    content: "";
-    width: 30px;
-    height: 2px;
-    top: -5px;
-    background-color: rgb(252, 242, 242);
-   }
-   #bars::after{
-    position: absolute;
-    content: "";
-    width: 30px;
-    height: 2px;
-    top: 5px;
-    background-color:rgb(236, 226, 226);
-   }
-   #wrapper{
-    width: 97%;
-    top: 100px;
-  display: grid;
+.insta{
+	width:30px;
 }
-#wrapper h1{
-    position: relative;
-    left: -8%;
-    top: -20px;
+.face{
+	width:30px;
+	border-radius: 45px;
+}
+.div{
+    position:relative;
+    margin-top:3px;
+	background-color: transparent;
+}
+  .image-container{
+	display: grid;
+	grid-template-columns: 1fr ;
+	gap: 10px;
+	}
+	.image-container div{
+		position: relative;
+	   left: 5%;
+	   }
+  #video-div{
+	width:100%;
+	height: 100%;
+	left: 1%;
+}
+#div2{
+	background-image: url('/img/Gbanheiro.jpg');
+	background-size:50% 100%;
+	background-repeat: no-repeat;
+}
+.image-container div:nth-child(5){
+	position: relative;
+	left: 0%;
+}
+#features ul{
+	position: relative;
+	left: 5%;
+	min-width: 60%;
+	display: grid;
+	grid-template-columns: 1fr ;
+	padding: 5px;
 
 }
-.hero img{
-    position: relative;
-    left: 13%;
+#prices h4{
+	text-align: center;
+	color:white;
 }
-#button2{
-    position: absolute;
-    top: 370px;
+#prices ul li{
+	display:none;
 }
-.under-h1{
-    position: relative;
-    top: 8px;
-    left: 0%;
-}
- .section1 h2{
-    position: relative;
-    max-width: 90%;
-    left:0%;
-    top: 90px;
-    text-align: center;
-    background-color: transparent;
-}
-.section1{
-    display: grid;
-    position: relative;
+.prices-container{
+	display: grid;
+	grid-template-columns: 1fr;
+	background-color: #fff;
+	gap: 10px;
+	}
+	.prices-container div{
+		position: relative;
+	 max-width:80%;
+		height:auto;
+		margin: 20px 0;
+		left:10%;
+		box-shadow: 1px 1px 1px 10px #000;
+	}
+	#prices ul{
+		position: relative;
+		left: 15%;
+		display: flex;
+		flex-wrap: wrap;
+		color:white;
+		gap: 40px;
+	}
+	form {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
     width: 100%;
-    height: auto;
-    top: 10px;
-    box-shadow:10px 10px 10px 3px rgb(16, 12, 12);
-    background-color: hsl(200, 10%, 94%);
+    gap: 20px;
+	
 }
-#img-section{
+input[type="text"], input[type="email"], textarea {
+	font-size: 18px;
+	padding: 10px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	width: 90%;
     position: relative;
-    display:grid;
-    padding: 20px;
-    top: 120px;
-    width:90%;
-    height:auto;
-    background-color: #003cff;
-    animation-name: rodadndo;
-    transition: .4s ease;
-    visibility:visible;
-    z-index: 1;
-}
-#img-section.active-block {
-    visibility:hidden;
-    transition: .4s ease;
-    transform: rotatey(95deg);
-    top: -10px;
-    }
-
-.names.active-block{
-    top: -30px;
-}
-.names{
-    position: relative;
-    display:flex;
-    flex-wrap: wrap;
-    padding: 20px;
-    width:90%;
-    height: 30vh;
-    top: -280px;
-    line-height: 25px;
-    background-color: #003cff;
-    visibility: visible;
-
-}
-.names .p-strong{
-    position: relative;
-    left: -10%;
-}
-#img-section div:nth-child(2){ 
-    position: relative;
-    left: 20%;
-    background-image: url(/img/myweb.jpeg);
-    background-size:100% 100%;
-    background-repeat: no-repeat;
-    cursor: pointer;
-    }
     
-    #img-section div:nth-child(4){
-        position: relative;
-        left:20%;
-        background-image: url(/img/invoice.png);
-        background-size:100% 100%;
-        background-repeat: no-repeat;
-        }
-    #img-section div:nth-child(6){
-        position:relative;
-        left: 20%;
-        background-image: url(/img/cartao.jpg);
-    background-size:100% 100%;
-    background-repeat: no-repeat;
-        }
-        #img-section .p1{
-            position: relative;
-            left:40%;
-            font-size: 25px;
-            top: 15px;
-        }
-        #img-section .p2{
-            position: relative;
-            left:37%;
-            font-size: 25px;
-            top: 15px;
-        }
-        #img-section .p3{
-            position: relative;
-            left: 27%;
-            font-size: 25px;
-            top: 15px;
-        }
-        h3{
-            position: relative;
-            left: 15%;
-        }
-        .p-underh3{
-            position: relative;
-            left: 10%;
-            top: -50px;
-        }
-        .tools{
-            display:flex;
-            gap: 50px;
-            flex-direction:column;
-            position: relative;
-            margin: 0 auto;
-            width: 90%;
-            height: auto;
-            top: 20px;
-            border: transparent;
-        }
-        .tools h2{
-            position: absolute;
-            max-width: 100%;
-            left:4%;
-            top: 0px;
-            background-color: transparent;
-        }
-     
-        .html{
-            position: relative;
-            left: -100%;
-        }
-        .slide-in2 .html{
-            position: relative;
-            left: 10px;
-            top: 100px;
-            transition: .6s ease;
-        }
-        .under-html{
-            position: absolute;
-            left: 40%;
-            width: 50%;
-            top: 170px;
-        }
-        .slide-in3 #css{
-            position: relative;
-            visibility: visible;
-            transition: .4s ease;
-            top: 50px;
-            left: 9px;
-        }
-        .under-css{
-            position: relative;
-            left:40%;
-            width: 50%;
-            top: -210px;
-        
-        }
-        .javascript{
-            position: relative;
-            height: 60vh;
-            width: 10%;
-            left: 20%;
-            transform: translate(-50%, -20%);
-            border-radius: 150px;
-            opacity: 0;
-        }
-        .slide-in4  .javascript{
-            opacity: 1;
-            transition: .6s ease;
-        }
-        .under-js{
-            position:relative;
-            width: 50%;
-            left:35%;
-            margin: 20px;
-            top:-400px;
-        }
+	 max-width: 500px; 
+}
+#div2{
+	background-image: url('/img/Gbanheiro.jpg');
+	background-size:50%;
+	background-repeat: no-repeat;
+}
+.link{
+    color:white;
+    font-size:20px;
+    text-decoration:none;
+    
+}
+footer a{
+    text-decoration:none;
+}
 
-        #jobs{
-            position: relative;
-            display:grid;
-            flex-wrap: wrap;
-            padding: 20px;
-            top: 20px;
-            margin: 20px;
-            left:-6%;
-            width:97%;
-            height:30vh;
-            box-shadow: 10px 10px 10px  rgba(0,0, 0,45);
-            background-image:url(/img/pc-desk.jpg);
-            background-size:90% 100%;
-            background-repeat: no-repeat;
-            z-index: 1;
-        }
-        #jobs p{
-            position: relative;
-            left: 5%;
-            top: 250px;
-            width: 80%;
-            height: 30vh;
-            padding: 10px;
-            z-index: 1;
-            line-height: 23px;
-            box-shadow: 10px 10px 10px  rgba(0,0, 0,0.5);
-        }
-        #footer{
-            position:relative;
-            text-align: center;
-            font-size: 20px;
-            width: 110%;
-            height: 20vh;
-            top: 300px;
-            border:transparent;
-            left: 0%;
-            background-color: antiquewhite;
-            z-index: 1;
-        }
-        #footer p{
-            position: relative;
-            top: 20px;
-        
-        }
 
-        @media screen and (max-width:420px) {
-            body{
-                overflow-x: hidden;
-              width: 100%;
-                box-sizing: border-box;
-            }
-            #wrapper{
-                border: transparent;
-                width: 100%;
-                height: auto;
-            }
-            header{
-                position: fixed;
-                left: 0%;
-                width: 99%;
-                height: 10vh;
-               overflow-x: hidden;
-                background-color: black;
-                justify-content: space-between;
-                z-index: 1000;
-            }
-            label{
-                position: relative;
-                
-            }
-            #menu{
-                position: absolute;
-                display:grid;
-                width: 40%;
-                height: 100vh;
-                right: 100%;
-                text-align: center;
-                background: black;
-                visibility: visible;
-            
-                }
-               nav.active #menu  {
-                    display:grid;
-                    max-width: 40%;
-                    min-width: 40%;
-                    height: 100vh;
-                    text-align: center;
-                    background: black;
-                    left: 0%;
-                    visibility: visible;
-                    transition: .4s ease-in-out;
-                }
-            
-            nav.active #menu li a{
-                color:teal;
-                position: fixed;
-                left:10%;
-            
-            }
-            nav.active #bars{
-                z-index: 1;
-                width: 21px;
-                transform: rotate(50deg);
-                transition: .4s ease-in-out;
-                 background-color: red;
-            }
-            nav.active #bars::after{
-                transform: rotate(250deg);
-                top: 1px;
-                transition: .4s ease-in-out;
-                width: 20px;
-                background-color: #003cff;
-            }
-            nav.active #bars::before{
-            background-color: transparent;
-            transition: .4s ease-in-out;
-            
-            }
-           .active-nav #bars::after{
-               background-color:rgb(7, 13, 7);
-            
-           }
-           .active-nav #bars ,  #bars::before
-           {
-            background-color: black;
-           }
-           .active-nav #bars::before{
-            background-color: black;
-           }
-           #bars{
-            width: 30px;
-            height: 2px;
-            background-color: rgb(249, 249, 235);
-            position: absolute;
-            right: 30%;
-            top: 45px;
-            cursor: pointer;
-           }
-           #bars::before{
-            position: absolute;
-            content: "";
-            width: 30px;
-            height: 2px;
-            top: -5px;
-            background-color: rgb(252, 242, 242);
-           }
-           #bars::after{
-            position: absolute;
-            content: "";
-            width: 30px;
-            height: 2px;
-            top: 5px;
-            background-color:rgb(236, 226, 226);
-           }
-           #wrapper{
-            width: 95%;
-          display: grid;
-        }
-        #wrapper h1{
-            position: relative;
-            left: -8%;
-            top: -20px;
-        
-        }
-        .hero img{
-            position: relative;
-            left: -13%;
-        }
-        #button2{
-            position: absolute;
-            top: 370px;
-        }
-        .under-h1{
-            position: relative;
-            top: 8px;
-            left: 0%;
-        }
-         .section1 h2{
-            position: relative;
-            max-width: 90%;
-            left:0%;
-            top: 90px;
-            text-align: center;
-            background-color: transparent;
-        }
-        .section1{
-            display: grid;
-            position: relative;
-            width: 100%;
-            height: auto;
-            top: 10px;
-            box-shadow:10px 10px 10px 3px rgb(16, 12, 12);
-            background-color: hsl(200, 10%, 94%);
-        }
-        #img-section{
-            position: relative;
-            display:grid;
-            padding: 20px;
-            top: 120px;
-            width:90%;
-            height:auto;
-            left: -2%;
-            background-color: #003cff;
-            animation-name: rodadndo;
-            transition: .4s ease;
-            visibility:visible;
-            z-index: 1;
-        }
-        #img-section div:nth-child(2){ 
-            position: relative;
-            left: 20%;
-            background-image: url(/img/myweb.jpeg);
-            background-size:100% 100%;
-            background-repeat: no-repeat;
-            cursor: pointer;
-            }
-            
-            #img-section div:nth-child(4){
-                position: relative;
-                left:20%;
-                background-image: url(/img/invoice.png);
-                background-size:100% 100%;
-                background-repeat: no-repeat;
-                }
-            #img-section div:nth-child(6){
-                position:relative;
-                left: 20%;
-                background-image: url(/img/cartao.jpg);
-            background-size:100% 100%;
-            background-repeat: no-repeat;
-                }
-                #img-section .p1{
-                    position: relative;
-                    left:40%;
-                    font-size: 25px;
-                    top: 15px;
-                }
-                #img-section .p2{
-                    position: relative;
-                    left:37%;
-                    font-size: 25px;
-                    top: 15px;
-                }
-            
-                #img-section .p3{
-                    position: relative;
-                    left: 27%;
-                    font-size: 25px;
-                    top: 15px;
-                }
-                
-                h3{
-                    position: relative;
-                    left: 15%;
-                }
-                .p-underh3{
-                    position: relative;
-                    left: 0%;
-                    top: -50px;
-                }
-                .tools{
-                    display:flex;
-                    gap: 50px;
-                    flex-direction:column;
-                    position: relative;
-                    margin: 0 auto;
-                    width: 90%;
-                    height: auto;
-                    top: 20px;
-                    border: transparent;
-                }
-                .tools h2{
-                    position: absolute;
-                    max-width: 100%;
-                    left:4%;
-                    top: 0px;
-                    text-align: ;
-                    background-color: transparent;
-                }
-             
-                .html{
-                    position: relative;
-                    left: -100%;
+@media  screen and (max-width:500px) {
 
-                }
-                .slide-in2 .html{
-                    position: relative;
-                    left: 10px;
-                    top: 100px;
-                    transition: .6s ease;
-                }
-                .under-html{
-                    position: absolute;
-                    left: 40%;
-                    width: 50%;
-                    top: 210px;
-                }
-                .slide-in3 #css{
-                    position: relative;
-                    visibility: visible;
-                    transition: .4s ease;
-                    top: 50px;
-                    left: 9px;
-                }
-                .under-css{
-                    position: relative;
-                    left:40%;
-                    width: 50%;
-                    top: -280px;
-                
-                }
-                .javascript{
-                    position: relative;
-                    height: 30vh;
-                    width: 10%;
-                    top: -120px;
-                    left: 20%;
-                    transform: translate(-50%, -20%);
-                    border-radius: 150px;
-                    opacity: 0;
-                }
-                .slide-in4  .javascript{
-                    height: 30vh;
-                    width: 30%;
-                    opacity: 1;
-                    transition: .6s ease;
-                }
-                .under-js{
-                    position: relative;
-                    width: 50%;
-                    left: 36%;
-                    margin: 20px;
-                    top: -280px;
-                }
-        
-                #jobs{
-                    position: relative;
-                    display:grid;
-                    flex-wrap: wrap;
-                    padding: 20px;
-                    top: -170px;
-                    margin: 20px;
-                    left:-6%;
-                    width:90%;
-                    height:30vh;
-                    box-shadow: 10px 10px 10px  rgba(0,0, 0,45);
-                    background-image:url(/img/pc-desk.jpg);
-                    background-size:90% 100%;
-                    background-repeat: no-repeat;
-                    z-index: 1;
-                }
-                #jobs p{
-                    position: relative;
-                    left: -13%;
-                    top: 300px;
-                    width: 90%;
-                    height: 25vh;
-                    margin: 50px;
-                    padding: 10px;
-                    z-index: 1;
-                    line-height: 23px;
-                    box-shadow: 10px 10px 10px  rgba(0,0, 0,0.5);
-                }
-                .names{
-                    position: relative;
-                    display:flex;
-                    flex-wrap: wrap;
-                    padding: 20px;
-                    width:90%;
-                    height: 30vh;
-                    top: -110px;
-                    line-height: 25px;
-                    background-color: #003cff;
-                    visibility: visible;
-            
-                }
-                #footer{
-                    position:relative;
-                    text-align: center;
-                    font-size: 20px;
-                    width: 100%;
-                    height:auto;
-                    top: 260px;
-                    border:transparent;
-                    left: 1%;
-                    background-color: antiquewhite;
-                    z-index: 1;
-                }
-                #footer p{
-                    position: relative;
-                    top: 20px;
-                    margin-left:-10%;
-                    
-                
-                }
-                #footer a{
-                    position: relative;
-                    top: 60px;
-                    left: -30%;
-                }
-                #footer a:hover{
-                background-color: white;
-                color: teal;
-                }
-                #footer h4{
-                    position: relative;
-                    margin-left: -30%;
-                    top: 40px;
-                }
-                #footer  .email{
-                    position: relative;
-                    top: -10px;
-                    left: 13%;
-                }
-        }
+	#menu{
+		display: none;
+	}
+	#bars{
+		display: block;
+	}
+		.prices-container p{
+		padding: 5px;
+		margin-bottom: 90px;
+		line-height: 23px;
+	}
+	#form .h1{
+		position: relative;
+    /* text-align:center; */
+	margin-left: -15%;
+}
+.link{
+    color:white;
+    font-size:20px;
+    text-decoration:none;
+    border:1px solid;
+    margin-top:5px;
+    
+}
+.insta{
+	width:30px;
+}
+.face{
+	width:30px;
+	border-radius: 45px;
+}
+.div{
+    position:relative;
+    margin-top:3px;
+	background-color: transparent;
+}
+footer a{
+    text-decoration:none;
+}
+#features ul{
+	position: relative;
+	left: 5%;
+	min-width: 50%;
+	display: grid;
+	grid-template-columns: 1fr ;
+	padding: 5px;
+
+}
+}
 }
