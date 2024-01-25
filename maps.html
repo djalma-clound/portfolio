@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!-- Other head elements -->
+  <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap" async defer></script>
+</head>
+<body>
+  <!-- Your HTML content -->
+  <div id="map"></div>
+  <!-- Other body elements -->
+  <script>
+    var map;
+    function initMap() {
+      map = new google.maps.Map(document.getElementById('map'), {
+        center: {lat: 42.262592, lng: -71.802292},
+        zoom: 8
+      });
+    }
+  </script>
+  <script>
+  const apiKey = "AIzaSyB1WlSQA5B6o4DAAdsWgIXqKddgtgOM5X0";
+</script>
+
+  <!-- Other scripts -->
+</body>
+</html>
+
+  <!-- <script>
+    var map;
+    function initMap() {
+      map = new google.maps.Map(document.getElementById('map'), {
+        center: {lat: 42.262592, lng: -71.802292},
+        zoom: 8
+      });
+    }
+  </script> -->
+<!-- <script>
+  const apiKey = "AIzaSyBrd_kcGCorEH9y9GIyzL0LjZ9dgmefJgI";
+</script>
+<script src="https://maps.googleapis.com/maps/api/js?key=" + apiKey + "&callback=initMap" async defer></script>
+Your existing Google Maps API script tag -->
+<!-- <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap" async defer></script> -->
+
+<!-- New script tag to define the apiKey variable -->
+
+
+<!-- Updated Google Maps API script tag using the apiKey variable -->
+<!-- <script src="https://maps.googleapis.com/maps/api/js?key=" + apiKey + "&callback=initMap" async defer></script>  -->
