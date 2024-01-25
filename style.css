@@ -193,24 +193,24 @@ gap: 10px;
 	box-shadow: 4px 1px 1px 1px #646262;
 }
 #div1{
-	background-image: url('/img/conzinha.jpg');
+	background-image: url('/iconzinha.jpg');
 	background-size:50% 100%;
 	background-repeat: no-repeat;
 
 }
 
 #div2{
-	background-image: url('/img/Gbanheiro.jpg');
+	background-image: url('/Gbanheiro.jpg');
 	background-size:50% 100%;
 	background-repeat: no-repeat;
 }
 #div3{
-	background-image: url('/img/banhiro.jpg');
+	background-image: url('/banhiro.jpg');
 	background-size:50% 100%;
 	background-repeat: no-repeat;
 }
 #div4{
-	background-image: url('/img/kitchenbrown.jpg');
+	background-image: url('/kitchenbrown.jpg');
 	background-size:50% 100%;
 	background-repeat: no-repeat;
 }
