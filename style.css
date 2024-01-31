@@ -17,6 +17,10 @@ body {
       top: -10px;
       color: white;
     }
+ .navigation b{
+        transform: rotate(180deg); 
+      display: inline-block;
+    }
     .container {
       max-width: 1200px;
       margin: 0 auto;
