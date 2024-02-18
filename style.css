@@ -658,6 +658,16 @@ body {
 left:0%;
 
 }
+        #jobs div::after{
+  content: "Click me";
+  position: absolute;
+  bottom: 20px;
+  width: 100px;
+  color:white;
+  padding: 2px;
+  background-color: rgb(27, 57, 90);
+  margin: 0 -10%;
+}
 #jobs div:nth-child(3){
   position: relative;
   margin-left: -0%;
