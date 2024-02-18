@@ -48,13 +48,3 @@ job2.addEventListener("click", () => {
   window.open("https://djalma-clound.github.io/portfolio/index.html", "_blank");
 });
 
-  const portugues = document.getElementById("portugues");
-         portugues.addEventListener("click", () => {
-           window.location.href = "portugues.html";
-         });
-
-         const english = document.getElementById("english");
-         english.addEventListener("click", () => {
-           window.location.href = "index.html";
-           console.log("clicked");
-         });
