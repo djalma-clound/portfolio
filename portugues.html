@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Djalma, fazendo website</title>
+    <title>Djalmad um bom website para te ajudar</title>
     <link rel="stylesheet" href="style.css" />
     <!-- Google tag (gtag.js) -->
     <script
@@ -32,6 +32,7 @@
             <li><a href="#about">Sobre</a></li>
             <li><a href="#tools">tecnologias</a></li>
             <li><a href="#work">Recursos</a></li>
+            <li><a href="#jobs">trabalhos</a></li>
             <li><a href="#contact">Contatos</a></li>
           </ul>
           <div class="hamburger"><span id="bars"></span></div>
@@ -42,7 +43,7 @@
     <section id="home">
       <div class="container">
         <h2>Bem-vindo</h2>
-        <p id="my-phrase"><span> Meu nome é Djalma </span></p>
+        <p id="my-phrase"><span> Uma idea Pode vira um site!</span></p>
 
         <a class="a-button" href="index.html"><span> English version</span></a>
       </div>
@@ -51,7 +52,7 @@
     <section id="about">
       <div class="container">
         <h3 id="h3">Sobre Mim</h3>
-        <img src="robot.jpg" alt="" />
+        <img src="/img/robot.jpg" alt="" />
         <p>
           Sou um desenvolvedor de website com paixão por criar sites bonitos e
           funcionais. Sempre fui fascinado pelo poder da internet de conectar
@@ -158,6 +159,13 @@
           </p>
         </div>
       </section>
+      <br><br>
+      <h3>Trabalhos feito por djalma</h3>
+      <section id="jobs">
+       <div id="first"></div>
+       <div id="second"></div>
+       <div id="third"></div>
+      </section>
     </section>
 
     <section id="contact">
@@ -165,7 +173,7 @@
         <h3>
           Contact me <br />
         </h3>
-        <form id="form" action="submit.php" method="post">
+        <form id="form" action="php/submit.php" method="post">
           <label for="name">Name:</label>
           <input type="text" id="name" name="name" value="" />
           <span id="errorName"></span>
@@ -197,5 +205,6 @@
     <script src="form.js"></script>
     <script src="nav.js"></script>
     <script src="word.js"></script>
+    <script src="animation.js"></script>
   </body>
 </html>
