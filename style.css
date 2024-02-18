@@ -307,32 +307,23 @@ body {
   transform: translateY(0); /* Move the elements to their original position */
 }
 #jobs div:nth-child(1){
-<<<<<<< HEAD
-  background-image: url(job1.jpeg);
-=======
-  background-image: url(job1.jpeg);
->>>>>>> d0f31136fbd4e9a285cedd574531207768bc0e7f
+  background-image: url(img/job1.jpeg);
+  background-image: url(img/job1.jpeg);
   background-size:cover;
   background-position: 40%;
   background-repeat: no-repeat;
   cursor: pointer;
 }
 #jobs div:nth-child(2){
-<<<<<<< HEAD
   background-image: url(job2.jpeg);
-=======
   background-image: url(job2.jpeg);
->>>>>>> d0f31136fbd4e9a285cedd574531207768bc0e7f
   background-size:cover;
   background-repeat: no-repeat;
   cursor: pointer;
 }
 #jobs div:nth-child(3){
-<<<<<<< HEAD
   background-image: url(job3.jpeg);
-=======
   background-image: url(job3.jpeg);
->>>>>>> d0f31136fbd4e9a285cedd574531207768bc0e7f
   background-size:cover;
   background-repeat: no-repeat;
   cursor: pointer;
