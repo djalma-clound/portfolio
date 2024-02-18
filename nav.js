@@ -68,47 +68,25 @@ navLinks.forEach(link => {
         window.location.href = "http://dj-techs.com/index.php"; // Replace with your website URL
     });
   
-    
-    // window.addEventListener('scroll', function() {
-    //   var scrollPosition = window.pageYOffset;
-      
-    //   if (scrollPosition > 100) {
-    //     // change the background color of the navbar
-    //     document.querySelector('header').style.backgroundColor = '#333';
-    //   } else {
-    //     // reset the background color of the navbar
-    //     document.querySelector('header').style.backgroundColor = '';
-    //   }
-    //   if (scrollPosition > 300) {
-    //       document.querySelector('header').style.color = '#fff';
-    //   }else{
-    //       document.querySelector('header').style.color = '';
-          
-    //   }
-    //   if (prevScrollPos > 100) {
-    //       const menuItems = document.querySelectorAll('#menu a');
-    //       menuItems.forEach(function(item) {
-    //         item.style.color = '#fff';
-    //       });
-    //     } else {
-    //       const menuItems = document.querySelectorAll('#menu a');
-    //       menuItems.forEach(function(item) {
-    //         item.style.color = 'white';
-    //       });
-    //     }
-    //   });
+  
        const img1 = document.getElementById("img1");
         img1.addEventListener("click", (e)=> {
      
          window.location.href = 'http://djalmad.com';
         });
-      
-        // const img2 = document.getElementById("img2");
-        // img2.addEventListener("click", (e)=> {
-        //  e.preventDefoult();
-        // });
-  
+    
         const img2 = document.getElementById("img2");
         img2.addEventListener("click", ()=> {
          window.location.href = 'http://dj-detailing.dj-techs.com';
         });
+
+         const portugues = document.getElementById("portugues");
+         portugues.addEventListener("click", () => {
+           window.location.href = "portugues.html";
+         });
+
+         const english = document.getElementById("english");
+         english.addEventListener("click", () => {
+           window.location.href = "index.html";
+           console.log("clicked");
+         });

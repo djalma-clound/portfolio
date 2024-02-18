@@ -23,7 +23,6 @@ const job2 = document.getElementById("second");
 job2.addEventListener("click", () => {
   window.open("https://djalma-clound.github.io/portfolio/index.html", "_blank");
 });
-=======
 const jobs = document.querySelectorAll("#jobs div");
 
 const observer = new IntersectionObserver((entries) => {
@@ -48,4 +47,14 @@ const job2 = document.getElementById("second");
 job2.addEventListener("click", () => {
   window.open("https://djalma-clound.github.io/portfolio/index.html", "_blank");
 });
->>>>>>> d0f31136fbd4e9a285cedd574531207768bc0e7f
+
+  const portugues = document.getElementById("portugues");
+         portugues.addEventListener("click", () => {
+           window.location.href = "portugues.html";
+         });
+
+         const english = document.getElementById("english");
+         english.addEventListener("click", () => {
+           window.location.href = "index.html";
+           console.log("clicked");
+         });
