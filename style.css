@@ -17,7 +17,7 @@ body {
       top: -10px;
       color: white;
     }
- .navigation b{
+    .navigation b{
         transform: rotate(180deg); 
       display: inline-block;
     }
@@ -104,7 +104,7 @@ body {
       color: #fff;
       padding: 100px 0;
       text-align: center;
-      background-image: url(lampada.jpg);
+      background-image: url(/img/lampada.jpg);
       background-size:110% 115%;
       line-height: 25px;
       
@@ -179,7 +179,7 @@ body {
       left:-10%;
       margin-top:80px ;
      width: 237px;
-     height:auto;
+     height:300px;
      background-color: black;
      border-radius: 25px;
      z-index: -1;
@@ -209,6 +209,7 @@ body {
       font-size: 50px;
     padding: 7px;
     }
+    
     .p1{
       position: relative;
       left:0%;
@@ -235,13 +236,15 @@ body {
       background-color: white;
       border: 1px solid;
       margin-left: 40%;
-      min-width:700px;
+      min-width:500px;
+      max-height: 300px;
       top: -20px;
       text-align: center;
       font-size: 50px;
     padding: 7px;
   
       }
+ 
       .p3{
         position: relative;
         left:0%;
@@ -269,6 +272,65 @@ body {
 .feature p{
   width:50%;
   margin: 0 auto;
+}
+#jobs {
+  position: relative;
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+  top: 70px;
+  gap: 20px;
+  max-width: 100%;
+  padding: 10px;
+  margin: 0 auto;
+}
+
+#jobs div {
+  position: relative;
+  background-color: lightgoldenrodyellow;
+  border-radius: 25px;
+  box-shadow:1px 1px 1px 3px  lightgrey;
+  opacity: 0;
+  left: 25%;
+  width: 300px;
+  height: 300px;
+  margin-top: 150px;
+  margin-right: 50px; /* Adjust spacing between items */
+  /* transition: opacity 0.5s, transform 0.5s; Smooth transition */
+}
+
+/* Define the animation when the elements come into view */
+#jobs div.slide-in {
+  position:relative;
+  margin-top: 60px;
+  transition: 2s ease-in-out;
+  opacity: 1;
+  transform: translateY(0); /* Move the elements to their original position */
+}
+#jobs div:nth-child(1){
+  background-image: url(/img/job1.jpeg);
+  background-size:cover;
+  background-position: 40%;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+#jobs div:nth-child(2){
+  background-image: url(/img/job2.jpeg);
+  background-size:cover;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+#jobs div:nth-child(3){
+  background-image: url(/img/job3.jpeg);
+  background-size:cover;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+#jobs div:hover{
+  box-shadow:10px 10px 10px #333;
+}
+#jobs div:nth-child(3){
+  position: relative;
+  margin-left: 50%;
 }
     /* Contact section styles */
     form label {
@@ -339,11 +401,11 @@ body {
       top: 0%;
       font-size: 19px;
       color: white;
-    }
-     #back-btn{ 
+    }#back-btn{ 
          visibility:hidden;
      }
-    /* small moile style section start here */
+    /* small moile s
+     tyle section start here */
   
     @media screen and (max-width:900px) {
          .navigation h1{
@@ -352,7 +414,8 @@ body {
          }
        html, body {width: auto!important; overflow-x: hidden!important;
       } 
-      header{
+      header{height: auto;
+
         z-index: 1000;
       }
       section{
@@ -559,7 +622,7 @@ body {
     }
          #tools div:nth-child(4){
            position:relative;
-       width:80%;
+       width:300px;
       color:black;
       left: 3%;
     border-radius:25px;
@@ -571,10 +634,34 @@ body {
        min-width:80%;
       color:black;
         border-radius:25px;
+        background-color:white;
         left:-30%;
         padding:3px;
       text-align: center;
     }
+  #jobs {
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  max-width: 1200px;
+  padding: 10px;
+  gap: 30px;
+  height: auto;
+  margin: 0 auto;
+  border:none;
+  overflow-x: auto; /* Enable horizontal scrolling */
+  overflow-y: auto; /* Hide vertical scrolling */
+  white-space: nowrap; /* Prevent items from wrapping */
+}
+#jobs div{
+  position:relative;
+left:0%;
+
+}
+#jobs div:nth-child(3){
+  position: relative;
+  margin-left: -0%;
+}
       #contact{
         position: relative;
         width: 100%;
@@ -612,7 +699,6 @@ body {
   
        #tools div:nth-child(2){
       position:relative;
-  background-color: ;
       color:black;
       border:1px solid;
       text-align: center;
@@ -663,5 +749,19 @@ body {
       position: relative;
       margin-left: -20%;
     }
+      #jobs {
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  max-width: 1200px;
+  padding: 10px;
+  gap: 30px;
+  height: auto;
+  margin: 0 auto;
+  /* border: 1px solid; */
+  overflow-x: auto; /* Enable horizontal scrolling */
+  overflow-y: auto; /* Hide vertical scrolling */
+  white-space: nowrap; /* Prevent items from wrapping */
+}
        }
     }

@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Djalma Front-end Developer.</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="/style/style.css" />
     <script
       async
       src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1266485488894075"
@@ -30,14 +30,16 @@
   <body id="english">
     <header id="header">
       <div class="navigation">
-       <h1 id="logo">amlaj<b>D</b></h1>
+        <h1 id="logo">amlaj<b>D</b></h1>
         <nav>
           <ul id="menu">
             <li><a href="#home">Home</a></li>
             <li><a href="#about">about</a></li>
             <li><a href="#tools">technologies</a></li>
             <li><a href="#work">Features</a></li>
+            <li><a href="#jobs">done jobs</a></li>
             <li><a href="#contact">Contact</a></li>
+            <li><a href="portugues.html">Portugues</a></li>
           </ul>
           <span id="bars"></span>
         </nav>
@@ -47,7 +49,7 @@
     <section id="home">
       <div class="container">
         <h2>Welcome</h2>
-        <p id="my-phrase"><span>My name is Djalma</span></p>
+        <p id="my-phrase"><span>A idea can became a website</span></p>
         <a class="a-button" href="portugues.html"
           ><span> versão em português</span></a
         >
@@ -57,7 +59,7 @@
     <section id="about">
       <div class="container">
         <h3 id="h3">About Me</h3>
-        <img src="robot.jpg" alt="robot pic" />
+        <img src="/img/robot.jpg" alt="robot pic" />
         <p>
           I'm a web developer with a passion for creating beautiful and
           functional websites. I've always been fascinated by the power of the
@@ -126,6 +128,8 @@
           Oracle.
         </p>
       </div>
+      
+      </div>
     </section>
     <section id="work">
       <section id="features" class="features">
@@ -175,12 +179,19 @@
           </p>
         </div>
       </section>
+      <br><br>
+      <h3>Jobs done by djalma</h3>
+      <section id="jobs">
+       <div id="first"></div>
+       <div id="second"></div>
+       <div id="third"></div>
+      </section>
     </section>
 
     <section id="contact">
       <div class="container">
         <h3>Contact Me</h3>
-        <form id="form" action="submit.php" method="post">
+        <form id="form" action="php/submit.php" method="post">
           <label for="name">Name:</label>
           <input type="text" id="name" name="name" value="" />
           <span id="errorName"></span>
@@ -209,8 +220,9 @@
       </div>
     </footer>
 
-    <script src="valid.js"></script>
-    <script src="nav.js"></script>
+    <script src="js/valid.js"></script>
+    <script src="js/nav.js"></script>
+    <script src="js/animation.js"></script>
     <!-- <script src="header.js"></script> -->
     <!-- <script src="js/script.js"></script> -->
   </body>
