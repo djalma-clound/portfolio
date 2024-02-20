@@ -20,23 +20,3 @@ if ($_SERVER["REQUEST_METHOD"] == "POST")
   } else {
      echo "Email sending failed.";
   }
-          
-//   if (mail($to, $subject, $body, $headers)) {
-//     // Email was sent successfully
-//     echo '<p class="success-message">Thank you for contacting us. We will get back to you soon!!</p>';
-//     echo '<button onclick="goBack()">Go Back</button>';
-//   } else {
-//     // Email failed to send
-//     echo "There was an error sending your message. Please try again later.";
-//   }
-// } else {
-//   echo "There was an error sending your message. Please try again later.";
-// }
-// ?>
-
-// <script>
-//   function goBack() {
-//    window.location.href = "http://dj-techs.com/index.php"; 
-//     //window.history.back();
-//   }
-// </script>

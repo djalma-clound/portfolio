@@ -1,0 +1,185 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+#bars{
+    display: none;
+}
+header {
+    position: fixed;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    top: 0;
+    color:#333;
+    padding: 2em;
+    text-align: center;
+    z-index: 10;
+}
+header h1{
+    position: absolute;
+    color: blue;
+    top: -5px;
+    cursor: pointer;
+}
+nav ul {
+    position: absolute;
+    right:10%;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav a {
+    color:blue;
+    text-decoration: none;
+    font-weight: bold;
+}
+.main{
+    position: relative;
+    top: 90px;
+    text-align: center;
+    line-height: 30px;
+    margin-bottom: 50px;
+}
+.main p{
+    width: 50%;
+    margin: 0 auto;
+}
+
+.contact {
+    position:relative;
+    width: 100%;
+    top: 100px;
+    background-color: #83e7aa;
+    color: #080101;
+    padding: 3em;
+    text-align: center;
+}
+.contact form{
+    display: grid;
+    max-width: 800px;
+    margin: 0 auto;
+    gap: 10px;
+}
+.contact form input{
+    height: 30px;
+}
+.contact form button{
+    height: 40px;
+    width: 300px;
+    margin: 0 auto;
+}
+footer {
+    margin-top: 100px;
+    background-color:#333;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+    position:relative;
+    width: 100%;
+    bottom: 0;
+}
+@media screen and (max-width:600px) {
+    /* body, html{
+        overflow-x: hidden;
+    } */
+    header{
+        width: 100%;
+    }
+    #menu{
+        width: 100%;
+       height:80vh;
+       left: -100%;
+       transition: .8s ease-in-out;
+        top: 0;
+        background-color: white;
+        display:none;
+        flex-direction: column;
+        gap: 30px;
+    }
+        .active#menu{
+        width: 50%;
+       height:80vh;
+        margin-left: 100%;
+        transition: .8s ease-in-out;
+        top: 0;
+        background-color: white;
+        color: black;
+        display:flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+    #menu a{
+        position: relative;
+        top: 20px;
+        color:black;
+    }
+     #hamburger{
+        position: absolute;
+        right: 70px;
+        top: 30px;
+        width: 30px;
+        height: 2px;
+        background-color:#fff;
+        cursor: pointer;
+        z-index: 10;
+      }
+       #hamburger::after{
+        position: absolute;
+        content: "";
+        top:5px;
+        width: 30px;
+        height: 2px;
+        right: 0;
+        background-color:red;
+        cursor: pointer;
+        z-index: 10;
+      }
+       #hamburger::before{
+        position: absolute;
+        content: "";
+        top:-5px;
+        width: 30px;
+        height: 2px;
+        right: 0;
+        background-color:red;
+        cursor: pointer;
+        z-index: 10;
+      }
+      .activ #hamburger:after{
+        display: none;
+      }
+      .activ #hamburger::before{
+        rotate:90deg;
+        transition: .4s ease-in-out;
+        background-color:red;
+        top: 1px;
+      }
+      .activ .circle{
+        display: block;
+        transition: .6s ease-in-out;
+      }
+      .circle{
+        position: absolute;
+        right: 65px;
+        border-radius: 45px;
+        border: 1px solid red;
+        display: none;
+        top: 10px;
+        width: 40px;
+        height: 40px;
+      }
+      .main p{
+    width: 80%;
+    text-orientation:initial;
+    margin: 0 auto;
+}
+    }

@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 const jobs = document.querySelectorAll("#jobs div");
 
 const observer = new IntersectionObserver((entries) => {
