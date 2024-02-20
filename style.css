@@ -284,6 +284,7 @@ footer {
     bottom: 0;
 }
 @media screen and (max-width:900px) {
+    
  
 .info{
     position: relative;
@@ -340,9 +341,9 @@ footer {
 }
 }
 @media screen and (max-width:800px) {
-    body, html{
+    /* body, html{
         overflow-x: hidden;
-    }
+    } */
     header{
         width: 100%;
     }

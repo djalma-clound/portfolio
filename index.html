@@ -3,82 +3,69 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href=" ">
+    <link rel="stylesheet" href="style/styles.css">
     <title>Website Developer</title>
 </head>
 <body>
     <header id="header">
-        <h1 class="logo" id="h1">Djalma</h1>
+        <!-- <h1 class="logo" id="h1">Djalma</h1> -->
         <nav>
+            <h1 class="logo" id="h1">Djalma</h1>
             <ul id="menu">
                 <li><a href="about.html">About</a></li>
                 <li><a href="#features">Trabalhos</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
+            <span id="hamburger"></span>
         </nav>
     </header>
 
     <section id="home" class="hero">
-        <h2>Brem vindos a meu website</h2>
-        <p>Sou um desenvolvedor e designer de websites pronto para ajudá-lo a criar o seu 
-            website para a sua empresa e também auxiliá-lo com a divulgação nas redes sociais, como no Facebook,
-             Instagram e Google
-        </p>
-        <a href="#contact" class="cta-button">Saiba mais</a>
+        <div class="container">
+            <h2>Brem vindos a meu website</h2>
+            <p>Sou um desenvolvedor e designer de websites pronto para ajudá-lo a criar o seu website para a sua empresa e também auxiliá-lo com a divulgação nas redes sociais, como no Facebook, Instagram e Google.</p>
+            <a href="#contact" class="cta-button">Saiba mais</a>
+        </div>
         <img src="/img/deskpc.jpg" alt="img">
     </section>
 
-    <section class="info">
-        <img src="/img/robot.jpg" alt="img">
-        <h2>saiba sobre  Djalmad.com</h2>
-    <section id="about">
-      <div class="container">
-        <h3 id="h3">About Me</h3>
-        <img src="robot.jpg" alt="robot pic" />
-        <p>
-Bem-vindo ao Djalmad.com, onde a criatividade encontra a inovação. Como um desenvolvedor de sites apaixonado 
-que utiliza HTML, CSS, JavaScript, PHP e inteligência artificial de ponta, eu me esforço para criar experiências
- online cativantes. Se você está procurando por designs elegantes, funcionalidade perfeita ou automação inteligente,
-  você veio ao lugar certo. Vamos tornar sua visão digital 
-realidade, juntos.</p>
-        <button id="more-info">Mais sobre nos</button>
+    <section id="about" class="info">
+        <div class="container">
+            <img src="robot.jpg" alt="robot pic" />
+            <h2>Saiba sobre Djalmad.com</h2>
+            <p>Bem-vindo ao Djalmad.com, onde a criatividade encontra a inovação. Como um desenvolvedor de sites apaixonado que utiliza HTML, CSS, JavaScript, PHP e inteligência artificial de ponta, eu me esforço para criar experiências online cativantes. Se você está procurando por designs elegantes, funcionalidade perfeita ou automação inteligente, você veio ao lugar certo. Vamos tornar sua visão digital realidade, juntos.</p>
+            <button id="more-info">Mais sobre nos</button>
+        </div>
     </section>
-     
+
     <section id="features" class="mittle-section">
-        <img class="img" src="/img/image-circle.png" alt="">
         <h2>Trabalhos feito por Djalma</h2>
-        <div id="div1" class="feature"></div>
-        <div id="div2" class="feature"></div>
-        <div id="div3" class="feature"></div>
+        <div class="features-container">
+            <div class="feature" style="background-image: url(/img/job1.jpeg);"></div>
+            <div class="feature" style="background-image: url(/img/job2.jpeg);"></div>
+            <div class="feature" style="background-image: url(/img/job3.jpeg);"></div>
+        </div>
     </section>
 
     <section id="contact" class="contact">
-        <!-- <a href="mailto:info@example.com" class="cta-button">Contact Now</a> -->
-          <!-- <section id="contact"> -->
-      <div class="container">
-        <h3>Contact Me</h3>
-        <form id="form" action="php/submit.php" method="post">
-          <label for="name">Name:</label>
-          <input type="text" id="name" name="name" value="" />
-          <span id="errorName"></span>
-          <label for="email">Email:</label>
-          <input type="email" id="email" name="email" />
-          <span id="emailError"></span>
-
-          <label for="subject">subject:</label>
-          <input type="text" id="subject" name="subject" />
-          <span id="errorSubject"></span>
-
-          <label for="message">Message:</label>
-          <textarea id="message" name="message"></textarea>
-          <span id="errorMessage"></span>
-
-          <button id="input" type="submit" name="submit" value="Send">
-            Send
-          </button>
-        </form>
-      </div>
-    </section>
+        <div class="container">
+            <h3>Contact Me</h3>
+            <form id="form" action="php/submit.php" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" value="" />
+                <span id="errorName"></span>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" />
+                <span id="emailError"></span>
+                <label for="subject">Subject:</label>
+                <input type="text" id="subject" name="subject" />
+                <span id="errorSubject"></span>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message"></textarea>
+                <span id="errorMessage"></span>
+                <button id="input" type="submit" name="submit" value="Send">Send</button>
+            </form>
+        </div>
     </section>
       
     <footer>
