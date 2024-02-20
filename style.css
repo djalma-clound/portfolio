@@ -1,350 +1,227 @@
-/* Global styles */
+/* Add/modify CSS styles here */
 body {
-    max-width: 1500px;
-      margin: 0;
-      font-family: Arial, sans-serif;
-    }
-    .navigation{
-      position: relative;
-      margin-left: -20px;
-      width: 100%;
-      height: 8vh;
-      z-index: 1000;
-    }
-    .navigation h1{
-      position: relative;
-      left: 5%;
-      top: -10px;
-      color: white;
-    }
-    .navigation b{
-        transform: rotate(180deg); 
-      display: inline-block;
-    }
-    .container {
-      max-width: 1200px;
-      margin: 0 auto;
-      padding: 0 20px;
-     
-    
-    }
-  
-    
-    /* Header styles */
-    header {
-      background-color:black;
-      color:black;
-      /* padding: 20px; */
-      position: fixed;
-      width: 100%;
-      height: 8vh;
-      z-index: 1000;
-    }
-    .change header{
-      background-color:white;
-    }
-    
-    nav ul {
-      position: relative;
-      top: -50px;
-      margin: 0;
-      padding: 0;
-      list-style: none;
-      text-align: right;
-    }
-    
-    nav ul li {
-      display: inline-block;
-    }
-    
-    nav ul li a {
-      position: relative;
-      top: -20px;
-      display: block;
-      padding: 10px;
-      color:white;
-      text-decoration: none;
-    }
-    #menu{
-      position: relative;
-      left: -7%;
-    }
-    nav ul li a:hover {
-      background-color: #555;
-    }
-     .a-button{
-    position: relative;
-    left:-33%;
-    top: 30px;
-    text-decoration: none;
-    color:black;
-    padding: 3px;
-    background-color:hsl(39, 85%, 81%);
-   }
-   .a-button:hover{
-    background-color: #b4b7c7;
-    color:black;
-   }
-     /* .a-button1{
-    position: relative;
-    top: 130px;
-    text-decoration: none;
-    color:black;
-    padding: 3px;
-    background-color: aqua;
-   } */
-   .a-button1:hover{
-    background-color: white;
-    color:black;
-   }
-  
-    /* Home section styles */
-    #home {
-      max-width: 1500px;
-      color: #fff;
-      padding: 100px 0;
-      text-align: center;
-      background-image: url(lampada.jpg);
-      background-size:110% 115%;
-      line-height: 25px;
-      
-    }
-    #home h2{
-      position: relative;
-      left:-33%;
-      top: 30px;
-    }
-    #home p{
-      position: relative;
-         left:-33%;
-      top: 20px;
-    }
-    .container p{
-        position:relative;
-        top:60px;
-    }
-    /* About section styles */
-    #about {
-      background-color: #f2f2f2;
-      padding: 100px 0;
-     display: flex;
-     flex-wrap: wrap;
-    }
-    #about h2{
-      position: relative;
-      text-align: center;
-      top: 20px;
-      left: 50px;
-    }
-    #h3{
-      position: relative;
-      left: 40px;
-    }
-    #about p{
-      position: relative;
-      top: 20px;
-      line-height: 25px;
-      float: right;
-      width: 50%;
-    }
-    #about img{
-      position: relative;
-      width: 40%;
-    }
-    #about img::after{
-      content:"you see me because djalma what to be jodge by his job not from his apperance";
-      font-size: 18px;
-      position: absolute;
-      left: 3%;
-      top: 5px;
-      color: #0062cc;
-    }
-    /* tools section */
-    #tools{
-      display:flex;
-      flex-wrap: wrap;
-      gap: 13px;
-    }
-    #h1{
-      position: relative;
-      left: 50%;
-      transform: translate(-50%, -20%);
-      top: 70px;
-    
-    }
-    
-    #tools div{
-      position: relative;
-      margin: 0 auto;
-      left:-10%;
-      margin-top:80px ;
-     width: 237px;
-     height:300px;
-     background-color: black;
-     border-radius: 25px;
-     z-index: -1;
-    }
-    #tools div:nth-child(2){
-      color:black;
-      background-color: white;
-      border: 1px solid;
-      min-width:300px;
-      text-align: center;
-      font-size: 50px;
-    padding: 7px;
-  
-    }
-    .p{
-      position: relative;
-      left:0%;
-      font-size: 16px;
-      line-height: 25px;
-    }
-    #tools div:nth-child(3){
-      color:black;
-      background-color: white;
-      border: 1px solid;
-      min-width:300px;
-      text-align: center;
-      font-size: 50px;
-    padding: 7px;
-    }
-    
-    .p1{
-      position: relative;
-      left:0%;
-      font-size: 16px;
-      line-height: 25px;
-    }
-    #tools div:nth-child(4){
-      color:black;
-      background-color: white;
-      border: 1px solid;
-      min-width:300px;
-      text-align: center;
-      font-size: 50px;
-    padding: 7px;
-    }
-    .p2{
-      position: relative;
-      left:0%;
-      font-size: 16px;
-      line-height: 25px;
-    }
-      #tools div:nth-child(5){
-        color:black;
-      background-color: white;
-      border: 1px solid;
-      margin-left: 40%;
-      min-width:500px;
-      max-height: 300px;
-      top: -20px;
-      text-align: center;
-      font-size: 50px;
-    padding: 7px;
-  
-      }
- 
-      .p3{
-        position: relative;
-        left:0%;
-        font-size: 16px;
-        line-height: 25px;
-      }
-    /* Work section styles */
-    #work {
-      background-color: #fff;
-      padding: 100px 0;
-      text-align: center;
-    }
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
 
-.features {
+
+#bars{
+    display: none;
+}
+header {
+    position: fixed;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    top: 0;
+    color:#333;
+    padding: 2em;
+    text-align: center;
+    z-index: 10;
+}
+header h1{
+    position: absolute;
+    top: -5px;
+    cursor: pointer;
+}
+nav ul {
+    position: absolute;
+    right:10%;
+    list-style: none;
+    /* background-color: red; */
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav a {
+    color:blue;
+    text-decoration: none;
+    font-weight: bold;
+}
+.hero h2{
+    position: relative;
+    top: 70px;
+    margin-bottom: 30px;
+}
+.hero {
+    position: relative;
+    width: 100%;
+    height: 55vh;
+    background-color:rgb(255, 251, 251);
+    /* background-image: url(/img/deskpc.jpg); */
+    background-size:75% 90%;
+    background-position-x:40%;
+    background-repeat: no-repeat;
+    text-align: center;
+    top: 50px;
+    /* border: 1px solid; */
+    padding: 3em;
+}
+.hero img{
+   position:absolute;
+   display: none;
+   top:7px;
+   left: 0;
+   right: 0;
+   width: 100%;
+   height: 70vh;
+ z-index: -1;
+}
+.hero button{
+    color:rgb(10, 9, 9);
+}
+.hero p{
+    width: 50%;
+    margin: 0 auto;
+    margin-top:90px;
+    margin-bottom: 20px;
+    line-height: 25px;
+}
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 0px;
+    text-decoration: none;
+    color: #0e0c0c;
+    /* background-color: #0000ff; */
+    box-shadow: 3px 3px 3px 3px #0000ff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.cta-button:hover{
+    box-shadow: 3px 3px 3px 3px hsl(0, 4%, 30%);
+    background-color: white;
+    color: #0000ff;
+}
+.info{
+    position: relative;
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    break-after: column;
+    top: 90px;
+    text-align: center;
+    /* border: 1px solid; */
+    height: 50vh;
+    line-height: 30px;
+    margin-bottom: 50px;
+}
+.info img{
+    position: relative;
+    border-radius: 120px;
+    left: 10%;
+    width: 400px;
+}
+.info p{
+    position: relative;
+    right: 0%;
+    width: 40%;
+    margin: 0 auto;
+    top: 60px;
+    box-shadow: 3px 3px 3px #858383;
+    /* border: 1px solid; */
+}
+.info h2{
+    position: absolute;
+    top:0px;
+    right: 20%;
+    margin: 0 auto;
+}
+.info button{
+    position:relative;
+    left: 20%;
+    top: 80px;
+    background-color: #333;
+    width: 200px;
+    color: white;
+}
+.info button:hover{
+    cursor: pointer;
+    padding: 5px;
+
+}
+.img{
+    position: relative;
+    margin-top:60px;
+    left: 2%;
+}
+.mittle-section{
     background-color: #fff;
     padding: 3em;
     text-align: center;
-    max-width:100% ;
 }
 
-.feature {
-    margin-bottom: 2em;
-    line-height: 30px;
+#features {
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    margin: 2em;
+    top: 190px;
+    margin-bottom:200px;
+    text-align: center;
+    background-color: #858383;
+}
+#features h2{
+    position: relative;
+    left: -40%;
+}
+#features div{
+    position: relative;
+    left: 20%;
+    margin: 2em;
+    width: 300px;
+    height: 300px;
+    cursor: pointer;
+}
+#features div:hover{
+    box-shadow: 10px 10px 10px #333;
+    padding: 1px;
+}
+#features div:nth-child(3){
+    background-image: url(/img/job1.jpeg);
+    background-size: cover;
+}
+#features div:nth-child(4){
+    background-image: url(/img/job2.jpeg);
+    background-size: cover;
+}
+#features div:nth-child(5){
+    background-image: url(/img/job3.jpeg);
+    background-size: cover;
+}
+#features div:nth-child(5){
+    background-color: red;
+    position: relative;
+    margin-left: 55%;
 }
 .feature p{
-  width:50%;
-  margin: 0 auto;
+    width: 60%;
+    margin: 0 auto;
 }
-#jobs {
-  position: relative;
-  display:grid;
-  grid-template-columns: 1fr 1fr;
-  top: 70px;
-  gap: 20px;
-  max-width: 100%;
-  padding: 10px;
-  margin: 0 auto;
+.feature p em{
+    font-size: 5pc;
+    color: red;
 }
-
-#jobs div {
-  position: relative;
-  background-color: lightgoldenrodyellow;
-  border-radius: 25px;
-  box-shadow:1px 1px 1px 3px  lightgrey;
-  opacity: 0;
-  left: 25%;
-  width: 300px;
-  height: 300px;
-  margin-top: 150px;
-  margin-right: 50px; /* Adjust spacing between items */
-  /* transition: opacity 0.5s, transform 0.5s; Smooth transition */
+.about {
+    background-color: #f4f4f4;
+    padding: 2em;
+    text-align: center;
 }
 
-/* Define the animation when the elements come into view */
-#jobs div.slide-in {
-  position:relative;
-  margin-top: 61px;
-  transition: 2s ease-in-out;
-  opacity: 1;
-  transform: translateY(0); /* Move the elements to their original position */
+.contact {
+    background-color: #f0e6e6;
+    color: #fff;
+    padding: 3em;
+    text-align: center;
 }
-#jobs div:nth-child(1){
-<<<<<<< HEAD
-  background-image: url(img/job1.jpeg);
-=======
-  background-image: url(/img/lampada.jpg);
->>>>>>> 69acc27125db1ee98ff38430bac1fb7c4a6e735b
-  background-size:cover;
-  background-position: 40%;
-  background-repeat: no-repeat;
-  cursor: pointer;
-}
-#jobs div:nth-child(2){
-<<<<<<< HEAD
-  background-image: url(img/job2.jpeg);
-=======
-  background-image: url(/img/github.jpg);
->>>>>>> 69acc27125db1ee98ff38430bac1fb7c4a6e735b
-  background-size:cover;
-  background-repeat: no-repeat;
-  cursor: pointer;
-}
-#jobs div:nth-child(3){
-<<<<<<< HEAD
-  background-image: url(img/job3.jpeg);
-=======
-  background-image: url(/img/html.jpg);
->>>>>>> 69acc27125db1ee98ff38430bac1fb7c4a6e735b
-  background-size:cover;
-  background-repeat: no-repeat;
-  cursor: pointer;
-}
-#jobs div:hover{
-  box-shadow:10px 10px 10px #333;
-}
-#jobs div:nth-child(3){
-  position: relative;
-  margin-left: 50%;
-}
-    /* Contact section styles */
+  /* Contact section styles */
     form label {
       display: block;
       margin-bottom: 10px;
@@ -358,7 +235,7 @@ body {
   }
   form{
       position: relative;
-      max-width:80%;
+      max-width:60%;
       margin: 0 auto;
       top: -10px;
   }
@@ -373,13 +250,15 @@ body {
   }
   #errorMessage{
       position: relative;
-      top: -6px;
+      top: -56px;
+      left:15%;
+      
   }
   form #input[type="submit"] {
       background-color: #007bff;
       position: relative;
-      width: 50%;
-      left: 50%;
+      width: 30%;
+      left: 10%;
       transform: translate(-50%, -20%);
       color: #fff;
       border: none;
@@ -388,403 +267,253 @@ body {
       cursor: pointer;
       transition: background-color 0.2s;
       margin: 0 auto;
-      margin-top:20px ;
+      margin-top:50px ;
   }
   
   form input[type="submit"]:hover {
       background-color: #0062cc;
   }
-  
-    /* Footer styles */
-    footer{
-      background-color: #333;
-      color: #fff;
-      padding: 20px;
-      margin-bottom: 0;
-      margin-top: 20px;
-      text-align: center;
-    }
-    #container{
-      position: relative;
-      color: black;
-    }
-    #container p{
-      position: relative;
-      top: 0%;
-      font-size: 19px;
-      color: white;
-    }#back-btn{ 
-         visibility:hidden;
-     }
-    /* small moile s
-     tyle section start here */
-  
-    @media screen and (max-width:900px) {
-         .navigation h1{
-             position:relative;
-             left:13%;
-         }
-       html, body {width: auto!important; overflow-x: hidden!important;
-      } 
-      header{height: auto;
 
-        z-index: 1000;
-      }
-      section{
+footer {
+    background-color:#333;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+    position:relative;
+    width: 100%;
+    bottom: 0;
+}
+@media screen and (max-width:900px) {
+ 
+.info{
+    position: relative;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    top: 90px;
+    text-align: center;
+    /* border: 1px solid; */
+    height: 50vh;
+    line-height: 30px;
+    margin-bottom: 50px;
+}
+.info img{
+    position: relative;
+    left: 10%;
+    width: 400px;
+}
+.info p{
+    position: relative;
+    right:80%;
+    width:300px;
+    margin: 0 auto;
+    top: 0px;
+    box-shadow: 3px 3px 3px #858383;
+    /* border: 1px solid; */
+}
+.info h2{
+    position: relative;
+    height: 30px;
+    width:300px;
+    top: -50px;
+    margin: 0 auto;
+}
+.info button{
+    position:absolute;
+    left: 60%;
+    margin-top: 280px;
+    background-color: #333;
+    width: 200px;
+    color: white;
+}
+.info button:hover{
+    cursor: pointer;
+    padding: 5px;
+
+}
+#features{
+    position: relative;
+    margin-top: 190px;
+}
+#features div{
+    position: relative;
+    left: -10%;
+}
+}
+@media screen and (max-width:800px) {
+    body, html{
+        overflow-x: hidden;
+    }
+    header{
         width: 100%;
-        position: relative;
-        left: 0%;
-      }
-   #menu{
-        position: relative;
-        display: flex;
+    }
+    #menu{
+        width: 100%;
+       height:80vh;
+       left: -100%;
+       transition: .8s ease-in-out;
+        top: 0;
+        background-color: white;
+        display:none;
         flex-direction: column;
-        text-align:start;
-        width: 40%;
-        height: 100vh;
-        top: -30px;
-        left:-100%;
-        background-color: #333;
+        gap: 30px;
+    }
+        .active#menu{
+        width: 50%;
+       height:80vh;
+        margin-left: 100%;
+        transition: .8s ease-in-out;
+        top: 0;
+        background-color: white;
+        color: black;
+        display:flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+    #menu a{
+        position: relative;
+        top: 20px;
+        color:black;
+    }
+     #hamburger{
+        position: absolute;
+        right: 70px;
+        top: 30px;
+        width: 30px;
+        height: 2px;
+        background-color:#333;
+        cursor: pointer;
+        z-index: 10;
+      }
+       #hamburger::after{
+        position: absolute;
+        content: "";
+        top:5px;
+        width: 30px;
+        height: 2px;
+        right: 0;
+        background-color:red;
+        cursor: pointer;
+        z-index: 10;
+      }
+       #hamburger::before{
+        position: absolute;
+        content: "";
+        top:-5px;
+        width: 30px;
+        height: 2px;
+        right: 0;
+        background-color:red;
+        cursor: pointer;
+        z-index: 10;
+      }
+      .activ #hamburger:after{
         display: none;
       }
-      .active-menu#menu{
-        position: relative;
-        display: flex;
-        flex-direction: column;
-        text-align:start;
-        width: 40%;
-        height: 100vh;
-        top: -35px;
-        left:3%;
-      
+      .activ #hamburger::before{
+        rotate:90deg;
+        transition: .4s ease-in-out;
+        background-color:red;
+        top: 1px;
       }
-  
-      #menu a:hover{
-        width:41%;
-        background-color:hsl(39, 85%, 81%);
-        text-align: center;
+      .activ .circle{
+        display: block;
+        transition: .6s ease-in-out;
       }
-     
-      #menu a{
-        position: relative;
-        top: 0px;
-        color: white;
-        left: 20%;
-      }
-      #menu a::before{
-        content: "";
-        width: 70%;
-        height: 2px;
-        position:absolute;
-        left: 0;
-        top: 35px;
-        background-color:white;
-      }
-      #bars{
+      .circle{
         position: absolute;
-        right: 20px;
+        right: 65px;
+        border-radius: 45px;
+        border: 1px solid red;
+        display: none;
         top: 10px;
-        width: 30px;
-        height: 2px;
+        width: 40px;
+        height: 40px;
+      }
+      .hero{
+        width: 100%;
+        padding: 5em;
+        top: 0px;
+      }
+      .hero h2{
+        margin-left: -22%;
+      }
+      .hero p{
+        position: relative;
+        margin-left: 5%;
+        min-width:60%;
+      }
+      .hero img{
+        top: 60px;
+        width: 100%;
+        height: 50vh;
+      }
+      .cta-button {
+        position: relative;
+        margin-left:-25%;
         background-color: white;
-        cursor: pointer;
       }
-      #bars:before{
-        content: "";
-        position: absolute;
-        width: 30px;
-        height: 2px;
-        top: -5px;
-        background-color:inherit;
-        cursor: pointer;
+      .img{
+        position: relative;
+        max-width: 600px;
+        left: -10%;
       }
-      #bars:after{
-        content: "";
-        position: absolute;
-        width: 30px;
-        height: 2px;
-        top:5px;
-        background-color:inherit;
-        cursor: pointer;
+      .feature p{
+        width: 100%;
       }
-      .container{
+      #features h2{
         position:relative;
-        background-color:transparent;
-        
-      
+        left:-100%;
       }
-      section h2{
-        text-align: center;
-    }
-    section h3{
-      text-align: center;
-      color: #f00;
-    }
-    .features {
-    background-color: #fff;
-    padding: 3em;
-    text-align: center;
-    max-width:80%;
+      #features div{
+    position: relative;
+    display: grid;
+    left: 0%;
+    margin: 0.1em;
+    max-width:55%;
+    height: 200px;
+    background-color: #0000ff;
 }
-.feature p{
-  width:90%;
-  margin: 0 auto;
+#features div:nth-child(3 ){
+    background-color: rgb(25, 0, 255);
+    position: relative;
+    margin-left: -14%;
 }
-      .container h2{
-        position:relative;
-          color: #f00;
-        margin-left: 72%;
-      }
-      .container .a-button {
-        width: 80%;
-        position: absolute;
-        margin-left: 70%;
-        margin-top: 30px;
-        transform: rotate(-49deg);
-        /* background-color: transparent; */
-      }    
-      .container .a-button span{
-        position: relative;
-        left: 80px;
-      }
-      .container p{
-        position: relative;
-        margin-top: 74px;
-      }
-      #my-phrase{
-        position:absolute;
-        min-width:50%;
-        margin-left: 20%;
-        /* right:-400px; */
-        margin-top: -30px;
-        transform: rotate(50deg);
-        background-color:hsl(39, 85%, 81%);
-        color:black;
-      
-      }
-      .a-button:hover{
-        background-color: #b4b7c7;
-        color:black;
-       }
-      #my-phrase span{
-        position: relative;
-        margin-left:10%;
-      }
-      #my-phrase a,span{
-        position: relative;
-        margin-left: -20%;
-      }
-      #about{
-        display: grid;
-        grid-template-columns: 1fr;
-      }
-      #about img{
-        width: 100%;
-      }
-      #about p{
-        position: relative;
-        width: 100%;
-        margin-top: 40px;
-        left: 0%;
-      }
-      #about h2{
-          position:relative;
-          margin-left:-10%;
-          margin-bottom: 30px;
-      }
-      #tools div{
-        position: relative;
-        margin: 0 auto;
-        left:-10%;
-        margin-top:80px ;
-        color: black;
-       width: 237px;
-       height:auto;
-       border-radius: 25px;
-    
-      }
-      
-      #tools div:nth-child(2){
-        color:black;
-        min-width:80%;
-        text-align: center;
-        font-size: 50px;
-      padding: 7px;
-    
-      }
-     .p{
-      color:black;
-      position:relative;
-      min-width:80%;
-     color:black;
-       border-radius:25px;
-       padding:7px;
-     text-align: center;
-     }
-    
-   #tools div:nth-child(3){
-           position:relative;
-       width:80%;
-      color:black;
-      left:3%;
-      border-radius:25px;
-      background-color:white;
-      padding:3px;
-      text-align: center;
-    }
-         #tools div:nth-child(4){
-           position:relative;
-       width:300px;
-      color:black;
-      left: 3%;
-    border-radius:25px;
-    padding:3px;
-      text-align: center;
-    }
-         #tools div:nth-child(5){
-           position:relative;
-       min-width:80%;
-      color:black;
-        border-radius:25px;
-        background-color:white;
-        left:-30%;
-        padding:3px;
-      text-align: center;
-    }
-  #jobs {
-  position: relative;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  max-width: 1200px;
-  padding: 10px;
-  gap: 30px;
-  height: auto;
-  margin: 0 auto;
-  border:none;
-  overflow-x: auto; /* Enable horizontal scrolling */
-  overflow-y: auto; /* Hide vertical scrolling */
-  white-space: nowrap; /* Prevent items from wrapping */
+#features div:nth-child(4 ){
+    background-color: rgb(25, 0, 255);
+    position: relative;
+    margin-left:-35%;
 }
-#jobs div{
-  position:relative;
-left:0%;
-
+#features div:nth-child(5){
+    background-color: red;
+    position: relative;
+    margin-left: 25%;
 }
-
-        #jobs div::after{
-  content: "Click me";
-  position: absolute;
-  bottom: 20px;
-  width: 100px;
-  color:white;
-  padding: 2px;
-  background-color: rgb(27, 57, 90);
-  margin: 0 -10%;
-}
-#jobs div:nth-child(3){
-  position: relative;
-  margin-left: -0%;
-}
-      #contact{
+      .info{
+       display: grid;
+       grid-template-columns: 1fr;
         position: relative;
-        width: 100%;
-        margin-right:3px;
-        left:0%;
+        top: 50px;
+        height: 90vh;
+        margin-bottom: 69px;
       }
-    
-      footer{
+      .info p{
         position: relative;
-        width: 100%;
-        margin-left: 0%;
-      }
-       @media screen and (max-width:500px) {
-         html, body {width: auto!important; overflow-x: hidden!important;
-      } 
-           .a-button{
-               position:relative;
-               left:5%;
-               top:70px;
-           }
-           #h3{
-            position: relative;
-            left:-10px;
-           }
-             #home h2{
-      position: relative;
-      left:-29%;
-      top: 40px;
-    }
-    #home p{
-      position: relative;
-         left:5%;
-      top: 50px;
-    }
-  
-       #tools div:nth-child(2){
-      position:relative;
-      color:black;
-      border:1px solid;
-      text-align: center;
-      left: 3%;
-      font-size: 50px;
-    }
-    .container{
-      position:relative;
-      background-color:transparent;
-      
-    
-    }
-    .container h2{
-      position:relative;
-      color: #f00;
-      margin-left:63%;
-    }
-    .container .a-button {
-      width: 100%;
-      position: absolute;
-      margin-left: -35%;
-      top: -10px;
-      transform: rotate(58deg);
-      /* background-color: transparent; */
-    }    
-    .container p{
-      position: relative;
-      margin-top: 70px;
-    }
-    #my-phrase{
-      position: absolute;
-      margin-right:-30%;
-      margin-top: -30px;
-      transform: rotate(-63deg);
-      background-color:hsl(39, 85%, 81%);
-      color:black;
-    
-    }
-    .a-button:hover{
-      background-color: #b4b7c7;
-      color:black;
-     }
-    #my-phrase span{
-      position: relative;
-      margin-left: 10%;
-    }
-    #my-phrase a,span{
-      position: relative;
-      margin-left: -20%;
-    }
-      #jobs {
-  position: relative;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  max-width: 1200px;
-  padding: 10px;
-  gap: 30px;
-  height: auto;
-  margin: 0 auto;
-  /* border: 1px solid; */
-  overflow-x: auto; /* Enable horizontal scrolling */
-  overflow-y: auto; /* Hide vertical scrolling */
-  white-space: nowrap; /* Prevent items from wrapping */
+        left: 1%;
+    width: 80%;
+    margin: 0 auto;
 }
-       }
-    }
+.info h2{
+    position: relative;
+    top: 10px;
+    left: 3%;
+    margin-bottom: 30px;
+}
+.info button{
+ position: relative;
+ left: 30%;
+ margin-top:-30px;
+}
+#features{
+    top: 190px;
+}
+}
