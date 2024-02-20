@@ -104,7 +104,7 @@ body {
       color: #fff;
       padding: 100px 0;
       text-align: center;
-      background-image: url(/img/lampada.jpg);
+      background-image: url(lampada.jpg);
       background-size:110% 115%;
       line-height: 25px;
       
@@ -307,20 +307,32 @@ body {
   transform: translateY(0); /* Move the elements to their original position */
 }
 #jobs div:nth-child(1){
+<<<<<<< HEAD
   background-image: url(img/job1.jpeg);
+=======
+  background-image: url(/img/lampada.jpg);
+>>>>>>> 69acc27125db1ee98ff38430bac1fb7c4a6e735b
   background-size:cover;
   background-position: 40%;
   background-repeat: no-repeat;
   cursor: pointer;
 }
 #jobs div:nth-child(2){
+<<<<<<< HEAD
   background-image: url(img/job2.jpeg);
+=======
+  background-image: url(/img/github.jpg);
+>>>>>>> 69acc27125db1ee98ff38430bac1fb7c4a6e735b
   background-size:cover;
   background-repeat: no-repeat;
   cursor: pointer;
 }
 #jobs div:nth-child(3){
+<<<<<<< HEAD
   background-image: url(img/job3.jpeg);
+=======
+  background-image: url(/img/html.jpg);
+>>>>>>> 69acc27125db1ee98ff38430bac1fb7c4a6e735b
   background-size:cover;
   background-repeat: no-repeat;
   cursor: pointer;
