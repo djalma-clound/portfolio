@@ -1,79 +1,63 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
+<html>
+  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style/styles.css">
-    <title>Website Developer</title>
-</head>
-<body>
-    <header id="header">
-        <!-- <h1 class="logo" id="h1">Djalma</h1> -->
-        <nav>
-            <h1 class="logo" id="h1">Djalma</h1>
-            <ul id="menu">
-                <li><a href="about.html">About</a></li>
-                <li><a href="#features">Trabalhos</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-            <span id="hamburger"></span>
-        </nav>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Responsive Portfolio</title>
+  </head>
+  <body>
+    <header>
+      <h1><a id="logo" href="index.html">Amlajd</a></h1>
+      <nav id="nav">
+        <ul id="menu">
+          <a href="index.html">inicio</a>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+        </ul>
+        <span id="bars"></span>
+      </nav>
     </header>
-
-    <section id="home" class="hero">
-        <div class="container">
-            <h2>Brem vindos a meu website</h2>
-            <p>Sou um desenvolvedor e designer de websites pronto para ajudá-lo a criar o seu website para a sua empresa e também auxiliá-lo com a divulgação nas redes sociais, como no Facebook, Instagram e Google.</p>
-            <a href="#contact" class="cta-button">Saiba mais</a>
+    <main>
+    <div id="hero">
+      <h1>Bem vindo a Djaalmad.com minha obra feita por mim.</h1>
+      <p> Estou aqui para te ajudar com a criaçao de seu website.</p>
+        <button class="button" id="button">saiba mais</button>
+       
+    </div>
+      <section id="about">
+        <h2>Sobre me</h2>
+          <a href=" "><img src="img/code.png"> </a>
+        <p> Sou uma pessoa apaixonada por desenvolvimento de website e design, amo trabalha nessa area seja desenvolvendo website ou trabalhando com divulgaçoes nas redes sociais ou google. Terei o prazer em te servi.
+        </p>
+      </section>
+      <h2>Trabalho feito por Djalma</h2>
+      <section id="projects">
+       
+        <div id="pro" class="project"></div>
+          <a href=" https://Claricehcleaning.com"><img class="img-cl" src="img/cleaning.png" alt=""></a>
         </div>
-        <img src="/iSlide1.jpg" alt="img">
-    </section>
-
-    <section id="about" class="info">
-        <div class="container">
-            <img src="robot.jpg" alt="robot pic" />
-            <h2>Saiba sobre Djalmad.com</h2>
-            <p>Bem-vindo ao Djalmad.com, onde a criatividade encontra a inovação. Como um desenvolvedor de sites apaixonado que utiliza HTML, CSS, JavaScript, PHP e inteligência artificial de ponta, eu me esforço para criar experiências online cativantes. Se você está procurando por designs elegantes, funcionalidade perfeita ou automação inteligente, você veio ao lugar certo. Vamos tornar sua visão digital realidade, juntos.</p>
-            <button id="more-info">Mais sobre nos</button>
+       
+        <div class="project">
+          <a href=" "> <img src="/img/Meu.png" alt="img"></a>
         </div>
-    </section>
-
-    <section id="features" class="mittle-section">
-        <h2>Trabalhos feito por Djalma</h2>
-        <div class="features-container">
-            <div class="feature" style="background-image: url(/job1.jpeg);"></div>
-            <div class="feature" style="background-image: url(/job2.jpeg);"></div>
-            <div class="feature" style="background-image: url(/job3.jpeg);"></div>
-        </div>
-    </section>
-
-    <section id="contact" class="contact">
-        <div class="container">
-            <h3>Contact Me</h3>
-            <form id="form" action="php/submit.php" method="post">
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="name" value="" />
-                <span id="errorName"></span>
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" />
-                <span id="emailError"></span>
-                <label for="subject">Subject:</label>
-                <input type="text" id="subject" name="subject" />
-                <span id="errorSubject"></span>
-                <label for="message">Message:</label>
-                <textarea id="message" name="message"></textarea>
-                <span id="errorMessage"></span>
-                <button id="input" type="submit" name="submit" value="Send">Send</button>
-            </form>
-        </div>
-    </section>
       
+        </section>
+      </section>
+      <section id="contact">
+        <h2>Get In Touch</h2>
+        <form>
+          <input type="text" placeholder="Your Name">
+          <input type="email" placeholder="Your Email">
+          <textarea placeholder="Your Message"></textarea>
+          <button type="submit">Send Message</button>
+        </form>
+      </section>
+    </main>
     <footer>
-        <p>&copy; 2024 Djalma. All rights reserved.</p>
+      <p>Copyright &copy; [Your Name] [Year]</p>
     </footer>
-    <script src="js/script.js"></script>
-    <script src="js/jobs.js"></script>
-    <script src="js/animation.js"></script>
-    <script src="js/validation.js"></script>
-</body>
+    <script src="Menu.js"></script>
+  </body>
 </html>
