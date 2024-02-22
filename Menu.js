@@ -15,7 +15,7 @@ bars.addEventListener("click", () => {
 const img = document.getElementById("img1");
 const img2 = document.getElementById("img2");
 img.addEventListener("click", ()=>{
-    window.open("https://google.com", "_blank");
+    window.open("https://claricehcleaning.com", "_blank");
 })
 img2.addEventListener("click", () => {
   window.open("https://youtube.com", "_blank");
