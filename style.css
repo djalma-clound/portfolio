@@ -10,11 +10,8 @@ overflow-x: hidden;
 
 header {
   position: fixed;
-<<<<<<< HEAD
   background-color:#108766;
-=======
   background-color:#108766 ;
->>>>>>> 42997fb859cc0761fb398e96a65dd8240e50aef6
   width: 100%;
   color: #fff;
  position:flex;
@@ -145,6 +142,7 @@ section {
 }
 #projects h2{
   position: absolute;
+  left: 40%;
   top: 0px;
 
 }
@@ -224,15 +222,24 @@ footer p{
   top: -20px;
 }
 @media screen and (min-width:700px) {
+  #hero h1{
+    text-align: center;
+  }
+  #hero  p{
+    position: relative;
+    margin-left:25%;
+  }
   #about img{
-    height: 60vh;
+    height: 63vh;
   }
   #projects img{
     position: relative;
     margin:70px;
   }
  #projects h2{
+  position:absolute;
     width: 80%;
+    left: 7%;
  }
 }
 @media  screen and (min-width:1000px) {
@@ -275,8 +282,12 @@ h2{
   right:10px;
   padding: 2em;
 }
-#hero h1 ,p{
+#hero h1{
   text-align: center;
+}
+#hero p{
+  position: relative;
+  left: 80px;
 }
 #hero .button{
   position: relative;
