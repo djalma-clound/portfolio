@@ -12,3 +12,26 @@ bars.addEventListener("click", () => {
     });
   });
 });
+const img = document.getElementById("img1");
+const img2 = document.getElementById("img2");
+img.addEventListener("click", ()=>{
+    window.open("https://google.com", "_blank");
+})
+img2.addEventListener("click", () => {
+  window.open("https://youtube.com", "_blank");
+});
+// const imgs = document.querySelectorAll(" #img1, #img2");
+// imgs.forEach((item) => {
+//   item.addEventListener("click", () => {
+//     if (imgs) {
+//       window.open("https://google.com", "_blank");
+//     }
+//   });
+// });
+// imgs.forEach((item) => {
+//   item.addEventListener("click", (event) => {
+//     if (event.target === item) {
+//       window.open("https://claricehcleaning.com", "_blank");
+//     }
+//   });
+// });

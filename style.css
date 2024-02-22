@@ -48,11 +48,10 @@ nav a {
   display:flex;
   flex-direction:column;
   gap: 30px;
-  color:;
   top:50px;
   left:0;
   width:50%;
-  height:80vh;
+  height:45vh;
   display:block;
 }
 .active#mwnu a{
@@ -94,6 +93,9 @@ nav a {
 main {
   padding: 1rem;
 }
+h2{
+  text-align: center;
+}
 #hero{
   position: relative;
   margin-top:70px;
@@ -118,7 +120,7 @@ main {
   position:relative;
   left:0;
   width:100%;
-  height:20vh;
+  height:35vh;
 }
 
 
@@ -126,8 +128,17 @@ section {
   margin-bottom: 2rem;
 }
 #projects{
-  display:flex;
+  position: relative;
+  box-shadow: 3px 3px 30px;
+  margin-top: 80px;
+  padding: 40px;
+    display:flex;
   gap:5px;
+}
+#projects h2{
+  position: absolute;
+  top: 0px;
+
 }
 .project {
   position: relative;
@@ -140,21 +151,66 @@ section {
 }
 #projects img{
   position:relative;
-  left:10%;
+  top: 40px;
+  left:0%;
 width:200px;
 max-height:20vh ;
 margin:13px;
 }
+#img1{
+  max-width: 200px;
+}
+#img2{
+  max-width:180px;
+}
+
 .img-cl{
   position:relative;
   max-width:170px;
  
+}
+#contact{
+  margin-top: 130px;
+  max-width: 1300px;
+  padding: 2em;
+}
+#contact h2{
+  text-align: center;
+}
+form{
+  width: 80%;
+  padding: 2em;
+  display: grid;
+  gap: 30px;
+  margin: 0 auto;
+}
+form input,textarea {
+  margin: 0 auto;
+  width: 90%;
+  height: 30px;
+  padding: 5px;
+}
+textarea{
+  min-height: 10vh;
+}
+form button{
+  width: 200px;
+  margin: 0 auto;
+  padding: 10px;
+  color: white;
+  background-color: #000000;
 }
 footer {
   background-color: #333;
   color: #fff;
   display: flex;
   justify-content: space-between;
+  padding-top: 40px;
+}
+footer p{
+  position: relative;
+  margin: 0 auto;
+  top: -20px;
 }
 @media  screen and (min-width:1000px) {
   header{
@@ -238,5 +294,56 @@ h2{
   box-shadow: 3px 3px 3px #036416;
   margin: 0 auto;
   top:90px;
+}
+#projects{
+  position: relative;
+  top: 80px;
+  max-width:1300px;
+  box-shadow: 3px 3px 30px;
+  padding: 50px;
+}
+#projects h2{
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+.project{
+
+  margin: 0 auto;
+}
+#projects img{
+  margin-top: 50px;
+}
+#contact{
+  margin-top: 130px;
+  max-width: 1300px;
+  padding: 2em;
+}
+form{
+  width: 80%;
+  padding: 2em;
+  display: grid;
+  gap: 30px;
+  margin: 0 auto;
+}
+form input,textarea {
+  margin: 0 auto;
+  width: 80%;
+  height: 30px;
+  padding: 5px;
+}
+textarea{
+  min-height: 20vh;
+}
+form button{
+  width: 200px;
+  margin: 0 auto;
+}
+footer{
+  padding-top: 30px;
+}
+footer p{
+margin: 0 auto;
+margin-top:0px;
 }
 }
