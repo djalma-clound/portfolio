@@ -22,6 +22,8 @@ header {
 }
 
 header h1 {
+  position: relative;
+  left: 10%;
   margin: 0;
 }
   #logo{
@@ -75,6 +77,7 @@ nav a {
   right:50px;
   position: absolute;
   background:red;
+  cursor: pointer;
 }
 #bars::before{
   content:"";
@@ -83,6 +86,7 @@ nav a {
   top:-5px;
   position:absolute;
   background:red;
+  cursor: pointer;
 }
 #bars::after{
   content:"";
@@ -91,6 +95,7 @@ nav a {
   top:5px;
   position:absolute;
   background:red;
+  cursor: pointer;
 }
 .activ#bars::after{
   background:white;
@@ -287,7 +292,10 @@ h2{
 }
 #hero p{
   position: relative;
-  left: 80px;
+  width:60%;
+  padding: 10px;
+  /* margin-left:15% ; */
+  line-height: 25px;
 }
 #hero .button{
   position: relative;
@@ -309,8 +317,8 @@ h2{
 }
 #about h2{
   position: relative;
-  left: 25%;
-  top: 30px;
+  text-align: center;
+  top: -30px;
 }
 #about img{
   width:500px;
@@ -320,15 +328,16 @@ h2{
   left:7%;
 }
 #about p{
-  position: absolute;
+  position:absolute;
   right: 80px;
+  top: 70px;
+  bottom:50px;
   width: 30%;
   height: 40vh;
   line-height: 40px;
   box-shadow: 3px 3px 3px #036416;
-
+  z-index: 1;
   margin: 0 auto;
-  top:90px;
 }
 #projects{
   position: relative;
