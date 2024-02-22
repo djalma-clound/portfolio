@@ -2,11 +2,19 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
+overflow:hidden;
+}
+html{
+overflow-x: hidden;
 }
 
 header {
   position: fixed;
+<<<<<<< HEAD
   background-color:#108766;
+=======
+  background-color:#108766 ;
+>>>>>>> 42997fb859cc0761fb398e96a65dd8240e50aef6
   width: 100%;
   color: #fff;
  position:flex;
@@ -104,6 +112,10 @@ h2{
   margin-bottom: 1rem;
   padding:5px;
   background:lightyellow;
+<<<<<<< HEAD
+=======
+ /* background: url();*/
+>>>>>>> 42997fb859cc0761fb398e96a65dd8240e50aef6
   background-size:100% 100%;
 }
 .button{
