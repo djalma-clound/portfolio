@@ -47,10 +47,13 @@
       </section>
       <section id="contact">
         <h2>Get In Touch</h2>
-        <form>
-          <input type="text" placeholder="Your Name">
-          <input type="email" placeholder="Your Email">
-          <textarea placeholder="Your Message"></textarea>
+        <form id="form" action="form.php">
+          <input id="name" type="text" placeholder="Your Name">
+          <div class="error" id="nameError"></div>
+          <input id="email" type="email" placeholder="Your Email">
+          <div class="error" id="emailError"></div>
+          <textarea id="message" placeholder="Your Message"></textarea>
+          <div class="error" id="messageError"></div>
           <button type="submit">Send Message</button>
         </form>
       </section>
@@ -59,5 +62,6 @@
       <p>Copyright &copy; djalmad.com 2024</p>
     </footer>
     <script src="Menu.js"></script>
+    <script src="submit.js"></script>
   </body>
 </html>

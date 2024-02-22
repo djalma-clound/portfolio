@@ -326,7 +326,7 @@ form{
   gap: 30px;
   margin: 0 auto;
 }
-form input,textarea {
+form input,textarea{
   margin: 0 auto;
   width: 80%;
   height: 30px;
@@ -338,6 +338,16 @@ textarea{
 form button{
   width: 200px;
   margin: 0 auto;
+}
+ .error{
+  position: relative;
+  top: 0px;
+  width: 60%;
+  height:auto;
+  padding: 3px;
+  left:90px;
+  margin: 0;
+  /* background-color: red; */
 }
 footer{
   padding-top: 30px;
