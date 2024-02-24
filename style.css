@@ -58,7 +58,8 @@ nav a {
   top:50px;
   left:0;
   width:50%;
-  height:45vh;
+  height:auto;
+  padding-bottom:50px;
   display:block;
 }
 .active#mwnu a{
@@ -229,7 +230,7 @@ footer p{
 @media screen and (min-width:700px) {
 .active#menu{
    width:25%;
-   padsing-bottom:20px;
+   padding-bottom:40px;
 }
   #hero h1{
     text-align: center;
