@@ -227,6 +227,9 @@ footer p{
   top: -20px;
 }
 @media screen and (min-width:700px) {
+.active#menu{
+   width:25%;
+}
   #hero h1{
     text-align: center;
   }
