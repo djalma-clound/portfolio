@@ -301,6 +301,7 @@ h2{
   width:60%;
   padding: 10px;
   /* margin-left:15% ; */
+  margin: 0 auto;
   line-height: 25px;
 }
 #hero .button{
@@ -368,6 +369,7 @@ h2{
 #contact{
   margin-top: 130px;
   max-width: 1300px;
+  margin: 0 auto;
   padding: 2em;
 }
 form{

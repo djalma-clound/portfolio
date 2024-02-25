@@ -18,7 +18,7 @@ img.addEventListener("click", ()=>{
     window.open("https://claricehcleaning.com", "_blank");
 })
 img2.addEventListener("click", () => {
-  window.open("https://youtube.com", "_blank");
+  window.open("https://www.scentedcleaning.com", "_blank");
 });
 // const imgs = document.querySelectorAll(" #img1, #img2");
 // imgs.forEach((item) => {
