@@ -14,11 +14,15 @@ bars.addEventListener("click", () => {
 });
 const img = document.getElementById("img1");
 const img2 = document.getElementById("img2");
+const img3 = document.getElementById("img3");
 img.addEventListener("click", ()=>{
     window.open("https://claricehcleaning.com", "_blank");
 })
 img2.addEventListener("click", () => {
   window.open("https://www.scentedcleaning.com", "_blank");
+});
+img3.addEventListener("click", () => {
+  window.open("https://djalma-clound.github.io/portfolio/index.html", "_blank");
 });
 // const imgs = document.querySelectorAll(" #img1, #img2");
 // imgs.forEach((item) => {
