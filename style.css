@@ -142,13 +142,14 @@ section {
   position: relative;
   box-shadow: 3px 3px 30px;
   margin-top: 80px;
-  padding: 40px;
-    display:flex;
+  padding: 70px;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr; 
   gap:5px;
 }
 #projects h2{
   position: absolute;
-  left: 40%;
+  left: 30%;
   top: 0px;
 
 }
@@ -162,25 +163,35 @@ section {
  margin-left:-42px;
 }
 #projects img{
-  position:relative;
-  top: 40px;
-  left:0%;
-width:200px;
+  /* position:relative; */
+  top: 80px;
+  /* left:0%; */
+width:100px;
 max-height:20vh ;
-margin:13px;
+/* margin:13px; */
 }
 #img1{
+  position: relative;
   max-width: 200px;
+  margin-top: 30px;
+ left:-45px;
 }
 #img2{
   max-width:170px;
+  margin-left: -20px;
 }
 
-.img-cl{
-  position:relative;
+#img3{
+  position: relative;
+  height: 15vh;
+  margin-top: 40px;
+
+}
+/* .img-cl{
+  position:absolute;
   max-width:170px;
  
-}
+} */
 #contact{
   margin-top: 130px;
   max-width: 1300px;
