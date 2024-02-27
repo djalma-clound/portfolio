@@ -33,6 +33,7 @@ Por isso que ofereço não somente a ajuda de criar o seu website mas também co
     </div>
       <section id="about">
         <h2>Sobre me</h2>
+
           <img src="djalma.png" alt="pict">
           
         <p> Sou uma pessoa apaixonada por desenvolvimento de website e design, amo trabalha nessa area seja desenvolvendo website ou trabalhando com divulgaçoes nas redes sociais ou google. Terei o prazer em te servi.
@@ -49,13 +50,41 @@ Por isso que ofereço não somente a ajuda de criar o seu website mas também co
           <img id="img2" src="scented.jpg" alt="img">
         </div>
           <div class="project">
-          <img id="img3" src="my.png" alt="img">
+          <img id="img3" src="img/my.png" alt="img">
         </div>
         </section>
       </section>
       <section id="contact">
-        <h2>Get In Touch</h2>
-        <form id="form" action="">
+        <!-- <h2>Get In Touch</h2> -->
+        <h2>Contact me</h2>
+        <form id="form" action="form.php"  onsubmit=" submit()"  method="post" >
+				
+			   <input id="fname" type="text" name="name" placeholder="full name" required>
+			   <div id="fnameError" class="error-hint hidden"></div>
+			
+				
+			   <input id="email" onsubmit="validateEmail(email)" type="email" name="email" id="email" placeholder=" your email" required>
+			   <br>
+			   <div id="emailError" class="error-hint hidden"></div>
+
+			   <!-- <small class="small">Error me</small> -->
+			
+			   <input id="subject" type="text" name="subject" placeholder="Type of cleaning" value required>
+			   <div id="subjectError" class="error-hint hidden"></div>
+
+			   <!-- <small class="small">Error message</small> -->
+	
+		
+				<textarea id="textarea" name="message"   placeholder="your message" required></textarea>
+				<div id="messageError" class="error-hint hidden"></div>
+
+			   <!-- <small class="small"></small> -->
+		      <button id="btn" type="submit" name="submit">Send Message</button>
+			   
+				  
+			  
+			  </form>
+        <!-- <form id="form" action="">
           <input id="name" type="text" placeholder="Your Name">
           <div class="error" id="nameError"></div>
           <input id="email" type="email" placeholder="Your Email">
@@ -64,7 +93,7 @@ Por isso que ofereço não somente a ajuda de criar o seu website mas também co
           <div class="error" id="messageError"></div>
           <button type="">Send Message</button>
           
-        </form>
+        </form> -->
       </section>
     </main> 
      <footer>

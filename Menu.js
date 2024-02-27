@@ -1,6 +1,7 @@
 const bars = document.getElementById("bars");
 const menu = document.getElementById("menu");
 const navigation = document.getElementById("nav");
+const button = document.getElementById("button");
 bars.addEventListener("click", () => {
   navigation.classList.toggle("activ");
   menu.classList.toggle("active");
@@ -24,18 +25,7 @@ img2.addEventListener("click", () => {
 img3.addEventListener("click", () => {
   window.open("https://djalma-clound.github.io/portfolio/index.html", "_blank");
 });
-// const imgs = document.querySelectorAll(" #img1, #img2");
-// imgs.forEach((item) => {
-//   item.addEventListener("click", () => {
-//     if (imgs) {
-//       window.open("https://google.com", "_blank");
-//     }
-//   });
-// });
-// imgs.forEach((item) => {
-//   item.addEventListener("click", (event) => {
-//     if (event.target === item) {
-//       window.open("https://claricehcleaning.com", "_blank");
-//     }
-//   });
-// });
+
+button.addEventListener("click", ()=>{
+  window.location.href = "#contact";
+})
