@@ -13,20 +13,14 @@ bars.addEventListener("click", () => {
     });
   });
 });
-const img = document.getElementById("#button");
-const img2 = document.getElementById("img2");
-const img3 = document.getElementById("img3");
-img.addEventListener("click", ()=>{
-    window.open("https://claricehcleaning.com", "_blank");
-})
-img2.addEventListener("click", () => {
-  window.open("https://www.scentedcleaning.com", "_blank");
+const proj1 = document.getElementById("proj1");
+const proj2 = document.getElementById("proj2");
+
+proj1.addEventListener("click", () => {
+  window.open("https://www.claricehcleaning.com", "_blank");
 });
-img3.addEventListener("click", () => {
-  window.open("https://djalma-clound.github.io/portfolio/index.html", "_blank");
+proj2.addEventListener("click", () => {
+ window.open("https://www.scentedcleaning.com", "_blank");
+  
 });
 
-button.addEventListener("click", () => {
- window.open("https://www.scentedcleaning.com", "_blank");
-  window.prompt("everything ok");
-})

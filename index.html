@@ -40,6 +40,30 @@
           <video src="video.mp4" autoplay="autoplay", loop></video>
       
         </section>
+        <div id="proj">
+          <p></p>
+        <button id="proj1">Da uma olhada</button>
+        <button id="proj2">Vale a pena ver tambem</button>
+      </div>
+       <section id="contact">
+        <!-- <h2>Get In Touch</h2> -->
+        <h2>Contact me</h2>
+        <form id="form" action="form.php"  onsubmit=" submit()"  method="post" >
+			   <input id="fname" type="text" name="name" placeholder="full name" required>
+			   <div id="fnameError" class="error-hint hidden"></div>
+			   <input id="email" onsubmit="validateEmail(email)" type="email" name="email" id="email" placeholder=" your email" required>
+			   <br>
+			   <div id="emailError" class="error-hint hidden"></div>
+			   <!-- <small class="small">Error me</small> -->
+			   <input id="subject" type="text" name="subject" placeholder="Type of cleaning" value required>
+			   <div id="subjectError" class="error-hint hidden"></div>
+			   <!-- <small class="small">Error message</small> -->
+				<textarea id="textarea" name="message"   placeholder="your message" required></textarea>
+				<div id="messageError" class="error-hint hidden"></div>
+			   <!-- <small class="small"></small> -->
+		      <button id="btn" type="submit" name="submit">Send Message</button>
+			  </form>
+      </section>
     </main> 
      <footer>
       <p>Copyright &copy; djalmad.com 2024</p>
