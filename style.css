@@ -184,6 +184,13 @@ section {
   top: 30px;
   left: -90px;
   min-width:900px;
+  display: none;
+}
+#projects img{
+   position: relative;
+  top: 30px;
+  left: -90px;
+  min-width:900px;
 }
 .project {
   position: relative;
