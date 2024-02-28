@@ -2,8 +2,23 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-overflow:hidden;
+/* overflow:hidden; */
 }
+body, html {
+    height: 100%; /* Ensure full height */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    overflow: hidden;
+}
+
+main {
+    height: 100vh; /* Set main height to full viewport height */
+    overflow-x:hidden; /* Add scrollbars when content overflows */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+    padding-bottom: 50px; /* Optional: Add padding to main content */
+    background-color: aqua;
+  }
+
 html{
 overflow-x: hidden;
 }
@@ -65,6 +80,10 @@ nav a {
   position:relative;
   left:-10px;
 }
+li{
+  display: none;
+}
+
 #menu a{
   position:relative;
   top:20px;
@@ -130,10 +149,10 @@ h2{
 #projects video{
   position:absolute;
   width:450px;
-  height: 40vh;
-  margin-top: 50px;
-  margin-bottom: 90px;
-  /* left:3%; */
+  /* height: 40vh; */
+  /* margin-top: 60px; */
+  /* margin-bottom: 90px; */
+  left:-3%;
 }
 
 
@@ -156,6 +175,11 @@ section {
   margin-bottom: 20px;
 
 }
+#projects video{
+  position: relative;
+  left: -10%;
+  max-width:400px;
+}
 .project {
   position: relative;
   left:-5px;
@@ -165,37 +189,6 @@ section {
   position:relative;
  margin-left:-42px;
 }
-#projects img{
-  /* position:relative; */
-  top: 80px;
-  /* left:0%; */
-width:100px;
-max-height:20vh ;
-/* margin:13px; */
-}
-#img1{
-  position: relative;
-  max-width: 200px;
-  height: 16vh;
-  margin-top: 30px;
- left:-45px;
-}
-#img2{
-  max-width:170px;
-  margin-left: -20px;
-}
-
-#img3{
-  position: relative;
-  height: 15vh;
-  margin-top: 40px;
-
-}
-/* .img-cl{
-  position:absolute;
-  max-width:170px;
- 
-} */
 #contact{
   margin-top: 130px;
   max-width: 1300px;
@@ -290,33 +283,7 @@ button[type="submit"]:hover {
   width:80%;
   height: auto;
 }
-/* form{
-  width: 100%;
-  padding: 2em;
-  display: grid;
-  gap: 30px;
-  margin: 0 auto;
-}
-form input,textarea {
-  position: relative;
-  margin: 0 auto; 
-  margin-left: -30px;
-  width: 100%;
-  height: 30px;
-  padding: 5px;
-}
-textarea{
 
-  min-height: 10vh;
-}
-form button{
-  width: 200px;
-  margin: 0 auto;
-  margin-left: 20px;
-  padding: 10px;
-  color: white;
-  background-color: #000000;
-} */
 footer {
   position: relative;
   background-color: #333;
@@ -324,7 +291,7 @@ footer {
   display: flex;
   justify-content: space-between;
   margin-top:10em;
-  padding-top: 40px;
+  padding-top: 70px;
 }
 footer p{
   position: relative;
@@ -371,11 +338,34 @@ footer p{
   html{
     overflow-x: hidden;
   }
+  li{
+    list-style-type: none;
+    position: relative;
+    line-height: 3;
+    display: grid;
+  }
+   #projetos a{
+    position: absolute;
+    left: -30px;
+    color: black;
+  }
+  li:hover{
+ background-color: rgb(0,0, 0);
+  }
+  li a{
+    display:none;
+  }
+  li:hover a{
+    display: grid;
+    /* width: 50px; */
+    position:absolute;
+    background-color: rgb(0,0, 0);
+  }
   #bars{
     display: none;
   }
 #menu{
-  position: absolute;
+  positioolute;
   display: flex;
   flex-direction: row;
   background-color:transparent;
@@ -429,7 +419,6 @@ h2{
   background-color: #333;
   color: #fe3;
   text-transform:uppercase;
-  width: 100px;
 }
 
 #about{
@@ -452,93 +441,18 @@ h2{
 }
 #projects video{
   position: relative;
-  width: 1000px;
-  height: 40vh;
+  min-width: 1200px;
+  height:80vh;
+  left:2%;
   top: 90px;
   margin-bottom:5em;
-  margin: 0 auto;
+  /* margin: 0 auto; */
 }
 #projects h2{
   position: relative;
   top: 50px;
-  margin-left: 10%;
+  margin-left: 5%;
 }
-/*
-#about img{
-  width:500px;
-  height: 50vh;
-  position: relative;
-  border-radius: 45px;
-  left:7%;
-}
-#about p{
-  position:absolute;
-  right: 80px;
-  top: 70px;
-  bottom:50px;
-  width: 30%;
-  height: 40vh;
-  line-height: 40px;
-  box-shadow: 3px 3px 3px #036416;
-  z-index: 1;
-  margin: 0 auto;
-}
-#projects{
-  position: relative;
-  top: 80px;
-    margin: 0 auto;
-  max-width:1300px;
-  box-shadow: 3px 3px 30px;
-  padding: 50px;
-}
-#projects h2{
-  position: absolute;
-  top: 0;
-  width: 100%;
-}
-.project{
-
-  margin: 0 auto;
-}
-#projects img{
-  margin-top: 50px;
-  cursor: pointer;
-}
-#contact{
-  margin-top: 130px;
-  max-width: 1300px;
-  margin: 0 auto;
-  padding: 2em;
-}
-form{
-  width: 80%;
-  padding: 2em;
-  display: grid;
-  gap: 30px;
-  margin: 0 auto;
-}
-form input,textarea{
-  margin: 0 auto;
-  width: 80%;
-  height: 30px;
-  padding: 5px;
-}
-textarea{
-  min-height: 20vh;
-}
-form button{
-  width: 200px;
-  margin: 0 auto;
-}
- .error{
-  position: relative;
-  top: 0px;
-  width: 60%;
-  height:auto;
-  padding: 3px;
-  left:90px;
-  margin: 0;
-} */
 footer{
   padding-top: 30px;
 }
