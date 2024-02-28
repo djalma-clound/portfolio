@@ -236,7 +236,7 @@ form {
 	justify-content: center;
 	align-items: center;
    position: relative;
-    width:100%;
+    min-width:400px;
     gap: 10px;
    margin-bottom: 100px;
   
