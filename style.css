@@ -31,7 +31,7 @@ header h1 {
   cursor:pointer;
 }
 nav a {
-  color:rgb(0,0,0);
+  color:#fff;
   text-decoration: none;
   margin-right: 1rem;
   display: block;
@@ -336,6 +336,9 @@ footer p{
    width:25%;
    padding-bottom:40px;
 }
+#menu a{
+  color: #fff;
+}
   #hero h1{
     text-align: center;
   }
@@ -363,6 +366,7 @@ footer p{
   header{
     width: 100%;
     background-color: rgb(9, 12, 15);
+    color: #fff;
   }
   html{
     overflow-x: hidden;
@@ -383,6 +387,7 @@ footer p{
 #menu a{
   position:relative;
   left: 0%;
+  color: white;
   top: -3px;
 }
 #menu a:hover{
@@ -397,7 +402,7 @@ h2{
   top: 70px;
   margin: 0 auto;
   margin-bottom: 70px;
-  background: url('/img/Slide1.jpg') ;
+  background: url('img/Slide1.jpg') ;
   right:10px;
   padding: 4em;
 }
@@ -456,6 +461,7 @@ h2{
 #projects h2{
   position: relative;
   top: 50px;
+  margin-left: 10%;
 }
 /*
 #about img{
