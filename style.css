@@ -191,6 +191,9 @@ section {
   top: 30px;
   left: -90px;
   min-width:900px;
+  left:0px;
+  min-width:900px;
+display:block;
 }
 .project {
   position: relative;
@@ -242,7 +245,7 @@ form {
 	justify-content: center;
 	align-items: center;
    position: relative;
-    width: 90%;
+    min-width:400px;
     gap: 10px;
    margin-bottom: 100px;
   
