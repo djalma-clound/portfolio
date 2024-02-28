@@ -16,7 +16,6 @@ main {
     overflow-x:hidden; /* Add scrollbars when content overflows */
     box-sizing: border-box; /* Include padding and border in the element's total width and height */
     padding-bottom: 50px; /* Optional: Add padding to main content */
-    background-color: aqua;
   }
 
 html{
