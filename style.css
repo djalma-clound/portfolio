@@ -182,8 +182,9 @@ section {
 #projects video{
   position: relative;
   top: 30px;
-  left: -90px;
+  left:0px;
   min-width:900px;
+display:block;
 }
 .project {
   position: relative;
