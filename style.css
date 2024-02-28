@@ -50,7 +50,7 @@ nav a {
 }
 .active#menu{
   position:absolute;
-  background: #fff;
+  background:black;
   display:flex;
   flex-direction:column;
   gap: 30px;
