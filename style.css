@@ -138,7 +138,9 @@ h2{
   padding:5px;
   background:lightyellow;
   background: url('img/Slide1.jpg') ;
-  background-size:100% 100%;
+  background-size:100% 80%;
+  background-repeat: no-repeat;
+  background-position-y:20px;
 }
 .button{
   position:relative;
@@ -182,19 +184,20 @@ section {
 #projects video{
   position: relative;
   top: 30px;
-  left: -90px;
+  left:-25%;
   min-width:900px;
-  display: none;
+  display:none;
 }
 #projects img{
    position: relative;
   top: 30px;
   left: -90px;
   min-width:900px;
-  left:0px;
+  left:-30%;
   min-width:900px;
 display:block;
 }
+
 .project {
   position: relative;
   left:-5px;
@@ -206,6 +209,7 @@ display:block;
   margin: 0 auto;
   background-color: lightgray;
   padding: 30px;
+  top: 50px;
 }
 #proj button{
   position: relative;
@@ -342,6 +346,7 @@ footer p{
    width:25%;
    padding-bottom:40px;
 }
+
 #menu a{
   color: #fff;
 }
@@ -380,6 +385,10 @@ footer p{
   }
   html{
     overflow-x: hidden;
+  }
+  #hero{
+    background-size: 100% 100%;
+    
   }
   li{
     list-style-type: none;
@@ -436,6 +445,8 @@ h2{
   margin: 0 auto;
   margin-bottom: 70px;
   background: url('img/Slide1.jpg') ;
+  background-size: 100% 100%;
+  background-position-y: 0px;
   right:10px;
   padding: 4em;
 }
