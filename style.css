@@ -217,6 +217,7 @@ display:block;
   left: 3%;
   border: transparent;
   border-radius: 25px;
+  background-color:lightgray;
   width: 150px;
   color:rgb(0,0, 0);
   font-size: 18px;
