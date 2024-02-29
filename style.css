@@ -77,7 +77,7 @@ nav a {
   padding-bottom:50px;
   display:block;
 }
-.active#mwnu a{
+.active#menu a{
   position:relative;
   left:-10px;
 }
@@ -520,10 +520,17 @@ display:none;
   top: 50px;
   margin-left: 2%;
 }
+.more-text{
+  max-width: 1000px;
+  margin: 0 auto;
+}
+#proj{
+  max-width:1000px;
+}
 #proj button{
   position: relative;
- background-color:rgba(75, 118, 197, 0.575);
-  left: 33%; 
+ background-color:lightgreen;
+  left: 20%; 
   padding: 5px;
   border: transparent;
   border-radius: 25px;
@@ -535,11 +542,12 @@ display:none;
 }
 #proj h2{
 position:relative;
-left:10%;
+left:20%;
 }
 #contact{
   margin: 0 auto;
-}
+}
+
 footer{
   background-color: rgb(0, 0,0);
   
