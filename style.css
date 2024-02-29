@@ -208,6 +208,7 @@ display:block;
   display: flex;
   margin: 0 auto;
   background-color: lightgray;
+  box-shadow:3px 3px 3px;
   padding: 30px;
   top: 50px;
 }
@@ -390,6 +391,7 @@ footer p{
     background-size: 100% 100%;
     
   }
+ 
   li{
     list-style-type: none;
     position: relative;
@@ -488,12 +490,12 @@ h2{
 }
 #about p{
   position: relative;
+  box-shadow:3px 3px 3px;
   max-width: 1000px;
   margin: 0 auto;
+  padding: 10px;
 }
-#about p br{
-  display: none;
-}
+
 #projects video{
   position: relative;
   min-width: 1200px;
@@ -531,8 +533,24 @@ display:none;
 #contact{
   margin: 0 auto;
 }
+#icon{
+  position:relative;
+  bottom: 50px;
+  left: 25%;
+  border: 1px solid;
+  padding: 10px;
+  border-radius: 25px;
+  background-color: #f00;
+  font-size: 20px;
+  color: white;
+}
+#icon:hover{
+  background-color: rgb(0,0, 0);
+  color: blue;
+}
 footer{
-  padding-top: 30px;
+  background-color: rgb(0, 0,0);
+  
 }
 footer p{
 margin: 0 auto;
