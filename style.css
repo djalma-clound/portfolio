@@ -236,6 +236,10 @@ display:block;
   position:relative;
  margin-left:-42px;
 }
+#open{
+  position: relative;
+  top: 80px;
+}
 #contact{
   margin-top: 130px;
   max-width: 1300px;
