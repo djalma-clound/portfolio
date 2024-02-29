@@ -240,6 +240,9 @@ display:block;
   position: relative;
   top: 80px;
 }
+#open{
+line-height:27px;
+}
 #contact{
   margin-top: 130px;
   max-width: 1300px;
@@ -569,7 +572,7 @@ left:20%;
 }
 #open p{
   padding: 5px;
-  line-height: 25px;
+  line-height: 27px;
 }
 #contact{
   margin: 0 auto;
