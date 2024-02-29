@@ -1,4 +1,4 @@
-body {
+ppbody {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
@@ -532,24 +532,13 @@ display:none;
   margin-left: 40px;
   cursor: pointer;
 }
+#proj h2{
+position:relative;
+left:10%;
+}
 #contact{
   margin: 0 auto;
-}
-#icon{
-  position:relative;
-  bottom: 50px;
-  left: 25%;
-  border: 1px solid;
-  padding: 10px;
-  border-radius: 25px;
-  background-color: #f00;
-  font-size: 20px;
-  color: white;
-}
-#icon:hover{
-  background-color: rgb(0,0, 0);
-  color: blue;
-}
+}
 footer{
   background-color: rgb(0, 0,0);
   
