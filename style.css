@@ -206,8 +206,7 @@ display:block;
 #proj{
   position: relative;
   display: flex;
-  margin: 0 auto;
-  background-color:red;
+  margin: 0 auto;
   padding: 30px;
   top: 50px;
 }
@@ -217,7 +216,7 @@ display:block;
   left: 3%;
   border: transparent;
   border-radius: 25px;
-  background-color:lightgray;
+  background-color:red;
   width: 150px;
   color:rgb(0,0, 0);
   font-size: 18px;
