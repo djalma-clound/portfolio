@@ -209,6 +209,7 @@ display:block;
   margin: 0 auto;
   background-color: lightgray;
   box-shadow:3px 3px 3px;
+  margin: 0 auto;
   padding: 30px;
   top: 50px;
 }
@@ -218,6 +219,7 @@ display:block;
   left: 3%;
   border: transparent;
   border-radius: 25px;
+  background-color:red;
   width: 150px;
   color:rgb(0,0, 0);
   font-size: 18px;
@@ -515,7 +517,7 @@ display:none;
 #projects h2{
   position: relative;
   top: 50px;
-  margin-left: 5%;
+  margin-left: 2%;
 }
 #proj button{
   position: relative;
