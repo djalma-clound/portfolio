@@ -207,7 +207,7 @@ display:block;
   position: relative;
   display: flex;
   margin: 0 auto;
-  background-color: lightgray;
+  background-color:red;
   padding: 30px;
   top: 50px;
 }
