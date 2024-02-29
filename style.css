@@ -337,7 +337,7 @@ footer {
   color: #fff;
   display: flex;
   justify-content: space-between;
-  margin-top:10em;
+  margin-top:0;
   padding-top: 70px;
 }
 footer p{
@@ -384,7 +384,7 @@ footer p{
 #projects img{
    position: relative;
   top: 30px;
-  left:10px;
+  margin-left:15%;
   min-width:900px;
   left:-30%;
   min-width:900px;
