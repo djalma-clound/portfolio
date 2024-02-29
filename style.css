@@ -133,12 +133,12 @@ h2{
   position: relative;
   margin-top:70px;
   width: 100%;
-  min-height: 45vh;
+  min-height: 40vh;
   margin-bottom: 1rem;
   padding:5px;
   background:lightyellow;
   background: url('img/Slide1.jpg') ;
-  background-size:100% 100%;
+  background-size:100% 80%;
   background-repeat: no-repeat;
   background-position-y:20px;
 }
@@ -361,6 +361,11 @@ footer p{
 #menu a{
   color: #fff;
 }
+#hero{
+min-height:45vh;
+background-size(100% 100)
+}
+
   #hero h1{
     text-align: center;
   }
