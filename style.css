@@ -378,7 +378,17 @@ footer p{
   margin-left:-5%;
   top: 90px;
   margin-bottom:5em;
+  display: none;
   /* margin: 0 auto; */
+}
+#projects img{
+   position: relative;
+  top: 30px;
+  left:10px;
+  min-width:900px;
+  left:-30%;
+  min-width:900px;
+display:block;
 }
 }
 @media  screen and (min-width:1000px) {
@@ -549,11 +559,14 @@ left:20%;
 }
 
 footer{
+  position:relative;
   background-color: rgb(0, 0,0);
   
 }
 footer p{
+  position: absolute;
 margin: 0 auto;
-margin-top:0px;
+top:10px;
+right: 40%;
 }
 }
