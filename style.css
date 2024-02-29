@@ -413,7 +413,8 @@ display:block;
   }
    #projetos a{
     position: absolute;
-    left: -30px;
+    margin:-5px;
+    margin-left: -40px;
     color: black;
   }
   li:hover{
