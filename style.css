@@ -555,6 +555,18 @@ display:none;
 position:relative;
 left:20%;
 }
+#open{
+  position: relative;
+  max-width: 1000px;
+  padding: 5px;
+  margin: 0 auto;
+  top: 90px;
+  margin-bottom: 20px;
+}
+#open p{
+  padding: 5px;
+  line-height: 25px;
+}
 #contact{
   margin: 0 auto;
 }
