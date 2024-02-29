@@ -501,7 +501,11 @@ h2{
   left:2%;
   top: 90px;
   margin-bottom:5em;
+  display: block;
   /* margin: 0 auto; */
+}
+#projects img{
+  display: none;
 }
 #projects h2{
   position: relative;
