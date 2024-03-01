@@ -151,6 +151,10 @@ background-position:center;
   color:white;
 }
 #about{
+position: relative;
+top:-40px;
+}
+#about{
   position:relative;
   top: -170px;
 
