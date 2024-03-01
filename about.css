@@ -182,7 +182,7 @@ footer {
   color: #fff;
   display: flex;
   justify-content: space-between;
-  margin-top:-20px;
+  margin-top:-50px;
  padding-top:40px;
 }
 footer p{
@@ -354,8 +354,8 @@ h2{
   border: 1px solid rgb(243, 242, 242);
   border-radius: 5px;
   padding: 5px;
-  font-size: 30px;
-  margin-left: 25%;
+  font-size:15px;
+  margin-left: 5%;
   color: blue;
    top: 25px;
 }
