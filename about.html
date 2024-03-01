@@ -1,52 +1,63 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style/about.css" />
-    <title>Djalma website developer & designer</title>
+    <link rel="stylesheet" type="text/css" href="about.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <title>Criando website ajudando pessoas</title>
   </head>
   <body>
-    <header id="header">
-      <h1 class="logo" id="h1">Djalma</h1>
-      <nav>
+    <header>
+      <h1><a id="logo" href="index.html">Djalma</a></h1>
+      <nav id="nav">
         <ul id="menu">
-          <li><a href="index.html">Inicio</a></li>
-          <li><a href="index.html#features">Trabalhos</a></li>
-          <li><a href="index.html#contact">Contatos</a></li>
+          <a href="index.html">Inicio</a>
+          <li id="projetos">
+            Projetos
+            <ul>
+              <a class="projeto1" href="https://claricehcleaning.com"
+                >projeto-1</a
+              >
+              <a href="https://www.scentedcleaning.com">projeto-2</a>
+            </ul>
+          </li>
+          <a href="index.html#contact">Contact</a>
+          <a class="proj" href="index.html#proj">projects</a>
         </ul>
-        <i id="hamburger"></i>
-        <div class="circle"></div>
+        <span id="bars"></span>
       </nav>
     </header>
-    <section class="main">
-      <h2>Sobre mim</h2>
-      <p>
-       Sou uma
-        pessoa responsável, dedicada e carinhosa. Amo trabalhar com o
-        desenvolvimento de websites e ajudar aqueles que não entendem muito
-        sobre o assunto. Ao contrário de muitos outros, não estou apenas
-        interessado no dinheiro que ganho; dedico-me e esforço-me todos os dias
-        fazendo o que sou apaixonado, que é trabalhar nessa área. Possuo
-        diversas habilidades com computadores, não apenas desenvolvendo
-        websites, mas também consertando e refazendo. Isso é como um remédio
-        para mim quando estou cansado e com dor de cabeça.
-      </p>
-    </section>
-    <section id="contact" class="contact">
-        <form action="" method="post">
-          <h2>Entre em contato</h2>
-          <input type="text" name="name" id="name">
-          <input type="email" name="email" id="email">
-          <input type="text" name="subject" id="subject">
-          <textarea name="mensage" id="mensage" cols="30" rows="10"></textarea>
-          <button id="button" type="submit">Envie sua mensagem</button>
-        </form>
-    </section>
+    <main>
+      <div id="hero"></div>
+      <section id="about">
+        <h1>Quem sou eu!</h1>
+        <p>
+         Eu, como muitos outros por aí, estou tentando fazer o que amo.
+           A tecnologia hoje em dia é muito útil em todos os aspectos. Se você é paciente
+           e tenha boa dedicação e autodisciplina, você pode se tornar o que você
+           querer ser. <br><br>
+           Quando eu era criança no Brasil, meu sonho era me tornar um
+           professor ou jogador de futebol profissional, mas me apaixonei por
+           computadores e tecnologia. Agora estou na frente de um computador
+           todos os dias e todos os momentos que posso. <br><br>
+            Às vezes, sinto vontade de estar
+           na frente de um computador tentando resolver algo é como um remédio para mim
+           se eu tiver dor de cabeça.
+        </p>
+      </section>
 
-    <footer>
-        <p>&copy; djalmad.com. All rights reserved.</p>
-    </footer>
-    <script src="js/script.js"></script>
-</body>
+     
+
+      <footer>
+         <a id="icon" href="  " class="fa fa-facebook"></a>
+        <p>Copyright &copy; djalmad.com 2024</p>
+      </footer>
+    </main>
+    <script src="Menu.js"></script>
+    <script src="submit.js"></script>
+  </body>
 </html>

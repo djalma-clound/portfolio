@@ -15,29 +15,6 @@ bars.addEventListener("click", () => {
     });
   });
 });
-window.onscroll = function () {
-  let currentScrollPos = window.pageYOffset;
-  if (prevScrollPos > currentScrollPos) {
-    // Scrolling up
-    logo.style.color = "white";
-    header.style.backgroundColor = "lightgreen";
-    bars.style.backgroundColor = "white";
-
-    menu.forEach(function (item) {
-      item.style.color = "white";
-    });
-  } else {
-    // Scrolling down
-    logo.style.color = "red";
-    bars.style.backgroundColor = "red";
-
-    header.style.backgroundColor = "white";
-    menu.forEach(function (item) {
-      item.style.color = "red";
-    });
-  }
-  prevScrollPos = currentScrollPos;
-};
 const proj1 = document.getElementById("proj1");
 const proj2 = document.getElementById("proj2");
 
@@ -49,3 +26,29 @@ proj2.addEventListener("click", () => {
   
 });
 
+document.addEventListener("DOMContentLoaded", function () {
+  const elements = document.querySelectorAll("section");
+
+  function checkViewport() {
+    for (let i = 0; i < elements.length; i++) {
+      const element = elements[i];
+      const bounding = element.getBoundingClientRect();
+      if (
+        bounding.top >= 0 &&
+        bounding.left >= 0 &&
+        bounding.right <=
+          (window.innerWidth || document.documentElement.clientWidth) &&
+        bounding.bottom <=
+          (window.innerHeight || document.documentElement.clientHeight)
+      ) {
+        elements.classList.add("active");
+      }
+    }
+  }
+
+  // Check initially in case some elements are already in view
+  checkViewport();
+
+  // Listen for scroll events
+  window.addEventListener("scroll", checkViewport);
+});
