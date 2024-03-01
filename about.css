@@ -150,6 +150,10 @@ background-position:center;
   background:black;
   color:white;
 }
+#about{
+position: relative;
+top:-40px;
+}
 #about p{
   width: 80%;
   margin: 0 auto;
