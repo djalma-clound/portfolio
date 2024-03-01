@@ -121,7 +121,7 @@ li{
   background:white;
 }
 main {
-  padding: 1rem;
+  padding: 2rem;
 }
 h1{
   text-align: center;
@@ -149,6 +149,11 @@ background-position:center;
   top: 200px;
   background:black;
   color:white;
+}
+#about{
+  position:relative;
+  top: -170px;
+
 }
 #about p{
   width: 80%;
