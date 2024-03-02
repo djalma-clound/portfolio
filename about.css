@@ -131,14 +131,15 @@ h2{
 }
 #hero{
   position: relative;
-  margin-top:70px;
-  width: 100%;
-  min-height: 45vh;
+  margin-top:19px;
+  min-width: 600px;
+  min-height: 35vh;
   margin-bottom: 1rem;
   padding:5px;
+  left: -31px;
   background:lightyellow;
   background: url('img/Slide1.jpg') ;
-  background-size: 100%;
+  background-size:100%;
   background-repeat: no-repeat;
   background-position-y:20px;
 }
@@ -151,7 +152,7 @@ h2{
 }
 #about{
 position: relative;
-top:-40px;
+margin-top:110px;
 }
 #about{
   position:relative;
@@ -201,8 +202,10 @@ footer p{
 }
 #hero{
 min-height:45vh;
-background-size: 60%;
-background-position:center;
+min-width:720px;
+left: -30px;
+margin-top: 20px;
+background-size: 100% 100%;
 }
 
   #hero h1{
@@ -289,16 +292,16 @@ h2{
   text-align: center;
 }
 #hero{
-  max-width: 1200px;
-  top: 80px;
-  margin: 0 auto;
-  margin-bottom: 70px;
+  min-width: 1200px;
+  top: 19px;
+  /* margin: 0 auto; */
+  margin-bottom: -30px;
   background: url('img/Slide1.jpg') ;
-  background-size:60%;
-  background-position:center;
+  background-size:100%;
   background-repeat: no-repeat;
   right:10px;
   padding: 4em;
+  display: none;
 }
 #hero h1{
   text-align: center;
@@ -364,6 +367,7 @@ footer{
   background-color: rgb(0, 0,0);
   margin-top: 130px;
   padding: 40px;
+  display: none;
 }
 footer p{
   position: absolute;
