@@ -16,7 +16,7 @@
   </head>
   <body>
     <header>
-      <h1><a id="logo" href="index.html">Djalma</a></h1>
+      <a id="logo" href="index.html">Djalma</a>
       <nav id="nav">
         <ul id="menu">
           <a href="index.html">Inicio</a>
@@ -67,7 +67,6 @@
       </section>
       <section id="projects">
         <h2>Por que a Qualidade do Seu Site Importa</h2>
-
         <video src="video.mp4" autoplay="autoplay" , loop></video>
         <img src="background.jpeg" alt="" />
       </section>
@@ -85,6 +84,15 @@
           muitos, e é por isso que estou aqui para simplificar esse processo e
           torná-lo acessível a todos.
           <br /><br />
+          <section id="social-media">
+            <h2>aqui esta alguns dos trabalhos feito por djalma</h2>
+            <div class="items">
+            <i><a href="" id="proj1"><img class="proj1" src="img/job1.jpeg" alt=""></a></i>
+            <i><a href="" id="proj2"><img class="proj2" src="img/web2.jpeg" alt=""></a></i>
+            </div>
+          </section> 
+           <br><br>
+           <p class="p">
           Meu objetivo é capacitar indivíduos de todas as idades e níveis de
           habilidade, fornecendo orientações claras e recursos úteis. Desde
           dicas básicas de informática até tutoriais avançados sobre programação
@@ -99,14 +107,14 @@
           sucesso!
         </p>
       </div>
-      <div id="proj">
-        <h2> Veja Alguns dos Nossos Trabalhos </h2>
+      <!-- <div id="proj">
+        <h2>Veja Alguns dos Nossos Trabalhos</h2>
         <button id="proj1">Da uma olhada</button>
         <button id="proj2">Vale a pena ver tambem</button>
-      </div>
+      </div> -->
       <section id="contact">
         <!-- <h2>Get In Touch</h2> -->
-        <a id="icon" href="  " class="fa fa-facebook"></a>
+        <!-- <a id="icon" href="  " class="fa fa-facebook"></a> -->
         <h2>Contact me</h2>
         <form id="form" action="form.php" onsubmit=" submit()" method="post">
           <input
@@ -144,7 +152,8 @@
             name="message"
             placeholder="Mensagem"
             required
-           role="400"></textarea>
+            role="400"
+          ></textarea>
           <div id="messageError" class="error-hint hidden"></div>
           <!-- <small class="small"></small> -->
           <button id="btn" type="submit" name="submit">Enviar Mensagem</button>
