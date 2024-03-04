@@ -17,6 +17,7 @@ bars.addEventListener("click", () => {
 });
 const proj1 = document.getElementById("proj1");
 const proj2 = document.getElementById("proj2");
+const proj3 = document.getElementById("proj3");
 
 proj1.addEventListener("click", () => {
   window.open("https://www.claricehcleaning.com", "_blank");
@@ -24,6 +25,9 @@ proj1.addEventListener("click", () => {
 proj2.addEventListener("click", () => {
  window.open("https://www.scentedcleaning.com", "_blank");
   
+});
+proj3.addEventListener("click", () => {
+  window.open("https://low-price-warehouse.company.site/", "_blank");
 });
 
 document.addEventListener("DOMContentLoaded", function () {
@@ -46,6 +50,10 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   }
 
+  const learMore = document.getElementById("learn-more");
+  learMore.addEventListener("click", ()=>{
+    window.location.href = "about.html";
+  })
   // Check initially in case some elements are already in view
   checkViewport();
 

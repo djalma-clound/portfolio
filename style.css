@@ -149,12 +149,21 @@ h2{
   background-repeat: no-repeat;
   background-position-y:0px;
 }
-.button{
+#learn-more{
   position:relative;
-  left:40%;
-  top: 200px;
+  left:45%;
+  top: 100px;
   background:black;
-  color:white;
+  border: transparent;
+  padding: 5px;
+  color:yellow;
+  font-size: 20px;
+  width: 150px;
+  cursor: pointer;
+}
+#learn-more:hover{
+  background-color: yellow;
+  color: #0e0a0a;
 }
 #about{
   position: relative;
@@ -182,15 +191,6 @@ h2{
   left: 0%;
   transition: .3s;
 }
-#projects video{
-  position:absolute;
-  width:450px;
-  /* height: 40vh; */
-  /* margin-top: 60px; */
-  /* margin-bottom: 90px; */
-  left:-3%;
-}
-
 #social-media{
   position:relative;
   display:grid;
@@ -218,13 +218,16 @@ left: 20px;
 top: -90px;
 }
 #social-media img{
-  width: 130px;
+  width:90px;
   height: 100px;
   top: 30px;
-  left: -40%;
+  left: -80%;
   margin-left: 20px;
   position: relative;
   
+}
+#social-media img:hover{
+  box-shadow: 3px 3px 3px 10px #fe3;
 }
 #social-media i{
   position: relative;
@@ -275,7 +278,6 @@ section {
 #projects img{
    position: relative;
   top: 30px;
-  left: -90px;
   min-width:900px;
   left:-30%;
   min-width:900px;
@@ -570,6 +572,22 @@ footer{
   html{
     overflow-x: hidden;
   } 
+  #learn-more{
+    background-color:black;
+    color: yellow;
+    cursor: pointer;
+    border: transparent;
+    font-size: 20px;
+    position:relative;
+    padding: 10px;
+     width: 150px;
+    left: 10%;
+    top:200px;
+  }
+  #learn-more:hover{
+    background-color:yellow;
+    color: black;
+  }
   li{
     list-style-type: none;
     position: relative;
@@ -699,7 +717,7 @@ h2{
 }
 #social-media img{
   position: relative;
-  margin-left: -60%;
+  margin-left: -40%;
 }
 .animate#social-media{
   position: relative;
@@ -721,7 +739,7 @@ i{
 .items{
   position:absolute;
   top: 10px;
-  left: 15%;
+  left: -5%;
 
 } 
 section {
