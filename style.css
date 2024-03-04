@@ -176,7 +176,7 @@ h2{
 .animate#about h1{
   position: relative;
   left: 0%;
-  transition: 1s ease-in;
+  transition: 0s;
 }
 #projects video{
   position:absolute;
