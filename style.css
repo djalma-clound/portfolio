@@ -690,9 +690,13 @@ h2{
   margin: 0 auto;
   min-width: 300px;
   height: 200px;
-  transition: opacity 1s ease-in-out;
+  /* transition: opacity 1s ease-in-out; */
   box-shadow: 3px 3px 3px 3px;
   gap: 20px;
+}
+#social-media img{
+  position: relative;
+  margin-left: -60%;
 }
 .animate#social-media{
   position: relative;
@@ -757,15 +761,17 @@ h1{
 #projects{
   background-color: #fe3;
   position: relative;
+  padding-bottom: 150px;
   transition: 2s ease-in;
 }
 #projects video{
   position: relative;
-  min-width: 1200px;
+  max-width: 1200px;
   height:80vh;
-  left:2%;
+  left:-2%;
   top: 90px;
-  margin-bottom:5em;
+  margin-bottom:50px;
+  margin: 0 auto;
   display: block;
   /* margin: 0 auto; */
 }
