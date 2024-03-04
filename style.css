@@ -49,6 +49,9 @@ header h1 {
   color: white;
   cursor:pointer;
 }
+.logo{
+font-siza: 30px;
+}
 nav a {
   color:#fff;
   text-decoration: none;
