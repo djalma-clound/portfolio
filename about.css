@@ -183,8 +183,9 @@ footer {
   color: #fff;
   display: flex;
   justify-content: space-between;
-  margin-top:-50px;
+  margin-top:-70px;
  padding-top:40px;
+
 }
 footer p{
   position: relative;
