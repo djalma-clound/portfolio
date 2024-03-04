@@ -45,7 +45,7 @@ header h1 {
 }
   #logo{
   text-decoration: none;
-  font-siza:20px;
+  font-siza:22px;
   color: white;
   cursor:pointer;
 }
@@ -177,7 +177,7 @@ h2{
 .animate#about h1{
   position: relative;
   left: 0%;
-  transition: .1s;
+  transition: .3s;
 }
 #projects video{
   position:absolute;
