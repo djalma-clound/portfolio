@@ -45,12 +45,12 @@ header h1 {
 }
   #logo{
   text-decoration: none;
-  font-size:22px;
+  font-size:30px;
   color: white;
   cursor:pointer;
 }
 .logo{
-font-siza: 30px;
+font-size: 30px;
 }
 nav a {
   color:#fff;
