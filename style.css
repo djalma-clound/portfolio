@@ -151,8 +151,8 @@ h2{
 }
 #learn-more{
   position:relative;
-  left:45%;
-  top: 100px;
+  left:35%;
+  top: 150px;
   background:black;
   border: transparent;
   padding: 5px;
@@ -341,9 +341,17 @@ line-height:30px;
    width: 90%;
   margin: 0 auto;
 }
+#contact-side{
+  position:relative;
+  width: 80%;
+  line-height: 25px;
+  margin: 0 auto;
+  /* top: 50px; */
+}
 #contact{
   margin-top: 130px;
   max-width: 1300px;
+  background-color: lightgray;
   padding: 2em;
   zoom: 0.8
 }
@@ -378,6 +386,7 @@ input[type="text"], input[type="email"], textarea {
 	font-size: 18px;
 	padding: 10px;
 	border: 1px solid #ccc;
+  background-color: white;
 	border-radius: 5px;
 	width: 80%;
 	left: 50%;
@@ -480,6 +489,11 @@ left: -11px;
 margin-top: 20px;
 background-size: 100% 100%;
 }
+#learn-more{
+  position: relative;
+  top: 200px;
+  margin-left: -25%;
+}
 
   #hero h1{
     text-align:content;
@@ -551,7 +565,7 @@ form input, textarea{
   position:relative;
   margin-top: 10px;
   height: 100px;
-  background-color: #ccc;
+  background-color:white;
   
 }
 footer{
@@ -660,11 +674,11 @@ h2{
   margin: 0 auto;
   line-height: 25px;
 }
-#hero .button{
+#learn-more{
   position: relative;
   background-color:black;
-  margin-left: 50px;
-  margin-top: 100px;
+  margin-left:0px;
+  margin-top: 20px;
   padding: 10px;
   cursor: pointer;
 }
@@ -863,7 +877,43 @@ left:20%;
   padding: 5px;
 
 }
-
+#contact{
+  background-color:lightgray;
+}
+#contact h2{
+  position: relative;
+  left: 0%;
+  top: -120px;
+}
+form input, #textarea{
+  background-color: transparent;
+}
+#contact form{
+  position: relative;
+  background-color: white;
+  padding-top: 40px;
+  width: 500px;
+  left: 50%;
+}
+#contact-side{
+  position: absolute;
+  left: 10%;
+  top: 260px;
+  /* background-color: red; */
+  line-height: 25px;
+  width: 400px;
+  height:auto;
+}
+#contact-side p{
+  position: relative;
+  top: -120px;
+  /* background-color: aqua; */
+  opacity: 0;
+}
+.animate #contact-side p{
+  opacity: 1;
+  transition: 4s ease-in-out;
+}
 }
 footer{
   position:relative;
