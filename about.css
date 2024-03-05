@@ -15,7 +15,7 @@ main {
     height: 100vh; /* Set main height to full viewport height */
     overflow-x:hidden; /* Add scrollbars when content overflows */
     box-sizing: border-box; /* Include padding and border in the element's total width and height */
-    padding-bottom: 50px; /* Optional: Add padding to main content */
+    padding-bottom: 40px; /* Optional: Add padding to main content */
   }
 
 html{
@@ -153,7 +153,8 @@ h2{
 }
 #about{
 position: relative;
-margin-top:110px;
+margin-top:100px;
+margin-bottom: 130px;
 }
 
 #about p{
@@ -168,25 +169,31 @@ section {
   position: absolute;
   border: 1px solid rgb(243, 242, 242);
   border-radius: 5px;
+  border: 1px solid blue;
   padding: 5px;
   font-size: 30px;
   margin-left: 5%;
-  color: blue;
+  color: red;
    top: 5px;
 }
 footer {
   position: relative;
   background-color: #333;
+  min-width: 500px;
+    height:30px;
+  left:-10%;
   color: #fff;
   display: flex;
   justify-content: space-between;
-  margin-top:-70px;
+  margin-top:0px;
+  margin-bottom: 0px;
  padding-top:40px;
- display: none;
+ display:block;
 
 }
 footer p{
   position: relative;
+  left: 25%;
   margin: 0 auto;
   top: -20px;
 }
