@@ -483,15 +483,16 @@ footer p{
   color: #fff;
 }
 #hero{
-min-height:45vh;
+min-height:50vh;
 min-width:720px;
 left: -11px;
 margin-top: 20px;
+margin-bottom:30px;
 background-size: 100% 100%;
 }
 #learn-more{
   position: relative;
-  top: 130px;
+  top: 129px;
   margin-left: -25%;
 }
 
