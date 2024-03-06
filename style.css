@@ -341,6 +341,25 @@ line-height:30px;
    width: 90%;
   margin: 0 auto;
 }
+#embed-video{
+  min-width: 700px;
+  padding-bottom: 20px;
+  position: relative;
+  display:grid;
+  margin: 0 auto;
+  left: -7%;
+  margin-top:40px;
+  background-color: #fe3;
+}
+#embed-video div p{
+position: relative;
+left:5%;
+}
+#embed-video iframe{
+  position: relative;
+  width:400px;
+  left: 3%;
+}
 #contact-side{
   position:relative;
   width: 80%;
@@ -503,7 +522,7 @@ background-size: 100% 100%;
 }
 #learn-more{
   position: relative;
-  top: 129px;
+  top:200px;
   margin-left: -25%;
 }
 
@@ -560,6 +579,29 @@ background-size: 100% 100%;
   min-width:900px;
 /* display:none; */
 }
+#embed-video{
+  min-width: 700px;
+  padding-bottom: 20px;
+  position: relative;
+  display:grid;
+  left:2%;
+  margin-top:40px;
+  background-color: #fe3;
+}
+#embed-video div{
+  position: relative;
+  margin: 0 auto;
+}
+#embed-video div p{
+position: relative;
+
+}
+#embed-video iframe{
+  position: relative;
+  min-width:80%;
+  margin: 0 auto;
+  /* left: 4%; */
+}
 #contact{
   position: relative;
   top: 100px;
@@ -589,6 +631,13 @@ footer{
     width: 100%;
     background-color: rgb(9, 12, 15);
     color: #fff;
+  }
+  main{
+    max-width: 1300px;
+    margin: 0 auto;
+  }
+   #icon{
+    display: none;
   }
  #logo{
   position: relative;
@@ -748,7 +797,7 @@ h2{
 .animate#social-media{
   position: relative;
 top: -15px;
-transition: 2s ease-in;
+transition: 1s ease-in;
 }
 #social-media i{
   position: relative;
@@ -773,7 +822,7 @@ section {
 opacity: 0;
 }
 .animate{
-transition: 2s;
+transition: 1s ease-in-out;
   margin-top:-300px;
 opacity: 1;
 }
@@ -809,7 +858,10 @@ h1{
   background-color: #fe3;
   position: relative;
   padding-bottom: 150px;
-  transition: 2s ease-in;
+  transition: 1s ease-in;
+}
+.animate#projects{
+transition: 1s ease-in-out;
 }
 #projects video{
   position: relative;
@@ -843,7 +895,7 @@ display:none;
   border-top-right-radius: 50px;
 }
 .slide-in p{
-  transition: .4s ease-in-out;
+  transition: .2s ease-in-out;
   opacity: 1;
 }
 #proj button{
@@ -875,6 +927,36 @@ left:20%;
   padding: 5px;
   line-height: 27px;
 }
+#embed-video{
+max-width: 1200px;
+  position: relative;
+  box-shadow: 3px 5px 3px 5px;
+  display: flex;
+  flex-wrap: wrap;
+  left: 0%;
+  margin-top:40px;
+  background-color:transparent;
+}
+#embed-video div{
+  position: relative;
+  width: 200px;
+  line-height: 25px;
+  left: 0%;
+  top: 120px;
+}
+/* #embed-video div{
+  position: relative;
+  left: 4%;
+} */
+#embed-video iframe{
+  position: relative;
+  min-width:300px;
+  height: 300px;
+  left: -13%;
+  padding-bottom: 30px;
+  margin-top:40px;
+  margin: 20px;
+} 
 #contact{
   margin: 0 auto;
 }
@@ -924,7 +1006,7 @@ form input, #textarea{
 }
 .animate #contact-side p{
   opacity: 1;
-  transition: 4s ease-in-out;
+  transition: 2s ease-in-out;
 }
 }
 footer{
