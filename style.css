@@ -774,7 +774,6 @@ h2{
 }
 .animate#about p{
   transition: .3s ease-in-out;
-   box-shadow:1px 1px 1px 1px;
    top: -50px;
   padding: 30px;
   animation: .3 ease-in-out;
