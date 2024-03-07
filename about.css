@@ -81,7 +81,7 @@ nav a {
   position:relative;
   left:-10px;
 }
-.activate#menu #icon{
+ #icon{
  border: transparent;
 }
 li{
