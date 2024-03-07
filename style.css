@@ -357,8 +357,9 @@ line-height:30px;
 }
 #embed-video div p{
 position: relative;
-width:80%;
+width:60%;
 margin-bottom:10px;
+line-hight:25px;
 padding:5px;
 left:1%;
 }
