@@ -660,7 +660,7 @@ footer{
     padding: 10px;
      width: 150px;
     left: 10%;
-    top:230px;
+    top:280px;
   }
   #learn-more:hover{
     background-color:yellow;
@@ -777,7 +777,6 @@ h2{
 }
 .animate#about p{
   transition: .3s ease-in-out;
-   box-shadow:1px 1px 1px 1px;
    top: -50px;
   padding: 30px;
   animation: .3 ease-in-out;
