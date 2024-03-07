@@ -357,6 +357,9 @@ line-height:30px;
 }
 #embed-video div p{
 position: relative;
+width:80%;
+margin-bottom:10px;
+padding:5px;
 left:1%;
 }
 #embed-video iframe{
