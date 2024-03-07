@@ -632,9 +632,11 @@ footer{
     background-color: rgb(9, 12, 15);
     color: #fff;
   }
+   
   main{
-    max-width: 1300px;
+    min-width: 1300px;
     margin: 0 auto;
+    
   }
    #icon{
     display: none;
@@ -646,6 +648,7 @@ footer{
  }
   html{
     overflow-x: hidden;
+    
   } 
   #learn-more{
     background-color:black;
@@ -930,7 +933,6 @@ left:20%;
 #embed-video{
 max-width: 1200px;
   position: relative;
-  box-shadow: 3px 5px 3px 5px;
   display: flex;
   flex-wrap: wrap;
   left: 0%;
@@ -941,8 +943,10 @@ max-width: 1200px;
   position: relative;
   width: 200px;
   line-height: 25px;
+  padding: 30px;
+  height:40vh;
   left: 0%;
-  top: 120px;
+  top: 50px;
 }
 /* #embed-video div{
   position: relative;
@@ -960,17 +964,7 @@ max-width: 1200px;
 #contact{
   margin: 0 auto;
 }
-#icon{
-  position: absolute;
-  /* bottom:140px; */
-  /* left: 30%; */
-  font-size: 30px;
-  color: #f00;
-  border: 1px solid blue;
-  border-radius: 5px;
-  padding: 5px;
 
-}
 #contact{
   background-color:lightgray;
 }
@@ -1012,8 +1006,11 @@ form input, #textarea{
 footer{
   position:relative;
   background-color: rgb(0, 0,0);
-  margin-top: -40px;
+  margin-top: 150px;
   padding-top: 40px;
+  width: 100%;
+  left: 1%;
+  display: block;
 }
 footer p{
   position: absolute;
@@ -1021,4 +1018,15 @@ margin: 0 auto;
 top:10px;
 right: 40%;
 }
+footer #icon{
+  /* position: absolute;
+  bottom:140px; */
+  top: 10px;
+  left: 30%;
+  font-size: 30px;
+  color: #f00;
+  border: 1px solid blue;
+  border-radius: 5px;
+  padding: 5px;
 
+}
