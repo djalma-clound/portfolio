@@ -81,6 +81,9 @@ nav a {
   position:relative;
   left:-10px;
 }
+.activate#menu #icon{
+ border: transparent;
+}
 li{
   display: none;
 }
