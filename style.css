@@ -357,11 +357,11 @@ line-height:30px;
 }
 #embed-video div p{
 position: relative;
-width:60%;
+width:50%;
 margin-bottom:10px;
 line-height:25px;
 padding:5px;
-left:1%;
+left:2%;
 }
 #embed-video iframe{
   position: relative;
