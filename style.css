@@ -476,6 +476,7 @@ button[type="submit"]:hover {
   border-radius: 5px;
   margin-top:10px;
   padding: 3px;
+  display:none;
 
 }
 footer #icon{
