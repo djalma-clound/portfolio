@@ -83,6 +83,9 @@ nav a {
   padding-bottom:50px;
   display:block;
 }
+.active#menu #icon{
+display:block;
+}
 .active#menu a{
   position:relative;
   left:-10px;
