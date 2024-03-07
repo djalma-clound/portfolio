@@ -85,6 +85,7 @@ nav a {
 }
 .active#menu #icon{
 display:block;
+ border: transparent;
 }
 .active#menu a{
   position:relative;
