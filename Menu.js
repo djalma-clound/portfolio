@@ -52,7 +52,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
   const learMore = document.getElementById("learn-more");
   learMore.addEventListener("click", ()=>{
-    window.location.href = "about.html";
+    window.location.href = "/#contact";
   })
   // Check initially in case some elements are already in view
   checkViewport();
