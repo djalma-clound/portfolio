@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Daycare Locator</title>
+    <style>
+        #map {
+            height: 400px;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <a href="index.html">Inicio</a>
+    <h1>Daycare Locator</h1>
+    <input type="text" id="location" placeholder="Enter Your Location">
+    <button onclick="searchDaycares()">Search</button>
+    <div id="map"></div>
+
+    <script>
+        function initMap() {
+            var map = new google.maps.Map(document.getElementById('map'), {
+                center: {lat: 0, lng: 0},
+                zoom: 8
+            });
+        }
+
+        function searchDaycares() {
+            var location = document.getElementById('location').value;
+            var geocoder = new google.maps.Geocoder();
+            
+            geocoder.geocode({'address': location}, function(results, status) {
+                if (status === 'OK') {
+                    var map = new google.maps.Map(document.getElementById('map'), {
+                        center: results[0].geometry.location,
+                        zoom: 13
+                    });
+                    
+                    var request = {
+                        location: results[0].geometry.location,
+                        radius: '500',
+                        type: ['daycare']
+                    };
+                    
+                    var service = new google.maps.places.PlacesService(map);
+                    service.nearbySearch(request, function(results, status) {
+                        if (status === google.maps.places.PlacesServiceStatus.OK) {
+                            for (var i = 0; i < results.length; i++) {
+                                createMarker(results[i], map);
+                            }
+                        }
+                    });
+                } else {
+                    alert('Geocode was not successful for the following reason: ' + status);
+                }
+            });
+        }
+
+        function createMarker(place, map) {
+            var marker = new google.maps.Marker({
+                map: map,
+                position: place.geometry.location
+            });
+
+            var infowindow = new google.maps.InfoWindow({
+                content: place.name
+            });
+
+            marker.addListener('click', function() {
+                infowindow.open(map, marker);
+            });
+        }
+    </script>
+   <script async defer src="https://maps.googleapis.com/maps/api/js?AIzaSyAanG3FRcGfwRkZ5ER4mvEhG4yREKagyDg"></script>
+
+</body>
+</html>
