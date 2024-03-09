@@ -668,7 +668,7 @@ footer{
 }
 @media  screen and (min-width:1000px) {
   header{
-    position: relative;
+    position:fixed;
     max-width:1350px;
     margin: 0 auto;
     background-color: rgb(9, 12, 15);
