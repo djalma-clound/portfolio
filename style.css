@@ -1084,3 +1084,74 @@ footer #icon{
   padding: 5px;
 
 }
+@media  screen and (min-width:1300px) {
+  header{
+    position: fixed;
+    min-width:100%;
+  }
+  main{
+    min-width: 100%;
+  }
+  #hero{
+    min-width: 100%;
+  }
+  #hero h1{
+    position: relative;
+    margin: 0 auto;
+    left:-5%;
+  }
+  #about{
+    min-width: 100%;
+  }
+  #projects{
+    min-width: 100%;
+  }
+ #social-media{
+  background-color: lightyellow;
+  min-width: 100%;
+ }
+#embed-video {
+  min-width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* centers the items horizontally */
+}
+
+#embed-video div {
+  position: relative;
+  min-width:200px; /* adjust this percentage as needed */
+  max-width:30%; /* set a maximum width to maintain readability */
+  height: auto;
+  padding: 50px;
+  /* margin-left:7%; add some margin for spacing between items */
+}
+#embed-video div p{
+  width: 400px;
+  padding: 50px;
+  line-height: 35px;
+  margin-left: 20%;
+}
+#embed-video iframe {
+  position: relative;
+  /* right:7%; */
+  top: 40px;
+  min-width:550px; /* adjust this percentage as needed */
+ max-width: 80%;
+  height: 400px;
+  /* margin: 0 auto; */
+}
+
+  section{
+    min-width: 100%;
+  }
+  #contact{
+  min-width:90%;
+  }
+  #contact-side{
+    position:absolute;
+    margin-left: 10%;
+  }
+  footer{
+    min-width:100%;
+  }
+}
