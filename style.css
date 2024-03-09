@@ -670,7 +670,7 @@ footer{
   header{
     position:fixed;
     max-width:1350px;
-    margin: 0 auto;
+    margin:0 auto;
     background-color: rgb(9, 12, 15);
     color: #fff;
   }
