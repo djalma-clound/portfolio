@@ -55,7 +55,7 @@ nav a {
   height:80vh;
   display:block;
 }
-.active#mwnu a{
+.active#menu a{
   position:relative;
   left:-10px;
 }
