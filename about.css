@@ -245,6 +245,11 @@ background-size: 100% 100%;
   html{
     overflow-x: hidden;
   }
+   #logo{
+  position: relative;
+  font-size: 30px;
+  left: 10%;
+ }
   .proj{
     display: none;
   }
@@ -259,11 +264,16 @@ background-size: 100% 100%;
     line-height: 3;
     display: grid;
   }
+  #projetos{
+    width: 100px;
+  }
    #projetos a{
     position: absolute;
     margin:-5px;
-    margin-left: -40px;
+    margin-left: -90px;
     color: black;
+    text-align: left;
+    font-size: large;
   }
   li:hover{
  background-color: rgb(0,0, 0);
@@ -281,7 +291,6 @@ background-size: 100% 100%;
     display: none;
   }
 #menu{
-  positioolute;
   display: flex;
   flex-direction: row;
   background-color:transparent;
